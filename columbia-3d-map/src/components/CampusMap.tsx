@@ -31,9 +31,9 @@ export default function CampusMap() {
   const [token, setToken] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
 
-  // Fetch token from our secure API endpoint
+  // Fetch token from Python backend
   useEffect(() => {
-    fetch('/api/mapbox-token')
+    fetch('http://localhost:8000/api/mapbox-token')
       .then((res) => {
         if (!res.ok) throw new Error('Failed to get map token');
         return res.json();
