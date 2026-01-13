@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+/* Full-screen map setup */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Mapbox GL overrides for better appearance */
+.mapboxgl-ctrl-group {
+  background: rgba(15, 23, 42, 0.9) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3) !important;
+}
+
+.mapboxgl-ctrl-group button {
+  width: 36px !important;
+  height: 36px !important;
+}
+
+.mapboxgl-ctrl-group button:not(:disabled):hover {
+  background-color: rgba(30, 41, 59, 0.9) !important;
+}
+
+.mapboxgl-ctrl button.mapboxgl-ctrl-zoom-in .mapboxgl-ctrl-icon,
+.mapboxgl-ctrl button.mapboxgl-ctrl-zoom-out .mapboxgl-ctrl-icon,
+.mapboxgl-ctrl button.mapboxgl-ctrl-compass .mapboxgl-ctrl-icon,
+.mapboxgl-ctrl button.mapboxgl-ctrl-fullscreen .mapboxgl-ctrl-icon,
+.mapboxgl-ctrl button.mapboxgl-ctrl-shrink .mapboxgl-ctrl-icon {
+  filter: invert(1);
+}
+
+/* Attribution styling */
+.mapboxgl-ctrl-attrib {
+  background: rgba(15, 23, 42, 0.7) !important;
+  color: rgba(203, 213, 225, 0.8) !important;
+  font-size: 10px !important;
+}
+
+.mapboxgl-ctrl-attrib a {
+  color: rgba(251, 191, 36, 0.9) !important;
+}
