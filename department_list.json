@@ -1,0 +1,992 @@
+[
+  {
+    "id": "117",
+    "url": "https://culpa.info/department/117?code=ACCT",
+    "name": "Accounting"
+  },
+  {
+    "id": "118",
+    "url": "https://culpa.info/department/118?code=ACTU",
+    "name": "Actuarial Science"
+  },
+  {
+    "id": "3",
+    "url": "https://culpa.info/department/3?code=AFAM",
+    "name": "African American Studies"
+  },
+  {
+    "id": "120",
+    "url": "https://culpa.info/department/120?code=AFSB",
+    "name": "Africana Studies @Barnard"
+  },
+  {
+    "id": "121",
+    "url": "https://culpa.info/department/121?code=ALP",
+    "name": "American Language Program"
+  },
+  {
+    "id": "110",
+    "url": "https://culpa.info/department/110?code=AMST",
+    "name": "American Studies"
+  },
+  {
+    "id": "122",
+    "url": "https://culpa.info/department/122?code=AMSB",
+    "name": "American Studies @Barnard"
+  },
+  {
+    "id": "123",
+    "url": "https://culpa.info/department/123?code=ANES",
+    "name": "Anesthesiology"
+  },
+  {
+    "id": "4",
+    "url": "https://culpa.info/department/4?code=ANTH",
+    "name": "Anthropology"
+  },
+  {
+    "id": "124",
+    "url": "https://culpa.info/department/124?code=ANTB",
+    "name": "Anthropology @Barnard"
+  },
+  {
+    "id": "63",
+    "url": "https://culpa.info/department/63?code=APAM",
+    "name": "Applied Physics and Applied Mathematics"
+  },
+  {
+    "id": "61",
+    "url": "https://culpa.info/department/61?code=null",
+    "name": "Archaeology"
+  },
+  {
+    "id": "125",
+    "url": "https://culpa.info/department/125?code=ARCB",
+    "name": "Architecture @Barnard"
+  },
+  {
+    "id": "45",
+    "url": "https://culpa.info/department/45?code=ARPL",
+    "name": "Architecture, Planning and Preservation"
+  },
+  {
+    "id": "126",
+    "url": "https://culpa.info/department/126?code=ARHB",
+    "name": "Art History @Barnard"
+  },
+  {
+    "id": "41",
+    "url": "https://culpa.info/department/41?code=AHAR",
+    "name": "Art History and Archaeology"
+  },
+  {
+    "id": "38",
+    "url": "https://culpa.info/department/38?code=null",
+    "name": "Asian American Studies"
+  },
+  {
+    "id": "128",
+    "url": "https://culpa.info/department/128?code=ASMB",
+    "name": "Asian and Middle East @Barnard"
+  },
+  {
+    "id": "44",
+    "url": "https://culpa.info/department/44?code=ASTR",
+    "name": "Astronomy"
+  },
+  {
+    "id": "129",
+    "url": "https://culpa.info/department/129?code=ACLB",
+    "name": "Athena Center for Leadership Studies @Barnard"
+  },
+  {
+    "id": "130",
+    "url": "https://culpa.info/department/130?code=AUDT",
+    "name": "Auditing"
+  },
+  {
+    "id": "131",
+    "url": "https://culpa.info/department/131?code=BICH",
+    "name": "Biochemistry and Molecular Biophysics"
+  },
+  {
+    "id": "132",
+    "url": "https://culpa.info/department/132?code=BIET",
+    "name": "Bioethics"
+  },
+  {
+    "id": "133",
+    "url": "https://culpa.info/department/133?code=BIOS",
+    "name": "Biological Sciences"
+  },
+  {
+    "id": "134",
+    "url": "https://culpa.info/department/134?code=BIOB",
+    "name": "Biological Sciences @Barnard"
+  },
+  {
+    "id": "28",
+    "url": "https://culpa.info/department/28?code=null",
+    "name": "Biology & Biomedical Engineering"
+  },
+  {
+    "id": "135",
+    "url": "https://culpa.info/department/135?code=BMEN",
+    "name": "Biomedical Engineering"
+  },
+  {
+    "id": "136",
+    "url": "https://culpa.info/department/136?code=BINF",
+    "name": "Biomedical Informatics"
+  },
+  {
+    "id": "137",
+    "url": "https://culpa.info/department/137?code=BIST",
+    "name": "Biostatistics"
+  },
+  {
+    "id": "56",
+    "url": "https://culpa.info/department/56?code=BUSI",
+    "name": "Business"
+  },
+  {
+    "id": "138",
+    "url": "https://culpa.info/department/138?code=BUEC",
+    "name": "Business Economics"
+  },
+  {
+    "id": "139",
+    "url": "https://culpa.info/department/139?code=CMBS",
+    "name": "Cellular, Molecular, and Biophysical Studies"
+  },
+  {
+    "id": "146",
+    "url": "https://culpa.info/department/146?code=CCLS",
+    "name": "Center for Comparative Literature and Society"
+  },
+  {
+    "id": "81",
+    "url": "https://culpa.info/department/81?code=CSER",
+    "name": "Center for Ethnicity and Race"
+  },
+  {
+    "id": "140",
+    "url": "https://culpa.info/department/140?code=CHEN",
+    "name": "Chemical Engineering"
+  },
+  {
+    "id": "141",
+    "url": "https://culpa.info/department/141?code=CHEM",
+    "name": "Chemistry"
+  },
+  {
+    "id": "142",
+    "url": "https://culpa.info/department/142?code=CHMB",
+    "name": "Chemistry @Barnard"
+  },
+  {
+    "id": "53",
+    "url": "https://culpa.info/department/53?code=CEEM",
+    "name": "Civil Engineering and Engineering Mechanics"
+  },
+  {
+    "id": "29",
+    "url": "https://culpa.info/department/29?code=CLAS",
+    "name": "Classics"
+  },
+  {
+    "id": "143",
+    "url": "https://culpa.info/department/143?code=CLSB",
+    "name": "Classics @Barnard"
+  },
+  {
+    "id": "251",
+    "url": "https://culpa.info/department/251?code=COGS",
+    "name": "Cognitive Science"
+  },
+  {
+    "id": "250",
+    "url": "https://culpa.info/department/250?code=COGS",
+    "name": "Cognitive Science @Barnard"
+  },
+  {
+    "id": "144",
+    "url": "https://culpa.info/department/144?code=COLL",
+    "name": "Columbia College"
+  },
+  {
+    "id": "145",
+    "url": "https://culpa.info/department/145?code=CSOB",
+    "name": "Comparative Literature and Society @Barnard"
+  },
+  {
+    "id": "7",
+    "url": "https://culpa.info/department/7?code=COMS",
+    "name": "Computer Science"
+  },
+  {
+    "id": "147",
+    "url": "https://culpa.info/department/147?code=COMB",
+    "name": "Computer Science @Barnard"
+  },
+  {
+    "id": "148",
+    "url": "https://culpa.info/department/148?code=CCIB",
+    "name": "Consortium for Critical Interdisciplinary Studies @Barnard"
+  },
+  {
+    "id": "149",
+    "url": "https://culpa.info/department/149?code=CNAD",
+    "name": "Construction Administration"
+  },
+  {
+    "id": "112",
+    "url": "https://culpa.info/department/112?code=null",
+    "name": "Continuing Education"
+  },
+  {
+    "id": "108",
+    "url": "https://culpa.info/department/108?code=CORE",
+    "name": "CORE"
+  },
+  {
+    "id": "49",
+    "url": "https://culpa.info/department/49?code=null",
+    "name": "Dance"
+  },
+  {
+    "id": "150",
+    "url": "https://culpa.info/department/150?code=DANB",
+    "name": "Dance @Barnard"
+  },
+  {
+    "id": "151",
+    "url": "https://culpa.info/department/151?code=DROM",
+    "name": "Decision, Risk and Operations"
+  },
+  {
+    "id": "152",
+    "url": "https://culpa.info/department/152?code=DEOS",
+    "name": "Dental and Oral Surgery"
+  },
+  {
+    "id": "116",
+    "url": "https://culpa.info/department/116?code=null",
+    "name": "Department Unknown"
+  },
+  {
+    "id": "153",
+    "url": "https://culpa.info/department/153?code=DERM",
+    "name": "Dermatology"
+  },
+  {
+    "id": "106",
+    "url": "https://culpa.info/department/106?code=EAEE",
+    "name": "Earth and Environmental Engineering"
+  },
+  {
+    "id": "52",
+    "url": "https://culpa.info/department/52?code=EESC",
+    "name": "Earth and Environmental Sciences"
+  },
+  {
+    "id": "154",
+    "url": "https://culpa.info/department/154?code=EI",
+    "name": "Earth Institute"
+  },
+  {
+    "id": "8",
+    "url": "https://culpa.info/department/8?code=EALC",
+    "name": "East Asian Languages and Cultures"
+  },
+  {
+    "id": "155",
+    "url": "https://culpa.info/department/155?code=EARS",
+    "name": "East Asian Regional Studies"
+  },
+  {
+    "id": "70",
+    "url": "https://culpa.info/department/70?code=EEEB",
+    "name": "Ecology, Evolution, and Environmental Biology"
+  },
+  {
+    "id": "9",
+    "url": "https://culpa.info/department/9?code=ECON",
+    "name": "Economics"
+  },
+  {
+    "id": "156",
+    "url": "https://culpa.info/department/156?code=ECOB",
+    "name": "Economics @Barnard"
+  },
+  {
+    "id": "58",
+    "url": "https://culpa.info/department/58?code=null",
+    "name": "Education"
+  },
+  {
+    "id": "157",
+    "url": "https://culpa.info/department/157?code=EDNB",
+    "name": "Education @Barnard"
+  },
+  {
+    "id": "48",
+    "url": "https://culpa.info/department/48?code=ELEN",
+    "name": "Electrical Engineering"
+  },
+  {
+    "id": "158",
+    "url": "https://culpa.info/department/158?code=EMED",
+    "name": "Emergency Medicine"
+  },
+  {
+    "id": "159",
+    "url": "https://culpa.info/department/159?code=ENGI",
+    "name": "Engineering"
+  },
+  {
+    "id": "160",
+    "url": "https://culpa.info/department/160?code=ENGB",
+    "name": "English @Barnard"
+  },
+  {
+    "id": "10",
+    "url": "https://culpa.info/department/10?code=ENCL",
+    "name": "English and Comparative Literature"
+  },
+  {
+    "id": "161",
+    "url": "https://culpa.info/department/161?code=ERM",
+    "name": "Enterprise Risk Management"
+  },
+  {
+    "id": "162",
+    "url": "https://culpa.info/department/162?code=EHSC",
+    "name": "Environmental Health Sciences"
+  },
+  {
+    "id": "163",
+    "url": "https://culpa.info/department/163?code=ENSB",
+    "name": "Environmental Sciences @Barnard"
+  },
+  {
+    "id": "164",
+    "url": "https://culpa.info/department/164?code=EPID",
+    "name": "Epidemiology"
+  },
+  {
+    "id": "165",
+    "url": "https://culpa.info/department/165?code=EXEP",
+    "name": "Epidemiology: Exec Master Program"
+  },
+  {
+    "id": "166",
+    "url": "https://culpa.info/department/166?code=EXEC",
+    "name": "Executive Classes in Public Health"
+  },
+  {
+    "id": "11",
+    "url": "https://culpa.info/department/11?code=FILM",
+    "name": "Film"
+  },
+  {
+    "id": "167",
+    "url": "https://culpa.info/department/167?code=FLMB",
+    "name": "Film @Barnard"
+  },
+  {
+    "id": "168",
+    "url": "https://culpa.info/department/168?code=FINC",
+    "name": "Finance"
+  },
+  {
+    "id": "169",
+    "url": "https://culpa.info/department/169?code=FIEC",
+    "name": "Finance and Economics"
+  },
+  {
+    "id": "170",
+    "url": "https://culpa.info/department/170?code=FYSB",
+    "name": "First-Year Seminar Program @Barnard"
+  },
+  {
+    "id": "109",
+    "url": "https://culpa.info/department/109?code=null",
+    "name": "First-Year Seminars"
+  },
+  {
+    "id": "171",
+    "url": "https://culpa.info/department/171?code=FYWB",
+    "name": "First-Year Writing @Barnard"
+  },
+  {
+    "id": "12",
+    "url": "https://culpa.info/department/12?code=FRRP",
+    "name": "French"
+  },
+  {
+    "id": "172",
+    "url": "https://culpa.info/department/172?code=FRNB",
+    "name": "French @Barnard"
+  },
+  {
+    "id": "173",
+    "url": "https://culpa.info/department/173?code=GNPH",
+    "name": "General Public Health"
+  },
+  {
+    "id": "174",
+    "url": "https://culpa.info/department/174?code=GEST",
+    "name": "General Studies"
+  },
+  {
+    "id": "176",
+    "url": "https://culpa.info/department/176?code=GENC",
+    "name": "Genetic Counseling"
+  },
+  {
+    "id": "175",
+    "url": "https://culpa.info/department/175?code=GEND",
+    "name": "Genetics and Development"
+  },
+  {
+    "id": "177",
+    "url": "https://culpa.info/department/177?code=GRMB",
+    "name": "German @Barnard"
+  },
+  {
+    "id": "30",
+    "url": "https://culpa.info/department/30?code=GERL",
+    "name": "Germanic Languages"
+  },
+  {
+    "id": "178",
+    "url": "https://culpa.info/department/178?code=DGLO",
+    "name": "Global Programs"
+  },
+  {
+    "id": "179",
+    "url": "https://culpa.info/department/179?code=GSAS",
+    "name": "Graduate School of Arts and Sciences"
+  },
+  {
+    "id": "180",
+    "url": "https://culpa.info/department/180?code=HPMN",
+    "name": "Health Policy & Management"
+  },
+  {
+    "id": "1",
+    "url": "https://culpa.info/department/1?code=HIST",
+    "name": "History"
+  },
+  {
+    "id": "181",
+    "url": "https://culpa.info/department/181?code=HSTB",
+    "name": "History @Barnard"
+  },
+  {
+    "id": "182",
+    "url": "https://culpa.info/department/182?code=HCM",
+    "name": "Human Capital Management"
+  },
+  {
+    "id": "68",
+    "url": "https://culpa.info/department/68?code=HRTB",
+    "name": "Human Rights"
+  },
+  {
+    "id": "57",
+    "url": "https://culpa.info/department/57?code=IEOR",
+    "name": "Industrial Engineering and Operations Research"
+  },
+  {
+    "id": "184",
+    "url": "https://culpa.info/department/184?code=IKNS",
+    "name": "Information & Knowledge Strat"
+  },
+  {
+    "id": "185",
+    "url": "https://culpa.info/department/185?code=IIJS",
+    "name": "Institute for Israel & Jewish Studies"
+  },
+  {
+    "id": "186",
+    "url": "https://culpa.info/department/186?code=CSHR",
+    "name": "Institute for Study of Human Rights"
+  },
+  {
+    "id": "183",
+    "url": "https://culpa.info/department/183?code=HNUT",
+    "name": "Institute of Human Nutrition"
+  },
+  {
+    "id": "187",
+    "url": "https://culpa.info/department/187?code=IMGT",
+    "name": "Insurance Management"
+  },
+  {
+    "id": "92",
+    "url": "https://culpa.info/department/92?code=INTA",
+    "name": "International and Public Affairs"
+  },
+  {
+    "id": "13",
+    "url": "https://culpa.info/department/13?code=ITAL",
+    "name": "Italian"
+  },
+  {
+    "id": "188",
+    "url": "https://culpa.info/department/188?code=ITLB",
+    "name": "Italian @Barnard"
+  },
+  {
+    "id": "111",
+    "url": "https://culpa.info/department/111?code=JOUR",
+    "name": "Journalism"
+  },
+  {
+    "id": "189",
+    "url": "https://culpa.info/department/189?code=JUIL",
+    "name": "Juilliard"
+  },
+  {
+    "id": "190",
+    "url": "https://culpa.info/department/190?code=LRC",
+    "name": "Language Resource Center"
+  },
+  {
+    "id": "37",
+    "url": "https://culpa.info/department/37?code=SPPO",
+    "name": "Latin American and Iberian Cultures"
+  },
+  {
+    "id": "191",
+    "url": "https://culpa.info/department/191?code=LCRS",
+    "name": "Latin-american & Carib Rs"
+  },
+  {
+    "id": "71",
+    "url": "https://culpa.info/department/71?code=LAW",
+    "name": "Law"
+  },
+  {
+    "id": "15",
+    "url": "https://culpa.info/department/15?code=MATH",
+    "name": "Mathematics"
+  },
+  {
+    "id": "192",
+    "url": "https://culpa.info/department/192?code=MATB",
+    "name": "Mathematics @Barnard"
+  },
+  {
+    "id": "69",
+    "url": "https://culpa.info/department/69?code=MECE",
+    "name": "Mechanical Engineering"
+  },
+  {
+    "id": "43",
+    "url": "https://culpa.info/department/43?code=MEDI",
+    "name": "Medicine"
+  },
+  {
+    "id": "193",
+    "url": "https://culpa.info/department/193?code=MRST",
+    "name": "Medieval and Renaissance Studies"
+  },
+  {
+    "id": "194",
+    "url": "https://culpa.info/department/194?code=MICR",
+    "name": "Microbiology"
+  },
+  {
+    "id": "16",
+    "url": "https://culpa.info/department/16?code=MELC",
+    "name": "Middle Eastern, South Asian and African Studies"
+  },
+  {
+    "id": "195",
+    "url": "https://culpa.info/department/195?code=MEUS",
+    "name": "Modern European Studies"
+  },
+  {
+    "id": "17",
+    "url": "https://culpa.info/department/17?code=MUSI",
+    "name": "Music"
+  },
+  {
+    "id": "196",
+    "url": "https://culpa.info/department/196?code=MUSB",
+    "name": "Music @Barnard"
+  },
+  {
+    "id": "197",
+    "url": "https://culpa.info/department/197?code=NMED",
+    "name": "Narrative Medicine"
+  },
+  {
+    "id": "198",
+    "url": "https://culpa.info/department/198?code=NECR",
+    "name": "Negotiation & Conflict Resolution"
+  },
+  {
+    "id": "199",
+    "url": "https://culpa.info/department/199?code=NBIO",
+    "name": "Neurobiology and Behavior"
+  },
+  {
+    "id": "200",
+    "url": "https://culpa.info/department/200?code=NEUR",
+    "name": "Neurology"
+  },
+  {
+    "id": "201",
+    "url": "https://culpa.info/department/201?code=NRSB",
+    "name": "Neuroscience & Behavior @Barnard"
+  },
+  {
+    "id": "202",
+    "url": "https://culpa.info/department/202?code=NUSR",
+    "name": "Neurosurgery"
+  },
+  {
+    "id": "203",
+    "url": "https://culpa.info/department/203?code=NOPM",
+    "name": "Non Profit Management"
+  },
+  {
+    "id": "204",
+    "url": "https://culpa.info/department/204?code=NURS",
+    "name": "Nursing"
+  },
+  {
+    "id": "205",
+    "url": "https://culpa.info/department/205?code=OBSG",
+    "name": "Obstetrics and Gynecology"
+  },
+  {
+    "id": "206",
+    "url": "https://culpa.info/department/206?code=OPHT",
+    "name": "Ophthalmology"
+  },
+  {
+    "id": "207",
+    "url": "https://culpa.info/department/207?code=ORHS",
+    "name": "Oral History"
+  },
+  {
+    "id": "208",
+    "url": "https://culpa.info/department/208?code=OTOL",
+    "name": "Otolaryngology / Head and Neck Surgery"
+  },
+  {
+    "id": "209",
+    "url": "https://culpa.info/department/209?code=PATH",
+    "name": "Pathology"
+  },
+  {
+    "id": "210",
+    "url": "https://culpa.info/department/210?code=PEDI",
+    "name": "Pediatrics"
+  },
+  {
+    "id": "211",
+    "url": "https://culpa.info/department/211?code=PHAR",
+    "name": "Pharmacology"
+  },
+  {
+    "id": "19",
+    "url": "https://culpa.info/department/19?code=PHIL",
+    "name": "Philosophy"
+  },
+  {
+    "id": "212",
+    "url": "https://culpa.info/department/212?code=PHLB",
+    "name": "Philosophy @Barnard"
+  },
+  {
+    "id": "50",
+    "url": "https://culpa.info/department/50?code=PHED",
+    "name": "Physical Education"
+  },
+  {
+    "id": "213",
+    "url": "https://culpa.info/department/213?code=PEDB",
+    "name": "Physical Education @Barnard"
+  },
+  {
+    "id": "115",
+    "url": "https://culpa.info/department/115?code=PHYT",
+    "name": "Physical Therapy"
+  },
+  {
+    "id": "20",
+    "url": "https://culpa.info/department/20?code=PHYS",
+    "name": "Physics"
+  },
+  {
+    "id": "214",
+    "url": "https://culpa.info/department/214?code=PHYB",
+    "name": "Physics and Astronomy @Barnard"
+  },
+  {
+    "id": "215",
+    "url": "https://culpa.info/department/215?code=PHYG",
+    "name": "Physiology & Cellular Biophysics"
+  },
+  {
+    "id": "21",
+    "url": "https://culpa.info/department/21?code=POLS",
+    "name": "Political Science"
+  },
+  {
+    "id": "216",
+    "url": "https://culpa.info/department/216?code=PLSB",
+    "name": "Political Science @Barnard"
+  },
+  {
+    "id": "217",
+    "url": "https://culpa.info/department/217?code=POPF",
+    "name": "Population and Family Health"
+  },
+  {
+    "id": "218",
+    "url": "https://culpa.info/department/218?code=SHSP",
+    "name": "Pre-College Program (Barnard)"
+  },
+  {
+    "id": "219",
+    "url": "https://culpa.info/department/219?code=PSCY",
+    "name": "Psychiatry"
+  },
+  {
+    "id": "220",
+    "url": "https://culpa.info/department/220?code=PSCC",
+    "name": "Psychoanalytic Center"
+  },
+  {
+    "id": "22",
+    "url": "https://culpa.info/department/22?code=PSYC",
+    "name": "Psychology"
+  },
+  {
+    "id": "221",
+    "url": "https://culpa.info/department/221?code=PSYB",
+    "name": "Psychology @Barnard"
+  },
+  {
+    "id": "222",
+    "url": "https://culpa.info/department/222?code=PUBH",
+    "name": "Public Health"
+  },
+  {
+    "id": "223",
+    "url": "https://culpa.info/department/223?code=QMSS",
+    "name": "Quantitative Methods/Social Sciences"
+  },
+  {
+    "id": "224",
+    "url": "https://culpa.info/department/224?code=RADI",
+    "name": "Radiology"
+  },
+  {
+    "id": "225",
+    "url": "https://culpa.info/department/225?code=RMED",
+    "name": "Rehabilitation Medicine"
+  },
+  {
+    "id": "23",
+    "url": "https://culpa.info/department/23?code=RELI",
+    "name": "Religion"
+  },
+  {
+    "id": "226",
+    "url": "https://culpa.info/department/226?code=RELB",
+    "name": "Religion @Barnard"
+  },
+  {
+    "id": "227",
+    "url": "https://culpa.info/department/227?code=RERS",
+    "name": "Russian Eurasian E. European"
+  },
+  {
+    "id": "228",
+    "url": "https://culpa.info/department/228?code=DVSP",
+    "name": "School of Professional Studies"
+  },
+  {
+    "id": "127",
+    "url": "https://culpa.info/department/127?code=ARTS",
+    "name": "School of the Arts"
+  },
+  {
+    "id": "229",
+    "url": "https://culpa.info/department/229?code=SCPB",
+    "name": "Science and Public Policy @Barnard"
+  },
+  {
+    "id": "46",
+    "url": "https://culpa.info/department/46?code=SLAL",
+    "name": "Slavic Languages"
+  },
+  {
+    "id": "230",
+    "url": "https://culpa.info/department/230?code=SLAB",
+    "name": "Slavic Languages @Barnard"
+  },
+  {
+    "id": "231",
+    "url": "https://culpa.info/department/231?code=SOCW",
+    "name": "Social Work"
+  },
+  {
+    "id": "24",
+    "url": "https://culpa.info/department/24?code=SOCI",
+    "name": "Sociology"
+  },
+  {
+    "id": "232",
+    "url": "https://culpa.info/department/232?code=SOCB",
+    "name": "Sociology @Barnard"
+  },
+  {
+    "id": "233",
+    "url": "https://culpa.info/department/233?code=SOSC",
+    "name": "Sociomedical Sciences"
+  },
+  {
+    "id": "234",
+    "url": "https://culpa.info/department/234?code=SPNB",
+    "name": "Spanish and Latin American Culture"
+  },
+  {
+    "id": "25",
+    "url": "https://culpa.info/department/25?code=null",
+    "name": "Spanish and Portuguese"
+  },
+  {
+    "id": "62",
+    "url": "https://culpa.info/department/62?code=null",
+    "name": "Speech"
+  },
+  {
+    "id": "235",
+    "url": "https://culpa.info/department/235?code=SPRT",
+    "name": "Sports Management"
+  },
+  {
+    "id": "31",
+    "url": "https://culpa.info/department/31?code=STAT",
+    "name": "Statistics"
+  },
+  {
+    "id": "236",
+    "url": "https://culpa.info/department/236?code=COMM",
+    "name": "Strategic Communication"
+  },
+  {
+    "id": "237",
+    "url": "https://culpa.info/department/237?code=SUMM",
+    "name": "Summer Session"
+  },
+  {
+    "id": "238",
+    "url": "https://culpa.info/department/238?code=SURG",
+    "name": "Surgery"
+  },
+  {
+    "id": "239",
+    "url": "https://culpa.info/department/239?code=SUMA",
+    "name": "Sustainability Management"
+  },
+  {
+    "id": "240",
+    "url": "https://culpa.info/department/240?code=SUSC",
+    "name": "Sustainability Science"
+  },
+  {
+    "id": "114",
+    "url": "https://culpa.info/department/114?code=null",
+    "name": "Sustainable Development"
+  },
+  {
+    "id": "34",
+    "url": "https://culpa.info/department/34?code=null",
+    "name": "Swedish"
+  },
+  {
+    "id": "241",
+    "url": "https://culpa.info/department/241?code=TMGT",
+    "name": "Technology Management"
+  },
+  {
+    "id": "242",
+    "url": "https://culpa.info/department/242?code=THEB",
+    "name": "Theatre @Barnard"
+  },
+  {
+    "id": "35",
+    "url": "https://culpa.info/department/35?code=THEA",
+    "name": "Theatre Arts"
+  },
+  {
+    "id": "243",
+    "url": "https://culpa.info/department/243?code=UWRT",
+    "name": "Undergraduate Writing Program"
+  },
+  {
+    "id": "66",
+    "url": "https://culpa.info/department/66?code=null",
+    "name": "Underwater Basket Weaving"
+  },
+  {
+    "id": "244",
+    "url": "https://culpa.info/department/244?code=UTSD",
+    "name": "Union Theological Seminary"
+  },
+  {
+    "id": "26",
+    "url": "https://culpa.info/department/26?code=null",
+    "name": "Urban Studies"
+  },
+  {
+    "id": "245",
+    "url": "https://culpa.info/department/245?code=URSB",
+    "name": "Urban Studies @Barnard"
+  },
+  {
+    "id": "246",
+    "url": "https://culpa.info/department/246?code=UROL",
+    "name": "Urology"
+  },
+  {
+    "id": "247",
+    "url": "https://culpa.info/department/247?code=VDEO",
+    "name": "Video Network"
+  },
+  {
+    "id": "27",
+    "url": "https://culpa.info/department/27?code=VIAR",
+    "name": "Visual Arts"
+  },
+  {
+    "id": "248",
+    "url": "https://culpa.info/department/248?code=WMGT",
+    "name": "Wealth Management"
+  },
+  {
+    "id": "36",
+    "url": "https://culpa.info/department/36?code=WMST",
+    "name": "Women's and Gender Studies"
+  },
+  {
+    "id": "249",
+    "url": "https://culpa.info/department/249?code=WSTB",
+    "name": "Women's, Gender, Sexuality Studies @Barnard"
+  },
+  {
+    "id": "40",
+    "url": "https://culpa.info/department/40?code=WRIT",
+    "name": "Writing"
+  }
+]
