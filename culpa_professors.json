@@ -278,7 +278,7 @@
       "[CLEN GU4644] Revolution in/on The Caribbean": [
         null,
         1,
-        10,
+        1,
         null
       ]
     }
@@ -567,8 +567,8 @@
     "courses": {
       "[AFRS BC2005] Caribbean Cultures and Societies": [
         null,
-        30,
-        30,
+        3,
+        1,
         null
       ]
     }
@@ -979,7 +979,7 @@
       "[ANTH 3041] Anthropological Theory II": [
         null,
         1,
-        400,
+        1,
         2.0
       ]
     }
@@ -1204,8 +1204,8 @@
     "courses": {
       "[EEEB W3220] THE EVOL OF HUM GROWTH & DEVPT": [
         null,
-        25,
-        25,
+        2,
+        1,
         null
       ]
     }
@@ -1385,7 +1385,7 @@
       "[ANTH 3939] Anime Effect: Japanese Media": [
         null,
         null,
-        12,
+        1,
         8.0
       ]
     }
@@ -2141,7 +2141,7 @@
       "[APMA E2001] MULTV. CALC. FOR ENGI & APP SCI": [
         13,
         2,
-        20,
+        1,
         6.5
       ]
     }
@@ -4239,9 +4239,9 @@
         null
       ],
       "[AHAR V3248] Greek Art and Architecture": [
-        110,
+        11,
         1,
-        10,
+        1,
         null
       ]
     }
@@ -5019,7 +5019,7 @@
       "[AHIS W3012] Restitution or Repatriation of Cultural Heritage: New Directions?": [
         null,
         1,
-        600,
+        1,
         null
       ]
     }
@@ -5295,19 +5295,19 @@
       "[ASTR C3601] General Relativity, Black Holes, and Cosmology": [
         4,
         1,
-        99,
+        1,
         6.0
       ],
       "[ASTR 2001] Introduction to Astrophysics I": [
         12,
         1,
-        99,
+        1,
         4.0
       ],
       "[ASTR C3601] General Relativity, Cosmology, and Black Holes": [
         5,
         1,
-        99,
+        1,
         4.0
       ]
     }
@@ -5389,7 +5389,7 @@
       "[null] Electricity and Magnetism": [
         10,
         1,
-        200,
+        1,
         null
       ]
     }
@@ -5813,8 +5813,8 @@
     "courses": {
       "[BIOL W3041] Cell Biology": [
         12,
-        15,
-        15,
+        1,
+        1,
         null
       ]
     }
@@ -6251,7 +6251,7 @@
       "[BIOL BC1501] Intro Lab to Organismal and Evolutionary Biology": [
         10,
         1,
-        110,
+        1,
         null
       ]
     }
@@ -6358,7 +6358,7 @@
       "[BIOL BC3360] Physiology": [
         3,
         2,
-        3,
+        1,
         3.5
       ]
     }
@@ -6389,14 +6389,14 @@
     "courses": {
       "[EESC BC3028] Volcanoes and the Environment": [
         null,
-        40,
+        2,
         1,
         9.0
       ],
       "[EESC W2200] EARTH'S ENVIRONMENTAL SYSTEMS: THE SOLID EARTH": [
         null,
-        40,
-        30,
+        2,
+        1,
         9.0
       ]
     }
@@ -6537,7 +6537,7 @@
         12,
         1,
         1,
-        20.0
+        5.0
       ]
     }
   },
@@ -6778,7 +6778,7 @@
       "[NURS N7001] Advanced Physiology and Pathophysiology Across the Lifespan I": [
         12,
         3,
-        40,
+        1,
         null
       ]
     }
@@ -7010,7 +7010,7 @@
     "rating": 5.0,
     "courses": {
       "[BMEN E4110] BIOSTATISTICS FOR ENGINEERS": [
-        16,
+        12,
         1,
         null,
         null
@@ -8022,13 +8022,13 @@
       "[HUMA F1001] EURPN LIT-PHILOS MASTERPIECS I": [
         null,
         1,
-        10,
+        1,
         null
       ],
       "[HUMA 1002] Literature Humanities": [
         null,
         1,
-        10,
+        1,
         null
       ],
       "[HUMA C1001] Masterpieces of Western Literature and Philosophy (Literature Humanities)": [
@@ -8046,8 +8046,8 @@
     "courses": {
       "[HIST 3811] South East Asia II: Empire and its aftermath": [
         null,
-        20,
-        30,
+        2,
+        1,
         5.5
       ],
       "[HIST BC3825] RACE, CASTE, AND THE UNIVERSITY: B. R. AMBEDKAR AT COLUMBIA": [
@@ -8183,13 +8183,13 @@
       "[CLFR GU4000] Theory of Literature I": [
         null,
         1,
-        10,
+        1,
         null
       ],
       "[] Contemporary Civilizations": [
         null,
         1,
-        10,
+        1,
         null
       ]
     }
@@ -8405,7 +8405,7 @@
       "[ENGL W4938] HISTORY OF HORROR": [
         null,
         1,
-        370,
+        1,
         null
       ]
     }
@@ -8441,7 +8441,7 @@
     "rating": 3.29,
     "courses": {
       "[CSER W1011] INTRO ASIAN AMERICAN STUDIES": [
-        850,
+        8,
         0,
         0,
         null
@@ -8732,7 +8732,7 @@
       "[CHEN E4230] REACTOR KINETICS/REACTOR DESGN": [
         12,
         2,
-        400,
+        1,
         null
       ]
     }
@@ -9325,31 +9325,31 @@
     "courses": {
       "[CHEM BC3333] MODERN TECH-ORGANIC CHEM LAB": [
         null,
-        20,
-        100,
+        2,
+        1,
         5.0
       ],
       "[CHEM] Organic Chemistry  Lab": [
         null,
-        20,
-        100,
+        2,
+        1,
         6.0
       ],
       "[] Modern Techniques of Organic Chemistry Lab": [
         null,
-        20,
+        2,
         1,
         6.0
       ],
       "[CHEM] Intro to Organic Chemistry lab": [
         null,
-        20,
-        100,
+        2,
+        1,
         6.0
       ],
       "[CHEM] Into Organic Chemistry Lab I": [
         null,
-        20,
+        2,
         1,
         6.0
       ]
@@ -9536,8 +9536,8 @@
     "courses": {
       "[CHEM] General Chemistry Lab": [
         null,
-        30,
-        60,
+        1,
+        1,
         12.0
       ],
       "[CHEM C1500] General Chemistry Lab": [
@@ -10043,8 +10043,8 @@
     "courses": {
       "[CIEN 1201] The Art of Structural Design": [
         6,
-        30,
-        40,
+        2,
+        1,
         null
       ]
     }
@@ -10214,7 +10214,7 @@
       "[MECH E3113] Mechanics of Solids": [
         12,
         1,
-        100,
+        1,
         3.5
       ]
     }
@@ -10539,19 +10539,19 @@
       "[] First Year Seminar: Reacting to the Past": [
         null,
         1,
-        500,
+        1,
         3.0
       ],
       "[CLAS V3535] Identity and Society in Ancient Egypt": [
         null,
         1,
-        500,
+        1,
         3.0
       ],
       "[CLCV V3101] Archaeology of Egypt and Nubia": [
         null,
         1,
-        500,
+        1,
         3.0
       ]
     }
@@ -11010,7 +11010,7 @@
       "[HUMA C1001] Masterpieces of Western Literature and Philosophy (Literature Humanities)": [
         null,
         1,
-        510,
+        1,
         4.0
       ]
     }
@@ -11176,7 +11176,7 @@
       "[HUMA C1001] Masterpieces of Western Literature and Philosophy (Literature Humanities)": [
         null,
         1,
-        4,
+        1,
         null
       ]
     }
@@ -11321,7 +11321,7 @@
       "[PUBH W3100] Fundamentals of Global Health": [
         null,
         1,
-        4,
+        1,
         null
       ]
     }
@@ -11457,8 +11457,8 @@
     "courses": {
       "[FYSB BC1715] Artful Adaptations": [
         null,
-        6,
-        10,
+        3,
+        1,
         null
       ],
       "[CPLT BC3143] TOPICS COMPARATIVE LIT": [
@@ -11469,8 +11469,8 @@
       ],
       "[FYSB BC1715] ARTS OF ADAPTATION": [
         null,
-        6,
-        10,
+        3,
+        1,
         null
       ]
     }
@@ -12236,7 +12236,7 @@
         6,
         1,
         1,
-        65.0
+        30.0
       ],
       "[COMS E6118] OPERATING SYSTEMS, II": [
         6,
@@ -12465,7 +12465,7 @@
     "rating": 4.0,
     "courses": {
       "[COMS BC3430] Computational Sound": [
-        60,
+        10,
         null,
         1,
         null
@@ -12505,8 +12505,8 @@
     "courses": {
       "[CSEE W3827] Fundamentals of Computer Systems": [
         null,
-        1,
-        25,
+        3,
+        0,
         null
       ]
     }
@@ -12689,13 +12689,13 @@
         5,
         1,
         1,
-        100.0
+        10.0
       ],
       "[null] Advanced Topics in Deep Learning": [
         5,
         1,
         1,
-        100.0
+        10.0
       ]
     }
   },
@@ -12943,8 +12943,8 @@
     "courses": {
       "[COMS W3261] Computer Science Theory: Computability - Models - Computation": [
         5,
-        30,
-        30,
+        3,
+        1,
         null
       ]
     }
@@ -13225,13 +13225,13 @@
       "[WMST BC2140] Critical Approaches": [
         null,
         1,
-        12,
+        1,
         null
       ],
       "[CCIS BC3999] Environmental Humanities Senior Discussion": [
         null,
         1,
-        12,
+        1,
         null
       ]
     }
@@ -13568,12 +13568,6 @@
         null
       ],
       "[COCI F1101] CONTEMP WESTERN CIVILIZATION I": [
-        null,
-        10,
-        20,
-        null
-      ],
-      "[] Contemporary Civilizations": [
         null,
         10,
         20,
@@ -14292,26 +14286,26 @@
       ],
       "[FYWB BC1100] Field Too Large: War, City, System": [
         null,
-        20,
-        8,
+        2,
+        1,
         null
       ],
       "[ENGL 3193] Critical Writing": [
         null,
-        20,
-        8,
+        2,
+        1,
         null
       ],
       "[ENGL BC1201] First Year English": [
         null,
         null,
-        8,
+        1,
         null
       ],
       "[FYWB BC1115] MODERNITY": [
         null,
-        20,
-        8,
+        2,
+        1,
         null
       ]
     }
@@ -14330,7 +14324,7 @@
       "[POLS V3001] Introduction to Human Rights": [
         null,
         1,
-        10,
+        1,
         4.0
       ],
       "[HRTS V3001] Introduction to Human Rights": [
@@ -14488,7 +14482,7 @@
       "[CLGR W3000] Grimms' Fairy Tales: Power, Gender & Narrative": [
         null,
         0,
-        4,
+        1,
         null
       ]
     }
@@ -14822,8 +14816,8 @@
     "courses": {
       "[FYWB BC1135] CONTESTED TRUTHS: MEMORY, AUTHORITY AND HISTORY": [
         12,
-        null,
-        4,
+        0,
+        1,
         1.5
       ]
     }
@@ -15065,7 +15059,7 @@
       "[COCI F1101] CONTEMP WESTERN CIVILIZATION I": [
         null,
         1,
-        15138,
+        1,
         null
       ]
     }
@@ -15584,8 +15578,8 @@
       ],
       "[COCI F1102] CONTEMP WESTRN CIVILIZATION II": [
         null,
-        10,
-        30,
+        1,
+        1,
         null
       ]
     }
@@ -16063,7 +16057,7 @@
         null,
         0,
         1,
-        60.0
+        10.0
       ]
     }
   },
@@ -16381,7 +16375,7 @@
       "[HUMA W1123] Masterpieces of Western Music (Music Humanities)": [
         null,
         null,
-        9,
+        1,
         null
       ]
     }
@@ -16485,14 +16479,14 @@
     "courses": {
       "[ENGL C1010] University Writing": [
         null,
-        null,
-        1,
+        4,
+        0,
         6.0
       ],
       "[ENGL 1010] University Writing": [
         null,
-        null,
-        1,
+        4,
+        0,
         6.0
       ]
     }
@@ -16797,7 +16791,7 @@
     "courses": {
       "[HUMA W1121] Masterpieces of Western Art (Art Humanities)": [
         null,
-        20,
+        2,
         1,
         null
       ]
@@ -16985,23 +16979,11 @@
     "last_name": "anderson",
     "rating": 3.44,
     "courses": {
-      "[C1012] UWriting": [
-        4264,
-        null,
-        null,
-        null
-      ],
       "[ENGL C1010] University Writing": [
-        4264,
-        null,
-        null,
-        null
-      ],
-      "[ENGL 1010] University Writing": [
-        4264,
-        null,
-        null,
-        null
+        4,
+        0,
+        0,
+        10.0
       ]
     }
   },
@@ -17128,8 +17110,8 @@
     "courses": {
       "[COCI C1102] Contemporary Civilization": [
         null,
-        0,
-        5,
+        2,
+        1,
         null
       ]
     }
@@ -18005,7 +17987,7 @@
       "[EESC W2100] EARTH'S ENVIRO SYST: CLIM SYST": [
         8,
         1,
-        400,
+        1,
         null
       ]
     }
@@ -18357,7 +18339,7 @@
       "[CLEN GU4899] Resistance Literature": [
         null,
         1,
-        10,
+        1,
         null
       ]
     }
@@ -18437,14 +18419,14 @@
       ],
       "[COCI C1102] Contemporary Civilization": [
         null,
+        2,
         1,
-        200,
         null
       ],
       "[HUMA 1002] Literature Humanities": [
         null,
+        2,
         1,
-        200,
         null
       ]
     }
@@ -18519,7 +18501,7 @@
       "[HUMA C1001] Masterpieces of Western Literature and Philosophy (Literature Humanities)": [
         null,
         0,
-        9,
+        1,
         null
       ],
       "[HUMA F1001] EURPN LIT-PHILOS MASTERPIECS I": [
@@ -18767,8 +18749,8 @@
       ],
       "[HUMA C1001] Masterpieces of Western Literature and Philosophy (Literature Humanities)": [
         null,
-        3,
-        5,
+        2,
+        1,
         null
       ]
     }
@@ -18816,7 +18798,7 @@
     "courses": {
       "[PHIL UN3769] Living, Dying, and the Meaning of Life": [
         null,
-        20,
+        2,
         0,
         null
       ]
@@ -18952,7 +18934,7 @@
       "[SCNC W1212] Foundations of Science": [
         0,
         1,
-        320,
+        1,
         1.5
       ]
     }
@@ -19001,8 +18983,8 @@
     "courses": {
       "[HUMA W1123] Masterpieces of Western Music (Music Humanities)": [
         10,
-        25,
-        25,
+        2,
+        1,
         null
       ]
     }
@@ -19302,8 +19284,8 @@
       ],
       "[null] Tolstoy and Dostoevsky": [
         null,
-        20,
-        30,
+        2,
+        1,
         null
       ]
     }
@@ -20240,7 +20222,7 @@
       "[COCI F1101] CONTEMP WESTERN CIVILIZATION I": [
         null,
         1,
-        600,
+        1,
         null
       ]
     }
@@ -20354,15 +20336,15 @@
     "rating": 4.33,
     "courses": {
       "[ENGL C1010] University Writing": [
-        null,
-        null,
-        null,
+        4,
+        0,
+        0,
         20.0
       ],
       "[ENGL 1010] University Writing": [
-        null,
-        null,
-        null,
+        4,
+        0,
+        0,
         20.0
       ]
     }
@@ -20484,9 +20466,9 @@
     "courses": {
       "[COCI C1102] Contemporary Civilization": [
         null,
-        null,
-        null,
-        null
+        2,
+        1,
+        8.0
       ]
     }
   },
@@ -20529,7 +20511,7 @@
       "[POLS W1101] Intro to Political Theory": [
         null,
         1,
-        100,
+        1,
         4.0
       ]
     }
@@ -20597,7 +20579,7 @@
       "[HUMA 1002] Literature Humanities": [
         3,
         1,
-        300,
+        1,
         null
       ],
       "[HUMA F1001] EURPN LIT-PHILOS MASTERPIECS I": [
@@ -21300,7 +21282,7 @@
       "[HIST W4110] FRENCH AMERICA 1534-1804": [
         null,
         1,
-        260,
+        1,
         null
       ]
     }
@@ -22283,8 +22265,8 @@
     "courses": {
       "[EESC W2200] EARTH'S ENVIRONMENTAL SYSTEMS: THE SOLID EARTH": [
         12,
-        30,
-        30,
+        3,
+        1,
         8.0
       ]
     }
@@ -22954,7 +22936,7 @@
         null,
         null,
         1,
-        25.0
+        10.0
       ]
     }
   },
@@ -23596,15 +23578,15 @@
     "rating": 3.48,
     "courses": {
       "[null] Dance History I": [
-        60,
+        6,
         1,
         1,
         null
       ],
       "[BC2565] World Dance History": [
-        60,
+        6,
         null,
-        30,
+        1,
         null
       ]
     }
@@ -24710,7 +24692,7 @@
       "[EESC W1009] GLOBAL WARMING FOR GLOBAL LEADERS": [
         5,
         1,
-        200,
+        1,
         null
       ],
       "[null] Oceanography": [
@@ -25527,7 +25509,7 @@
       "[KORN W1002] INTRODUCTORY KOREAN B": [
         null,
         1,
-        100,
+        1,
         null
       ]
     }
@@ -25953,20 +25935,14 @@
     "last_name": "yi",
     "rating": 4.27,
     "courses": {
-      "[] Beginner Korean": [
-        400,
-        1,
-        1,
-        2.5
-      ],
       "[KORN W1002] INTRODUCTORY KOREAN B": [
-        400,
+        4,
         1,
         1,
         2.5
       ],
       "[KORN W1001] INTRODUCTORY KOREAN A": [
-        400,
+        4,
         1,
         1,
         2.5
@@ -26704,13 +26680,13 @@
       "[CHNS C1101] Elementary Chinese": [
         2,
         0,
-        25,
+        1,
         null
       ],
       "[null] First-Year Chinese": [
         2,
         0,
-        25,
+        1,
         null
       ]
     }
@@ -27012,7 +26988,7 @@
       "[CHNS W4019] History of the Chinese Language": [
         12,
         null,
-        100,
+        1,
         null
       ]
     }
@@ -27214,8 +27190,8 @@
       ],
       "[EEEB W3030] Biology, Systematics and Evolutionary History of Apes": [
         4,
-        33,
-        67,
+        3,
+        1,
         null
       ]
     }
@@ -27405,7 +27381,7 @@
     "courses": {
       "[ECON BC1003] Introduction to Economic Reasoning": [
         12,
-        30,
+        3,
         1,
         1.0
       ],
@@ -27800,14 +27776,14 @@
     "courses": {
       "[ECON V3265] Economics of Money and Banking": [
         null,
-        40,
-        40,
+        3,
+        1,
         null
       ],
       "[ECON BC3063] Senior Seminar": [
         null,
-        40,
-        40,
+        0,
+        0,
         null
       ],
       "[ECON V3025] Financial Economics": [
@@ -27961,7 +27937,7 @@
       "[ECON W4280] Corporate Finance": [
         3,
         null,
-        50,
+        1,
         null
       ],
       "[BUSI 3003] Corporate Finance": [
@@ -28365,21 +28341,21 @@
     "rating": 3.17,
     "courses": {
       "[ECON W3211] Intermediate Microeconomics": [
-        300,
-        40,
-        40,
+        8,
+        2,
+        1,
         null
       ],
       "[W4260] Market Design": [
-        300,
-        40,
+        12,
+        2,
         0,
         null
       ],
       "[ECON W4415] Game Theory": [
         null,
-        40,
-        200,
+        2,
+        1,
         null
       ]
     }
@@ -28488,8 +28464,8 @@
     "courses": {
       "[W4020] Economics of Uncertainty and Information": [
         2,
-        30,
-        40,
+        2,
+        1,
         null
       ]
     }
@@ -28526,7 +28502,7 @@
     "rating": 1.0,
     "courses": {
       "[ECON W3211] Intermediate Microeconomics": [
-        20,
+        12,
         null,
         1,
         9.0
@@ -28745,7 +28721,7 @@
         8,
         1,
         1,
-        30.0
+        15.0
       ]
     }
   },
@@ -28880,8 +28856,8 @@
       ],
       "[ECON V3025] Financial Economics": [
         6,
-        25,
-        30,
+        2,
+        1,
         4.0
       ]
     }
@@ -29035,8 +29011,8 @@
       ],
       "[ECON W3213] Intermediate Macroeconomics": [
         null,
-        30,
-        60,
+        2,
+        1,
         null
       ]
     }
@@ -29136,7 +29112,7 @@
       "[BC3039] Environmental and Natural Resource Economics": [
         3,
         null,
-        100,
+        1,
         3.0
       ]
     }
@@ -29168,7 +29144,7 @@
       "[ECON BC3050] Health Economics": [
         4,
         2,
-        10,
+        1,
         null
       ]
     }
@@ -29683,8 +29659,8 @@
     "courses": {
       "[CSEE W4119] Computer Networks": [
         5,
-        15,
-        35,
+        2,
+        1,
         12.0
       ]
     }
@@ -29752,7 +29728,7 @@
       "[ELEN 3201] Circuit Analysis": [
         12,
         1,
-        40,
+        1,
         9.0
       ]
     }
@@ -30356,7 +30332,7 @@
       "[ENGL GR6135] Renaissance Drama": [
         null,
         1,
-        200,
+        1,
         null
       ]
     }
@@ -30468,7 +30444,7 @@
         4.0
       ],
       "[FYWB BC1108] The Body as Border": [
-        3000,
+        12,
         null,
         2,
         4.0
@@ -30612,8 +30588,8 @@
     "courses": {
       "[ENGL W3985] FILM NARRATIVE (SEMINAR)": [
         null,
-        8,
-        12,
+        2,
+        0,
         1.0
       ]
     }
@@ -31115,15 +31091,15 @@
     "courses": {
       "[COCI C1102] Contemporary Civilization": [
         null,
-        15,
-        15,
+        2,
+        1,
         null
       ],
       "[ENGL C1010] University Writing": [
-        null,
-        null,
-        null,
-        null
+        4,
+        0,
+        0,
+        10.0
       ]
     }
   },
@@ -31307,19 +31283,19 @@
       "[FYSB BC1763] Writing and the Environment": [
         null,
         null,
-        10,
+        1,
         null
       ],
       "[FYWB BC1119] CROSSING BORDERS: THE AMERICAS": [
         null,
         null,
-        10,
+        1,
         null
       ],
       "[FYSB BC1421] CROSSING BORDERS: AMERICAS": [
         null,
         null,
-        10,
+        1,
         null
       ]
     }
@@ -31420,10 +31396,10 @@
     "rating": 4.5,
     "courses": {
       "[ENGL C1010] University Writing": [
-        12,
-        null,
-        null,
-        null
+        4,
+        0,
+        0,
+        10.0
       ]
     }
   },
@@ -31523,10 +31499,10 @@
     "rating": 1.0,
     "courses": {
       "[ENGL C1010] University Writing": [
-        null,
-        null,
-        null,
-        null
+        4,
+        0,
+        0,
+        10.0
       ]
     }
   },
@@ -31578,10 +31554,10 @@
     "rating": 4.5,
     "courses": {
       "[ENGL C1010] University Writing": [
-        null,
-        null,
-        null,
-        null
+        4,
+        0,
+        0,
+        10.0
       ]
     }
   },
@@ -31617,7 +31593,7 @@
       "[HUMA C1001] Masterpieces of Western Literature and Philosophy (Literature Humanities)": [
         5,
         null,
-        20,
+        1,
         null
       ]
     }
@@ -31664,10 +31640,10 @@
     "rating": 4.2,
     "courses": {
       "[ENGL C1010] University Writing": [
-        null,
-        null,
-        null,
-        null
+        4,
+        0,
+        0,
+        10.0
       ]
     }
   },
@@ -33878,7 +33854,7 @@
       "[FILM W5015] CINEMA HIST II: 1930-1960": [
         null,
         null,
-        5000,
+        1,
         null
       ]
     }
@@ -34985,19 +34961,19 @@
       "[FYWB BC1507] (WORKSHOP) Feminist Fairytales": [
         null,
         null,
-        3,
+        1,
         null
       ],
       "[WRIT W3227] TRUE CRIME": [
         null,
         1,
-        3,
+        1,
         null
       ],
       "[FYWB BC1140] Feminist Fairytales": [
         null,
         1,
-        3,
+        1,
         null
       ]
     }
@@ -36261,7 +36237,7 @@
     "rating": 3.57,
     "courses": {
       "[FREN W3244] FRENCH THRU CURRENT EVENTS": [
-        920,
+        12,
         1,
         1,
         null
@@ -36774,7 +36750,7 @@
       "[GERM W1101] Elementary German I": [
         null,
         0,
-        800,
+        1,
         null
       ]
     }
@@ -36945,7 +36921,7 @@
       "[GERM W1101] Elementary German I": [
         null,
         null,
-        100,
+        1,
         null
       ]
     }
@@ -36958,7 +36934,7 @@
       "[GERM V3001] ADVANCED GERMAN I": [
         1,
         0,
-        800,
+        1,
         1.8
       ],
       "[GERM W1101] Elementary German I": [
@@ -36970,7 +36946,7 @@
       "[GERM UN1102] Elementary German II": [
         1,
         0,
-        800,
+        1,
         1.8
       ]
     }
@@ -37839,7 +37815,7 @@
       "[HIST BC2380] History of Food In Europe": [
         null,
         1,
-        330,
+        1,
         null
       ],
       "[HIST BC1101] Intro to European History: Renaissance to French Revolution 1500-1789": [
@@ -37851,7 +37827,7 @@
       "[HIST BC1101] European History 1500-1789": [
         null,
         1,
-        330,
+        1,
         null
       ]
     }
@@ -38488,8 +38464,8 @@
     "courses": {
       "[HIST W2701] THE OTTOMAN EMPIRE": [
         2,
-        25,
-        35,
+        2,
+        1,
         null
       ]
     }
@@ -39013,20 +38989,20 @@
     "rating": 3.8,
     "courses": {
       "[IEOR E4100] STATISTICS & SIMULATION": [
-        25,
-        25,
+        12,
+        2,
         1,
         10.0
       ],
       "[IEOR E4404] Simulation": [
         8,
-        25,
-        170,
+        2,
+        1,
         10.0
       ],
       "[IEOR E3404] SIMULATION MODELING AND ANALYSIS": [
-        25,
-        25,
+        15,
+        2,
         1,
         10.0
       ]
@@ -39277,8 +39253,8 @@
       ],
       "[IEOR E3106] STOCHASTIC SYSTEMS AND APPLICATIONS": [
         7,
-        30,
-        50,
+        3,
+        1,
         null
       ]
     }
@@ -39521,9 +39497,9 @@
     "rating": 3.0,
     "courses": {
       "[IEOR E4402] Corporate Finance, Accounting & Investment Banking": [
-        40,
-        25,
-        35,
+        12,
+        2,
+        1,
         6.0
       ]
     }
@@ -41636,7 +41612,7 @@
       "[ITAL W3865] Introduction to Fashion Studies": [
         null,
         1,
-        12,
+        1,
         null
       ]
     }
@@ -41767,7 +41743,7 @@
       "[ITAL V3335] ADVANCED ITALIAN I": [
         null,
         1,
-        4,
+        1,
         null
       ]
     }
@@ -43616,7 +43592,7 @@
     "courses": {
       "[SPAN W3361] ARTISTIC HUMANITY": [
         4,
-        30,
+        3,
         0,
         null
       ]
@@ -44988,7 +44964,7 @@
       "[MATH W1205] ACCELERATED MULTIVARIABLE CALC": [
         6,
         1,
-        1000,
+        1,
         4.0
       ],
       "[MATH UN2030] Ordinary Differential Equations": [
@@ -45094,7 +45070,7 @@
       "[MATH UN2030] Ordinary Differential Equations": [
         12,
         1,
-        200,
+        1,
         null
       ]
     }
@@ -45154,19 +45130,19 @@
     "rating": 3.0,
     "courses": {
       "[MATH W2015] Linear Algebra and Probability": [
-        25,
+        7,
         1,
         1,
         3.0
       ],
       "[MATH V1101] Calculus I": [
-        800,
+        8,
         1,
         1,
         3.0
       ],
       "[MATH V1102] Calculus II": [
-        12,
+        8,
         1,
         1,
         3.0
@@ -45512,7 +45488,7 @@
         3.0
       ],
       "[MATH V1201] Calculus III": [
-        100,
+        10,
         2,
         1,
         3.0
@@ -45809,7 +45785,7 @@
       ],
       "[MATH V1201] Calculus III": [
         null,
-        45,
+        2,
         1,
         1.5
       ],
@@ -45822,7 +45798,7 @@
       "[null] Calculus": [
         null,
         3,
-        1211,
+        1,
         null
       ]
     }
@@ -45914,7 +45890,7 @@
     "rating": 3.0,
     "courses": {
       "[MATH V1101] Calculus I": [
-        100,
+        10,
         2,
         1,
         null
@@ -45952,8 +45928,8 @@
     "courses": {
       "[RUSS V3230] Tricksters in World Culture: Mockery, Subversion, Rebellion": [
         10,
-        30,
-        50,
+        1,
+        1,
         null
       ]
     }
@@ -46144,7 +46120,7 @@
       "[null] Calculus II and Calculus III": [
         null,
         2,
-        401,
+        1,
         null
       ]
     }
@@ -46727,7 +46703,7 @@
       "[MATH S1201] Calculus III": [
         11,
         2,
-        40,
+        1,
         null
       ]
     }
@@ -46798,10 +46774,10 @@
     "rating": 5.0,
     "courses": {
       "[MATH UN2030] Ordinary Differential Equations": [
-        null,
-        null,
-        null,
-        null
+        7,
+        1,
+        1,
+        6.8
       ]
     }
   },
@@ -46817,19 +46793,19 @@
     "rating": 2.43,
     "courses": {
       "[MATH V2010] Linear Algebra": [
-        20,
+        8,
         2,
         1,
         1.0
       ],
       "[MATH S1201] Calculus III": [
-        null,
+        7,
         2,
         1,
         2.0
       ],
       "[MATH V1201] Calculus III": [
-        20,
+        8,
         2,
         1,
         3.5
@@ -46891,7 +46867,7 @@
         null
       ],
       "[MATH S1201] Calculus III": [
-        30,
+        8,
         1,
         1,
         null
@@ -47015,8 +46991,8 @@
     "courses": {
       "[ENME E3105] Engineering Mechanics": [
         3,
-        20,
-        40,
+        2,
+        1,
         null
       ]
     }
@@ -47841,13 +47817,13 @@
     "rating": 3.8,
     "courses": {
       "[COCI C1102] Contemporary Civilization": [
-        490,
+        6,
         0,
         1,
         null
       ],
       "[ANTH V3525] Introduction to South Asian History and Culture": [
-        490,
+        7,
         0,
         1,
         null
@@ -50835,7 +50811,7 @@
       ],
       "[PHIL V3601] Metaphysics": [
         12,
-        20,
+        2,
         1,
         null
       ],
@@ -50855,7 +50831,7 @@
       "[COCI C1102] Contemporary Civilization": [
         null,
         2,
-        230,
+        1,
         48.0
       ],
       "[] Contemporary Civilizations": [
@@ -50988,8 +50964,8 @@
     "courses": {
       "[PHIL V3353] European Social Philosophy": [
         null,
-        17,
-        33,
+        2,
+        1,
         10.0
       ],
       "[PHIL V2301] History of Philosophy III: Hegel to Heidegger or Kant to Nietzsche": [
@@ -51297,7 +51273,7 @@
       "[COCI C1102] Contemporary Civilization": [
         null,
         0,
-        7150,
+        1,
         null
       ]
     }
@@ -51322,7 +51298,7 @@
       "[] Contemporary Civilizations": [
         null,
         null,
-        200,
+        1,
         8.0
       ],
       "[PHIL C1010] Methods and Problems of Philosophical Thought": [
@@ -52706,9 +52682,9 @@
     "rating": 3.0,
     "courses": {
       "[PHYS C1402] Intro to Electricity, Magnetism and Optics": [
-        20,
+        12,
         2,
-        37,
+        1,
         null
       ]
     }
@@ -52719,7 +52695,7 @@
     "rating": 2.2,
     "courses": {
       "[PHYS GU4040] Intro to General Relativity": [
-        300,
+        12,
         2,
         0,
         null
@@ -52731,13 +52707,13 @@
         null
       ],
       "[APPH E3200] MECHANICS:FUND & APPLICATIONS": [
-        300,
+        8,
         2,
         0,
         null
       ],
       "[PHYS G4003] Advanced Mechanics": [
-        300,
+        7,
         2,
         0,
         null
@@ -52788,7 +52764,7 @@
       ],
       "[PHYS S0065] Basic Physics": [
         10,
-        2023,
+        2,
         1,
         3.0
       ],
@@ -52800,13 +52776,13 @@
       ],
       "[PHYS W1402] INTRO ELEC/MAGNETSM & OPTCS": [
         10,
-        2023,
+        2,
         1,
         3.0
       ],
       "[PHYS C1601] Physics I: Mechanics and Relativity": [
         10,
-        2023,
+        2,
         1,
         11.3
       ]
@@ -52926,7 +52902,7 @@
       "[PHYS V1201] General Physics I": [
         null,
         2,
-        101,
+        1,
         null
       ]
     }
@@ -54090,8 +54066,8 @@
     "courses": {
       "[POLS W3285] Freedom of Speech and Press": [
         null,
-        40,
-        60,
+        2,
+        1,
         null
       ]
     }
@@ -54688,7 +54664,7 @@
     "rating": 3.6,
     "courses": {
       "[POLS V3565] DRUGS & POLITICS IN AMERICAS": [
-        800,
+        8,
         null,
         1,
         7.0
@@ -54708,13 +54684,13 @@
     "courses": {
       "[POLS BC3019] AMERICAN POLITICAL DEVELOPMENT": [
         null,
-        30,
+        3,
         1,
         null
       ],
       "[POLS BC3025] American Political Parties": [
         null,
-        30,
+        3,
         1,
         null
       ]
@@ -56782,7 +56758,7 @@
       "[PSYC W2220] Cognition: Memory and Stress": [
         null,
         null,
-        25,
+        1,
         7.0
       ]
     }
@@ -57365,7 +57341,7 @@
         null
       ],
       "[PSYC BC2110] PERCEPTION-LECTURE": [
-        640,
+        12,
         3,
         1,
         null
@@ -57689,7 +57665,7 @@
     "rating": 4.67,
     "courses": {
       "[PSYC W2630] Social Psychology": [
-        25,
+        12,
         5,
         1,
         3.0
@@ -58133,7 +58109,7 @@
     "rating": 4.0,
     "courses": {
       "[RELI UN2306] Intro Judaism": [
-        300,
+        12,
         1,
         1,
         null
@@ -58791,7 +58767,7 @@
       "[LING W3102] Endangered Languages in the Global City: Lang, Culture, and Migration in Contempary NYC": [
         null,
         1,
-        10,
+        1,
         null
       ]
     }
@@ -58880,7 +58856,7 @@
     "rating": 3.4,
     "courses": {
       "[LING W3101] Introduction to Linguistics": [
-        100,
+        10,
         null,
         1,
         null
@@ -61060,7 +61036,7 @@
       "[SOCI V3217] LAW & SOCIETY": [
         4,
         1,
-        1120,
+        1,
         null
       ]
     }
@@ -61313,8 +61289,8 @@
     "courses": {
       "[STAT W4107] Statistical Inference": [
         3,
-        35,
-        45,
+        2,
+        1,
         null
       ]
     }
@@ -61460,7 +61436,7 @@
     "rating": 2.5,
     "courses": {
       "[SOCI W1203] The Social Animal in the Digital Age": [
-        1220,
+        12,
         1,
         1,
         null
@@ -61836,7 +61812,7 @@
     "rating": 4.0,
     "courses": {
       "[SPAN W3349] Hispanic Cultures I": [
-        30,
+        3,
         1,
         1,
         null
@@ -62117,7 +62093,7 @@
       "[SPAN W3349] Hispanic Cultures I": [
         null,
         null,
-        1500,
+        1,
         1.5
       ]
     }
@@ -63387,13 +63363,13 @@
       "[STAT GU4203] Probability Theory": [
         15,
         1,
-        35,
+        1,
         null
       ],
       "[STAT W4107] Statistical Inference": [
         7,
         1,
-        35,
+        1,
         null
       ]
     }
@@ -63657,8 +63633,8 @@
     "rating": 3.0,
     "courses": {
       "[STAT W4107] Statistical Inference": [
-        40,
-        40,
+        8,
+        2,
         1,
         7.0
       ]
@@ -63855,7 +63831,7 @@
       "[STAT 1201] Calc Based Intro to Stat": [
         12,
         1,
-        45,
+        1,
         null
       ]
     }
@@ -63946,13 +63922,13 @@
         2.5
       ],
       "[STAT W1111] Introduction to Statistics": [
-        40,
+        12,
         2,
         1,
         2.5
       ],
       "[STAT W2104] APPL CATEGORICAL DATA ANALYSIS": [
-        40,
+        12,
         2,
         1,
         2.5
@@ -64429,7 +64405,7 @@
       "[MATH S1201] Calculus III": [
         6,
         1,
-        40,
+        1,
         10.0
       ]
     }
@@ -67156,9 +67132,9 @@
     "rating": 3.0,
     "courses": {}
   },
-  "jennifer_smith-gu\u00e3\u00a1d\u00e3\u00a1r\u00e3\u00a1m\u00e3\u00a1ng\u00e3\u00a1l\u00e3\u00a1": {
+  "jennifer_smith-gu": {
     "first_name": "jennifer",
-    "last_name": "smith-gu\u00e3\u00a1d\u00e3\u00a1r\u00e3\u00a1m\u00e3\u00a1ng\u00e3\u00a1l\u00e3\u00a1",
+    "last_name": "smith-gu",
     "rating": 4.0,
     "courses": {}
   },
