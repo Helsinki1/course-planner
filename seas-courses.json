@@ -15,7 +15,8 @@
         "capacity": 40,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "AERO4432E",
@@ -33,7 +34,8 @@
         "capacity": 40,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "AERO4440E",
@@ -51,7 +53,8 @@
         "capacity": 24,
         "enrollment": 24
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "AERO4810E",
@@ -69,7 +72,8 @@
         "capacity": 20,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "APAM3999E",
@@ -85,28 +89,32 @@
         "capacity": 5,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "APAM4999E",
     "name": "SUPERVISED INTERNSHIP",
     "description": "Only for masters students in the Department of Applied Physics and Applied Mathematics who may need relevant work experience a part of their program of study. Final report required. May not be taken for pass/fail or audited.",
     "credits": 3,
-    "times": []
+    "times": [],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "APAM6650E",
     "name": "RESEARCH PROJECT",
     "description": "May be repeated for credit. A special investigation of a problem in nuclear engineering, medical physics, applied mathematics, applied physics, and/or plasma physics consisting of independent work on the part of the student and embodied in a formal report.",
     "credits": 6,
-    "times": []
+    "times": [],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "APAM9301E",
     "name": "DOCTORAL RESEARCH",
     "description": "Required of doctoral candidates.",
     "credits": 15,
-    "times": []
+    "times": [],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "APMA2000E",
@@ -136,7 +144,8 @@
         "capacity": 126,
         "enrollment": 126
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "APMA2001E",
@@ -204,7 +213,8 @@
         "capacity": 30,
         "enrollment": 30
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "APMA2101E",
@@ -223,7 +233,8 @@
         "capacity": 152,
         "enrollment": 140
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "APMA3102E",
@@ -242,7 +253,8 @@
         "capacity": 45,
         "enrollment": 45
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "APMA4008E",
@@ -269,7 +281,8 @@
         "capacity": 99,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "APMA4101E",
@@ -296,7 +309,8 @@
         "capacity": 99,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "APMA4150E",
@@ -315,7 +329,8 @@
         "capacity": 30,
         "enrollment": 30
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "APMA4200E",
@@ -342,7 +357,8 @@
         "capacity": 99,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "APMA4300E",
@@ -377,7 +393,8 @@
         "capacity": 99,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "APMA4301E",
@@ -412,7 +429,8 @@
         "capacity": 99,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "APMA4302E",
@@ -431,7 +449,8 @@
         "capacity": 10,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "APMA4306E",
@@ -466,7 +485,8 @@
         "capacity": 99,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "APPH3300E",
@@ -485,7 +505,8 @@
         "capacity": 30,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "APPH3900E",
@@ -509,7 +530,8 @@
         "capacity": 10,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "APPH4018E",
@@ -525,7 +547,8 @@
         "capacity": 25,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "APPH4110E",
@@ -552,7 +575,8 @@
         "capacity": 99,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "APPH4114E",
@@ -571,7 +595,8 @@
         "capacity": 25,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "APPH4210E",
@@ -590,7 +615,8 @@
         "capacity": 25,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "APPH4500E",
@@ -608,7 +634,8 @@
         "capacity": 12,
         "enrollment": 11
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "APPH4550E",
@@ -626,7 +653,8 @@
         "capacity": 10,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "APPH4990E",
@@ -645,7 +673,8 @@
         "capacity": 30,
         "enrollment": 18
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "APPH6102E",
@@ -672,7 +701,8 @@
         "capacity": 99,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "APPH6319E",
@@ -690,7 +720,8 @@
         "capacity": 10,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "APPH6330E",
@@ -708,7 +739,8 @@
         "capacity": 10,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "APPH6335E",
@@ -726,7 +758,8 @@
         "capacity": 10,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "APPH9500E",
@@ -754,7 +787,8 @@
         "capacity": 20,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "BMCS4575E",
@@ -772,7 +806,8 @@
         "capacity": 40,
         "enrollment": 18
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "BMEN3020E",
@@ -791,7 +826,8 @@
         "capacity": 65,
         "enrollment": 50
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "BMEN3820E",
@@ -819,14 +855,16 @@
         "capacity": 27,
         "enrollment": 30
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "BMEN3899E",
     "name": "Research Training",
     "description": "Research training course. Recommended in preparation for laboratory related research.",
     "credits": 3,
-    "times": []
+    "times": [],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "BMEN3920E",
@@ -845,14 +883,16 @@
         "capacity": 55,
         "enrollment": 32
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "BMEN3998E",
     "name": "PROJECTS IN BIOMEDICAL ENGIN",
     "description": "Independent projects involving experimental, theoretical, computational, or engineering design work. May be repeated, but no more than 3 points of this or any other projects or research course may be counted toward the technical elective degree requirements as engineering technical electives.",
     "credits": 3,
-    "times": []
+    "times": [],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "BMEN3999E",
@@ -868,7 +908,8 @@
         "capacity": 100,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "BMEN4000E",
@@ -916,7 +957,8 @@
         "capacity": 24,
         "enrollment": 9
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "BMEN4002E",
@@ -935,7 +977,8 @@
         "capacity": 90,
         "enrollment": 53
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "BMEN4350E",
@@ -962,7 +1005,8 @@
         "capacity": 99,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "BMEN4410E",
@@ -988,7 +1032,8 @@
         "capacity": 99,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "BMEN4460E",
@@ -1006,7 +1051,8 @@
         "capacity": 70,
         "enrollment": 46
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "BMEN4525E",
@@ -1024,7 +1070,8 @@
         "capacity": 30,
         "enrollment": 30
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "BMEN4535E",
@@ -1043,7 +1090,8 @@
         "capacity": 50,
         "enrollment": 47
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "BMEN4545E",
@@ -1061,7 +1109,8 @@
         "capacity": 24,
         "enrollment": 24
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "BMEN4550E",
@@ -1087,7 +1136,8 @@
         "capacity": 99,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "BMEN4580E",
@@ -1114,7 +1164,8 @@
         "capacity": 99,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "BMEN4590E",
@@ -1140,14 +1191,16 @@
         "capacity": 99,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "BMEN4899E",
     "name": "Research Training",
     "description": "Research training course. Recommended in preparation for laboratory related research.",
     "credits": 3,
-    "times": []
+    "times": [],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "BMEN4999E",
@@ -1163,7 +1216,8 @@
         "capacity": 100,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "BMEN6000E",
@@ -1181,7 +1235,8 @@
         "capacity": 30,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "BMEN6003E",
@@ -1199,7 +1254,8 @@
         "capacity": 180,
         "enrollment": 126
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "BMEN6005E",
@@ -1218,7 +1274,8 @@
         "capacity": 50,
         "enrollment": 30
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "BMEN6007E",
@@ -1236,7 +1293,8 @@
         "capacity": 70,
         "enrollment": 49
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "BMEN6301E",
@@ -1254,7 +1312,8 @@
         "capacity": 30,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "BMEN6510E",
@@ -1272,28 +1331,32 @@
         "capacity": 70,
         "enrollment": 34
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "BMEN9100E",
     "name": "MASTERS RESEARCH",
     "description": "Candidates for the M.S. degree may conduct an investigation of some problem in biomedical engineering. No more than 6 points in this course may be counted for graduate credit.",
     "credits": 6,
-    "times": []
+    "times": [],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "BMEN9200E",
     "name": "Master's Thesis in BME",
     "description": "This is a Pass/Fail zero credit course, “BME Master's Thesis” for MS students who are in the process of doing a thesis (BMEN E9100).   It would be registered for before/during the final semester, the semester when the student will be defending the thesis.   It must be approved by the faculty mentor.",
     "credits": 3,
-    "times": []
+    "times": [],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "BMEN9500E",
     "name": "DOCTORAL RESEARCH",
     "description": "Doctoral candidates are required to make an original investigation of a problem in biomedical engineering, the results of which are presented in the dissertation.",
     "credits": 6,
-    "times": []
+    "times": [],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "BMEN9700E",
@@ -1311,21 +1374,24 @@
         "capacity": 272,
         "enrollment": 115
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "BMEN9800E",
     "name": "DOCTORAL RESEARCH INSTRUCTION",
     "description": "A candidate for the Eng.Sc.D. degree in biomedical engineering must register for 12 points of doctoral research instruction. Registration may not be used to satisfy the minimum residence requirement for the degree.",
     "credits": 3,
-    "times": []
+    "times": [],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "BMEN9900E",
     "name": "DOCTORAL DISSERTATION",
     "description": "A candidate for the doctorate in biomedical engineering or applied biology may be required to register for this course in every term after the students course work has been completed and until the dissertation has been accepted.",
     "credits": 3,
-    "times": []
+    "times": [],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CBMF4761W",
@@ -1344,7 +1410,8 @@
         "capacity": 60,
         "enrollment": 50
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CHAP4120E",
@@ -1362,7 +1429,8 @@
         "capacity": 60,
         "enrollment": 34
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CHEN3020E",
@@ -1381,7 +1449,8 @@
         "capacity": 45,
         "enrollment": 36
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CHEN3230E",
@@ -1400,7 +1469,8 @@
         "capacity": 45,
         "enrollment": 26
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CHEN3810E",
@@ -1419,21 +1489,24 @@
         "capacity": 40,
         "enrollment": 29
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CHEN3899E",
     "name": "Research Training",
     "description": "Research training course. Recommended in preparation for laboratory related research.",
     "credits": 3,
-    "times": []
+    "times": [],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CHEN3900E",
     "name": "UNDERGRADUATE RESEARCH PROJECT",
     "description": "Candidates for the B.S. degree may conduct an investigation of some problem in chemical engineering or applied chemistry or carry out a special project under the supervision of the staff. Up to 6 points may be counted toward the technical elective content requirement. (Note that if more than 3 points of research are pursued, an undergraduate thesis is required.)",
     "credits": 6,
-    "times": []
+    "times": [],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CHEN4010E",
@@ -1460,7 +1533,8 @@
         "capacity": 99,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CHEN4112E",
@@ -1487,7 +1561,8 @@
         "capacity": 99,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CHEN4140E",
@@ -1506,7 +1581,8 @@
         "capacity": 45,
         "enrollment": 31
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CHEN4330E",
@@ -1533,7 +1609,8 @@
         "capacity": 99,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CHEN4380E",
@@ -1560,7 +1637,8 @@
         "capacity": 99,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CHEN4444E",
@@ -1578,7 +1656,8 @@
         "capacity": 16,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CHEN4501E",
@@ -1605,7 +1684,8 @@
         "capacity": 99,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CHEN4510E",
@@ -1624,7 +1704,8 @@
         "capacity": 30,
         "enrollment": 17
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CHEN4630E",
@@ -1651,7 +1732,8 @@
         "capacity": 99,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CHEN4660E",
@@ -1669,7 +1751,8 @@
         "capacity": 45,
         "enrollment": 9
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CHEN4670E",
@@ -1696,7 +1779,8 @@
         "capacity": 99,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CHEN4720E",
@@ -1723,7 +1807,8 @@
         "capacity": 99,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CHEN4870E",
@@ -1741,7 +1826,8 @@
         "capacity": 45,
         "enrollment": 30
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CHEN4880E",
@@ -1768,7 +1854,8 @@
         "capacity": 99,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CHEN4900E",
@@ -1807,7 +1894,8 @@
         "capacity": 45,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CHEN4949E",
@@ -1825,7 +1913,8 @@
         "capacity": 30,
         "enrollment": 18
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CHEN4999E",
@@ -1841,7 +1930,8 @@
         "capacity": 10,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CHEN9000E",
@@ -1859,21 +1949,24 @@
         "capacity": 50,
         "enrollment": 41
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CHEN9400E",
     "name": "MASTERS RESEARCH",
     "description": "Sustainability Related Prescribed for M.S. candidates; elective for others with the approval of the Department. Degree candidates are to conduct an investigation of some problem in chemical engineering. No more than 6 points in this course may be counted for graduate credit.",
     "credits": 6,
-    "times": []
+    "times": [],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CHEN9500E",
     "name": "DOCTORAL RESEARCH",
     "description": "Open only to certified candidates for the Ph.D. and Eng.Sc.D. degrees. Doctoral candidates in chemical engineering are required to make an original investigation of a problem in chemical engineering or applied chemistry, the results of which are presented in their dissertations. No more than 15 points of credit toward the degree may be granted when the dissertation is accepted by the department.",
     "credits": 15,
-    "times": []
+    "times": [],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CHEN9800E",
@@ -1889,7 +1982,8 @@
         "capacity": 1,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CIEN3000E",
@@ -1908,7 +2002,8 @@
         "capacity": 75,
         "enrollment": 62
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CIEN3004E",
@@ -1926,7 +2021,8 @@
         "capacity": 40,
         "enrollment": 30
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CIEN3121E",
@@ -1945,7 +2041,8 @@
         "capacity": 35,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CIEN3125E",
@@ -1964,7 +2061,8 @@
         "capacity": 35,
         "enrollment": 19
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CIEN3126E",
@@ -1982,7 +2080,8 @@
         "capacity": 22,
         "enrollment": 21
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CIEN3128E",
@@ -2000,21 +2099,24 @@
         "capacity": 23,
         "enrollment": 23
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CIEN3303E",
     "name": "IND STUDIES-CIVIL ENGIN-JUNIOR",
     "description": "A project on civil engineering subjects approved by the chairman of the department.",
     "credits": 3,
-    "times": []
+    "times": [],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CIEN3304E",
     "name": "IND STUDIES-CIVIL ENGIN-SENIOR",
     "description": "A project on civil engineering subjects approved by the chairman of the department.",
     "credits": 3,
-    "times": []
+    "times": [],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CIEN4011E",
@@ -2032,7 +2134,8 @@
         "capacity": 30,
         "enrollment": 13
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CIEN4100E",
@@ -2050,7 +2153,8 @@
         "capacity": 50,
         "enrollment": 26
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CIEN4129E",
@@ -2068,7 +2172,8 @@
         "capacity": 50,
         "enrollment": 19
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CIEN4131E",
@@ -2086,7 +2191,8 @@
         "capacity": 50,
         "enrollment": 26
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CIEN4132E",
@@ -2112,7 +2218,8 @@
         "capacity": 99,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CIEN4136E",
@@ -2138,7 +2245,8 @@
         "capacity": 99,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CIEN4137E",
@@ -2156,7 +2264,8 @@
         "capacity": 50,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CIEN4138E",
@@ -2182,7 +2291,8 @@
         "capacity": 99,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CIEN4141E",
@@ -2208,7 +2318,8 @@
         "capacity": 99,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CIEN4148E",
@@ -2254,7 +2365,8 @@
         "capacity": 99,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CIEN4150E",
@@ -2272,7 +2384,8 @@
         "capacity": 30,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CIEN4210E",
@@ -2290,7 +2403,8 @@
         "capacity": 30,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CIEN4226E",
@@ -2308,7 +2422,8 @@
         "capacity": 50,
         "enrollment": 26
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CIEN4233E",
@@ -2326,7 +2441,8 @@
         "capacity": 50,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CIEN4234E",
@@ -2344,7 +2460,8 @@
         "capacity": 50,
         "enrollment": 23
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CIEN4242E",
@@ -2362,7 +2479,8 @@
         "capacity": 30,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CIEN4258E",
@@ -2380,7 +2498,8 @@
         "capacity": 40,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CIEN4999E",
@@ -2396,14 +2515,16 @@
         "capacity": 30,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CIEN9101E",
     "name": "CIVIL ENGINEERING RESEARCH",
     "description": "Advanced study in a specialized field under the supervision of a member of the department staff. Before registering, the student must submit an outline of the proposed work for approval of the supervisor and the department chair.",
     "credits": 6,
-    "times": []
+    "times": [],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CIEN9500E",
@@ -2421,7 +2542,8 @@
         "capacity": 40,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CIEN9900E",
@@ -2437,7 +2559,8 @@
         "capacity": 10,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS1004W",
@@ -2467,7 +2590,8 @@
         "capacity": 189,
         "enrollment": 126
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS1404W",
@@ -2555,7 +2679,8 @@
         "capacity": 16,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS2132W",
@@ -2574,7 +2699,8 @@
         "capacity": 80,
         "enrollment": 86
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS3134W",
@@ -2604,7 +2730,8 @@
         "capacity": 164,
         "enrollment": 164
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS3136W",
@@ -2622,7 +2749,8 @@
         "capacity": 30,
         "enrollment": 9
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS3157W",
@@ -2652,7 +2780,8 @@
         "capacity": 164,
         "enrollment": 124
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS3203W",
@@ -2681,7 +2810,8 @@
         "capacity": 120,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS3261W",
@@ -2711,7 +2841,8 @@
         "capacity": 110,
         "enrollment": 110
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS4111W",
@@ -2729,7 +2860,8 @@
         "capacity": 125,
         "enrollment": 141
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS4118W",
@@ -2755,7 +2887,8 @@
         "capacity": 99,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS4167W",
@@ -2774,7 +2907,8 @@
         "capacity": 50,
         "enrollment": 56
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS4170W",
@@ -2800,7 +2934,8 @@
         "capacity": 99,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS4172W",
@@ -2819,7 +2954,8 @@
         "capacity": 45,
         "enrollment": 38
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS4232W",
@@ -2846,7 +2982,8 @@
         "capacity": 99,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS4281W",
@@ -2865,7 +3002,8 @@
         "capacity": 100,
         "enrollment": 100
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS4419W",
@@ -2884,7 +3022,8 @@
         "capacity": 44,
         "enrollment": 49
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS4460W",
@@ -2903,7 +3042,8 @@
         "capacity": 40,
         "enrollment": 38
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS4701W",
@@ -2941,7 +3081,8 @@
         "capacity": 99,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS4705W",
@@ -2988,7 +3129,8 @@
         "capacity": 99,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS4710W",
@@ -3015,7 +3157,8 @@
         "capacity": 99,
         "enrollment": 24
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS4721W",
@@ -3053,7 +3196,8 @@
         "capacity": 99,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS4732W",
@@ -3071,7 +3215,8 @@
         "capacity": 110,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS4771W",
@@ -3109,7 +3254,8 @@
         "capacity": 99,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS4995W",
@@ -3252,7 +3398,8 @@
         "capacity": 90,
         "enrollment": 81
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS6156E",
@@ -3282,7 +3429,8 @@
         "capacity": 99,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS6178E",
@@ -3308,7 +3456,8 @@
         "capacity": 99,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS6184E",
@@ -3336,7 +3485,8 @@
         "capacity": 99,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS6261E",
@@ -3354,7 +3504,8 @@
         "capacity": 40,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS6424E",
@@ -3373,7 +3524,8 @@
         "capacity": 30,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS6706E",
@@ -3399,7 +3551,8 @@
         "capacity": 99,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS6732E",
@@ -3417,7 +3570,8 @@
         "capacity": 20,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS6975E",
@@ -3435,7 +3589,8 @@
         "capacity": 30,
         "enrollment": 28
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS6998E",
@@ -3551,7 +3706,8 @@
         "capacity": 99,
         "enrollment": 13
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "COMS9902E",
@@ -3569,7 +3725,8 @@
         "capacity": 25,
         "enrollment": 29
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CSEE3827W",
@@ -3599,7 +3756,8 @@
         "capacity": 110,
         "enrollment": 110
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CSEE4119W",
@@ -3626,7 +3784,8 @@
         "capacity": 99,
         "enrollment": 9
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CSEE4121W",
@@ -3644,7 +3803,8 @@
         "capacity": 200,
         "enrollment": 200
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CSEE4840W",
@@ -3663,7 +3823,8 @@
         "capacity": 110,
         "enrollment": 117
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CSEE6868E",
@@ -3681,7 +3842,8 @@
         "capacity": 30,
         "enrollment": 19
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CSEE6915E",
@@ -3699,7 +3861,8 @@
         "capacity": 25,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CSOR4231E",
@@ -3718,7 +3881,8 @@
         "capacity": 65,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "CSOR4231W",
@@ -3755,7 +3919,8 @@
         "capacity": 99,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EACE3250E",
@@ -3774,7 +3939,8 @@
         "capacity": 20,
         "enrollment": 13
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EACE3255E",
@@ -3793,7 +3959,8 @@
         "capacity": 40,
         "enrollment": 23
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EACE4163E",
@@ -3811,7 +3978,8 @@
         "capacity": 40,
         "enrollment": 27
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EACE4250E",
@@ -3830,7 +3998,8 @@
         "capacity": 24,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EACE4252E",
@@ -3849,7 +4018,8 @@
         "capacity": 40,
         "enrollment": 22
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EAEE3800E",
@@ -3868,14 +4038,16 @@
         "capacity": 15,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EAEE3900E",
     "name": "UNDERGRAD RES-ENVIRONMTL ENGIN",
     "description": "This course may be repeated for credit, but no more than 3 points of this course may be counted towards the satisfaction of the B. S. degree requirements. Candidates for the B.S. degree may conduct an investigation in Earth and Environmental Engineering, or carry out a special project under the supervision of EAEE faculty. Credit for the course is contingent on the submission of an acceptable thesis or final report. This course cannot substitute for the Undergraduate design project (EAEE E3999x or EAEE E3999y)",
     "credits": 3,
-    "times": []
+    "times": [],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EAEE3999E",
@@ -3893,7 +4065,8 @@
         "capacity": 15,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EAEE4002E",
@@ -3912,7 +4085,8 @@
         "capacity": 100,
         "enrollment": 79
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EAEE4003E",
@@ -3931,7 +4105,8 @@
         "capacity": 50,
         "enrollment": 13
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EAEE4009E",
@@ -3960,7 +4135,8 @@
         "capacity": 50,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EAEE4103E",
@@ -3979,7 +4155,8 @@
         "capacity": 40,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EAEE4140E",
@@ -3998,7 +4175,8 @@
         "capacity": 35,
         "enrollment": 9
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EAEE4222E",
@@ -4025,7 +4203,8 @@
         "capacity": 99,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EAEE4257E",
@@ -4044,7 +4223,8 @@
         "capacity": 50,
         "enrollment": 35
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EAEE4280E",
@@ -4062,7 +4242,8 @@
         "capacity": 30,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EAEE4302E",
@@ -4080,7 +4261,8 @@
         "capacity": 40,
         "enrollment": 38
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EAEE4305E",
@@ -4099,7 +4281,8 @@
         "capacity": 50,
         "enrollment": 37
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EAEE4990E",
@@ -4118,14 +4301,16 @@
         "capacity": 40,
         "enrollment": 9
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EAEE9271E",
     "name": "EARTH & ENVIRONMNTL ENG THESIS",
     "description": "Research work culminating in a creditable dissertation on a problem of a fundamental nature selected in conference between student and adviser. Wide latitude is permitted in choice of a subject, but independent work of distinctly graduate character is required in its handling.",
     "credits": 6,
-    "times": []
+    "times": [],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EAEE9280E",
@@ -4143,21 +4328,24 @@
         "capacity": 85,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EAEE9305E",
     "name": "EARTH/ENVIRONMNTL ENG RESEARCH",
     "description": "Graduate research directed toward solution of a problem in mineral processing or chemical metallurgy",
     "credits": 12,
-    "times": []
+    "times": [],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EAEE9800E",
     "name": "DOCTORAL RESEARCH INSTRUCTION",
     "description": "A candidate for the Eng.Sc.D. degree in mineral engineering must register for 12 points of doctoral research instruction. Registration in EAEE E9800 may not be used to satisfy the minimum residence requirement for the degree.",
     "credits": 12,
-    "times": []
+    "times": [],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ECBM4070E",
@@ -4183,7 +4371,8 @@
         "capacity": 99,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ECBM6070E",
@@ -4209,7 +4398,8 @@
         "capacity": 99,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EECS4340E",
@@ -4228,7 +4418,8 @@
         "capacity": 55,
         "enrollment": 53
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EECS6321E",
@@ -4247,7 +4438,8 @@
         "capacity": 80,
         "enrollment": 81
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EECS6691E",
@@ -4265,7 +4457,8 @@
         "capacity": 50,
         "enrollment": 39
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EECS6692E",
@@ -4283,7 +4476,8 @@
         "capacity": 25,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EECS6699E",
@@ -4301,7 +4495,8 @@
         "capacity": 100,
         "enrollment": 107
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EECS6720E",
@@ -4319,7 +4514,8 @@
         "capacity": 50,
         "enrollment": 50
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EECS6792E",
@@ -4337,7 +4533,8 @@
         "capacity": 25,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EECS6890E",
@@ -4355,7 +4552,8 @@
         "capacity": 30,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EECS6892E",
@@ -4381,7 +4579,8 @@
         "capacity": 5,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EECS6895E",
@@ -4399,7 +4598,8 @@
         "capacity": 60,
         "enrollment": 66
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EECS6899E",
@@ -4418,7 +4618,8 @@
         "capacity": 50,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EEME4601E",
@@ -4452,7 +4653,8 @@
         "capacity": 99,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EEME6912E",
@@ -4470,7 +4672,8 @@
         "capacity": 60,
         "enrollment": 23
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "EEOR6616E",
@@ -4508,7 +4711,8 @@
         "capacity": 25,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN1201E",
@@ -4527,7 +4731,8 @@
         "capacity": 160,
         "enrollment": 147
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN3082E",
@@ -4775,7 +4980,8 @@
         "capacity": 42,
         "enrollment": 35
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN3083E",
@@ -5023,7 +5229,8 @@
         "capacity": 46,
         "enrollment": 28
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN3331E",
@@ -5042,7 +5249,8 @@
         "capacity": 95,
         "enrollment": 101
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN3390E",
@@ -5071,7 +5279,8 @@
         "capacity": 40,
         "enrollment": 18
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN3401E",
@@ -5090,7 +5299,8 @@
         "capacity": 80,
         "enrollment": 79
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN3701E",
@@ -5109,7 +5319,8 @@
         "capacity": 65,
         "enrollment": 71
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN3990E",
@@ -5125,14 +5336,16 @@
         "capacity": 99,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN3998E",
     "name": "PROJECTS IN ELEC ENGINEERING",
     "description": "May be repeated for credit, but no more than 3 total points may be used for degree credit. Independent project involving laboratory work, computer programming, analytical investigation, or engineering design.",
     "credits": 3,
-    "times": []
+    "times": [],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN4193E",
@@ -5151,7 +5364,8 @@
         "capacity": 54,
         "enrollment": 49
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN4314E",
@@ -5169,7 +5383,8 @@
         "capacity": 60,
         "enrollment": 25
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN4510E",
@@ -5187,7 +5402,8 @@
         "capacity": 35,
         "enrollment": 28
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN4702E",
@@ -5205,7 +5421,8 @@
         "capacity": 50,
         "enrollment": 9
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN4730E",
@@ -5232,7 +5449,8 @@
         "capacity": 99,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN4815E",
@@ -5259,7 +5477,8 @@
         "capacity": 99,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN4830E",
@@ -5285,7 +5504,8 @@
         "capacity": 99,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN4904E",
@@ -5303,21 +5523,24 @@
         "capacity": 80,
         "enrollment": 28
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN4998E",
     "name": "INTERMEDIATE PROJECTS",
     "description": "May be repeated for credit, but no more than 3 total points may be used for degree credit. Substantial independent project involving laboratory work, computer programming, analytical investigation, or engineering design.",
     "credits": 3,
-    "times": []
+    "times": [],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN6002E",
     "name": "ADVANCED PROJECTS",
     "description": "May be repeated for up to 6 points of credit. Graduate-level projects in various areas of electrical engineering and computer science. In consultation with an instructor, each student designs his or her project depending on the students previous training and experience. Students should consult with a professor in their area for detailed arrangements no later than the last day of registration.",
     "credits": 4,
-    "times": []
+    "times": [],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN6312E",
@@ -5335,7 +5558,8 @@
         "capacity": 50,
         "enrollment": 44
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN6316E",
@@ -5353,7 +5577,8 @@
         "capacity": 60,
         "enrollment": 45
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN6318E",
@@ -5371,7 +5596,8 @@
         "capacity": 45,
         "enrollment": 27
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN6333E",
@@ -5389,7 +5615,8 @@
         "capacity": 50,
         "enrollment": 44
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN6350E",
@@ -5407,7 +5634,8 @@
         "capacity": 35,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN6414E",
@@ -5425,7 +5653,8 @@
         "capacity": 30,
         "enrollment": 22
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN6570E",
@@ -5452,7 +5681,8 @@
         "capacity": 5,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN6593E",
@@ -5470,7 +5700,8 @@
         "capacity": 35,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN6730E",
@@ -5496,7 +5727,8 @@
         "capacity": 99,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN6771E",
@@ -5514,7 +5746,8 @@
         "capacity": 60,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN6772E",
@@ -5532,7 +5765,8 @@
         "capacity": 50,
         "enrollment": 36
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN6873E",
@@ -5550,7 +5784,8 @@
         "capacity": 60,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN6876E",
@@ -5576,7 +5811,8 @@
         "capacity": 99,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN6883E",
@@ -5594,7 +5830,8 @@
         "capacity": 50,
         "enrollment": 35
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN6889E",
@@ -5612,7 +5849,8 @@
         "capacity": 70,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN6908E",
@@ -5630,7 +5868,8 @@
         "capacity": 80,
         "enrollment": 64
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN6945E",
@@ -5648,21 +5887,24 @@
         "capacity": 50,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN6999E",
     "name": "FIELDWORK",
     "description": "May be repeated for credit, but no more than 3 total points may be used for degree credit. Only for electrical engineering and computer engineering graduate students who include relevant off-campus work experience as part of their approved program of study. Final report required. May not be taken for pass/fail credit or audited.",
     "credits": 1,
-    "times": []
+    "times": [],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN9002E",
     "name": "RESEARCH II",
     "description": "Points of credit to be approved by the department. Requires submission of an outline of the proposed research for approval by the faculty member who is to supervise the work of the student. The research facilities of the department are available to qualified students interested in advanced study.",
     "credits": 6,
-    "times": []
+    "times": [],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN9701E",
@@ -5680,7 +5922,8 @@
         "capacity": 20,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ELEN9800E",
@@ -5696,7 +5939,8 @@
         "capacity": 99,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ENGI1006E",
@@ -5715,7 +5959,8 @@
         "capacity": 200,
         "enrollment": 221
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ENGI1102E",
@@ -5733,7 +5978,8 @@
         "capacity": 258,
         "enrollment": 239
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ENGI4000E",
@@ -5749,7 +5995,8 @@
         "capacity": 150,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ENGI4510E",
@@ -5765,7 +6012,8 @@
         "capacity": 0,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ENGI4800E",
@@ -5783,7 +6031,8 @@
         "capacity": 50,
         "enrollment": 25
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ENGI4990E",
@@ -5799,7 +6048,8 @@
         "capacity": 49,
         "enrollment": 52
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ENGI5000E",
@@ -5837,7 +6087,8 @@
         "capacity": 18,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ENGI5001E",
@@ -5879,7 +6130,8 @@
         "capacity": 18,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ENGI5002E",
@@ -5897,7 +6149,8 @@
         "capacity": 18,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ENGI5003E",
@@ -5915,7 +6168,8 @@
         "capacity": 18,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ENGI5004E",
@@ -5933,7 +6187,8 @@
         "capacity": 18,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ENGI5009E",
@@ -5951,7 +6206,8 @@
         "capacity": 5,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ENGI7001E",
@@ -5969,7 +6225,8 @@
         "capacity": 18,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ENGI7009E",
@@ -5987,7 +6244,8 @@
         "capacity": 5,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ENME3105E",
@@ -6016,7 +6274,8 @@
         "capacity": 95,
         "enrollment": 95
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ENME3106E",
@@ -6035,7 +6294,8 @@
         "capacity": 116,
         "enrollment": 122
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ENME3114E",
@@ -6054,7 +6314,8 @@
         "capacity": 35,
         "enrollment": 19
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ENME4113E",
@@ -6072,7 +6333,8 @@
         "capacity": 25,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ENME4114E",
@@ -6090,7 +6352,8 @@
         "capacity": 30,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ENME4117E",
@@ -6108,7 +6371,8 @@
         "capacity": 40,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ENME4214E",
@@ -6126,7 +6390,8 @@
         "capacity": 20,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ENME6216E",
@@ -6144,7 +6409,8 @@
         "capacity": 25,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ENME6220E",
@@ -6162,7 +6428,8 @@
         "capacity": 25,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ENME6320E",
@@ -6180,7 +6447,8 @@
         "capacity": 25,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ENME6333E",
@@ -6198,7 +6466,8 @@
         "capacity": 25,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "ENME6370E",
@@ -6216,7 +6485,8 @@
         "capacity": 25,
         "enrollment": 17
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "GRAP4005E",
@@ -6234,7 +6504,8 @@
         "capacity": 25,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "IEME4200E",
@@ -6282,7 +6553,8 @@
         "capacity": 60,
         "enrollment": 61
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "IEOR1000E",
@@ -6300,7 +6572,8 @@
         "capacity": 60,
         "enrollment": 25
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "IEOR2000E",
@@ -6319,7 +6592,8 @@
         "capacity": 50,
         "enrollment": 56
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "IEOR3402E",
@@ -6338,7 +6612,8 @@
         "capacity": 90,
         "enrollment": 17
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "IEOR3404E",
@@ -6357,7 +6632,8 @@
         "capacity": 90,
         "enrollment": 80
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "IEOR3609E",
@@ -6376,7 +6652,8 @@
         "capacity": 80,
         "enrollment": 67
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "IEOR3658E",
@@ -6395,7 +6672,8 @@
         "capacity": 115,
         "enrollment": 116
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "IEOR3700E",
@@ -6413,14 +6691,16 @@
         "capacity": 30,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "IEOR3900E",
     "name": "UNDERGRAD RESEARCH OR PROJECT",
     "description": "Independent work involving experiments, computer programming, analytical investigation, or engineering design.",
     "credits": 3,
-    "times": []
+    "times": [],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "IEOR3999E",
@@ -6436,7 +6716,8 @@
         "capacity": 50,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "IEOR4004E",
@@ -6474,7 +6755,8 @@
         "capacity": 99,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "IEOR4010E",
@@ -6493,7 +6775,8 @@
         "capacity": 60,
         "enrollment": 60
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "IEOR4102E",
@@ -6512,7 +6795,8 @@
         "capacity": 95,
         "enrollment": 58
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "IEOR4106E",
@@ -6539,7 +6823,8 @@
         "capacity": 99,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "IEOR4108E",
@@ -6558,7 +6843,8 @@
         "capacity": 40,
         "enrollment": 38
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "IEOR4111E",
@@ -6576,14 +6862,16 @@
         "capacity": 90,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "IEOR4199E",
     "name": "MSIEOR Quantitative Bootcamp",
     "description": "Zero-credit course. Primer on quantitative and mathematical concepts. Required for all incoming MSOR and MSIE students.",
     "credits": 3,
-    "times": []
+    "times": [],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "IEOR4402E",
@@ -6601,7 +6889,8 @@
         "capacity": 65,
         "enrollment": 63
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "IEOR4404E",
@@ -6628,7 +6917,8 @@
         "capacity": 99,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "IEOR4405E",
@@ -6647,7 +6937,8 @@
         "capacity": 60,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "IEOR4505E",
@@ -6666,7 +6957,8 @@
         "capacity": 50,
         "enrollment": 33
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "IEOR4510E",
@@ -6684,7 +6976,8 @@
         "capacity": 80,
         "enrollment": 27
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "IEOR4511E",
@@ -6702,7 +6995,8 @@
         "capacity": 80,
         "enrollment": 38
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "IEOR4523E",
@@ -6721,7 +7015,8 @@
         "capacity": 100,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "IEOR4524E",
@@ -6749,7 +7044,8 @@
         "capacity": 30,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "IEOR4525E",
@@ -6768,7 +7064,8 @@
         "capacity": 100,
         "enrollment": 73
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   },
   {
     "id": "IEOR4532E",
@@ -6786,6 +7083,7 @@
         "capacity": 60,
         "enrollment": 56
       }
-    ]
+    ],
+    "school": "School of Engineering and Applied Sciences (SEAS)"
   }
 ]

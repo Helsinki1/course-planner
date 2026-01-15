@@ -15,7 +15,8 @@
         "capacity": 18,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AFAS1003UN",
@@ -33,7 +34,8 @@
         "capacity": 18,
         "enrollment": 17
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AFAS3001UN",
@@ -51,7 +53,8 @@
         "capacity": 16,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AFAS3004UN",
@@ -69,7 +72,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AFAS3011UN",
@@ -87,7 +91,8 @@
         "capacity": 18,
         "enrollment": 18
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AFAS3940UN",
@@ -105,7 +110,8 @@
         "capacity": 15,
         "enrollment": 9
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AFAS4004GU",
@@ -123,7 +129,8 @@
         "capacity": 18,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AFAS4005GU",
@@ -141,7 +148,8 @@
         "capacity": 17,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AFAS4006GU",
@@ -159,7 +167,8 @@
         "capacity": 0,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AFAS4080GU",
@@ -177,7 +186,8 @@
         "capacity": 17,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AHIS2101UN",
@@ -196,7 +206,8 @@
         "capacity": 65,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AHIS2109UN",
@@ -215,7 +226,8 @@
         "capacity": 65,
         "enrollment": 65
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AHIS2315UN",
@@ -234,7 +246,8 @@
         "capacity": 65,
         "enrollment": 65
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AHIS2317UN",
@@ -253,7 +266,8 @@
         "capacity": 65,
         "enrollment": 67
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AHIS2318UN",
@@ -301,7 +315,8 @@
         "capacity": 15,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AHIS2400UN",
@@ -320,7 +335,8 @@
         "capacity": 65,
         "enrollment": 65
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AHIS2602UN",
@@ -339,7 +355,8 @@
         "capacity": 50,
         "enrollment": 28
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AHIS2622UN",
@@ -358,7 +375,8 @@
         "capacity": 65,
         "enrollment": 65
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AHIS3000UN",
@@ -386,7 +404,8 @@
         "capacity": 12,
         "enrollment": 9
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AHIS3002UN",
@@ -404,7 +423,8 @@
         "capacity": 12,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AHIS3444UN",
@@ -422,7 +442,8 @@
         "capacity": 12,
         "enrollment": 11
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AHIS3451UN",
@@ -440,7 +461,8 @@
         "capacity": 30,
         "enrollment": 18
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AHIS3481UN",
@@ -458,7 +480,8 @@
         "capacity": 10,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AHIS3617UN",
@@ -476,7 +499,8 @@
         "capacity": 10,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AHIS4023GU",
@@ -495,7 +519,8 @@
         "capacity": 65,
         "enrollment": 35
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AHIS4024GU",
@@ -543,7 +568,8 @@
         "capacity": 12,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AHIS4110GU",
@@ -562,7 +588,8 @@
         "capacity": 65,
         "enrollment": 29
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AHIS4519GU",
@@ -580,7 +607,8 @@
         "capacity": 12,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AHIS4558GU",
@@ -598,7 +626,8 @@
         "capacity": 12,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AHIS4577GU",
@@ -616,7 +645,8 @@
         "capacity": 12,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AHIS4589GU",
@@ -634,7 +664,8 @@
         "capacity": 12,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AHIS4592GU",
@@ -652,7 +683,8 @@
         "capacity": 12,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AHIS4741GU",
@@ -670,7 +702,8 @@
         "capacity": 30,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AHIS5001GR",
@@ -688,7 +721,8 @@
         "capacity": 12,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AHIS5003GR",
@@ -706,7 +740,8 @@
         "capacity": 12,
         "enrollment": 9
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AHIS5006GR",
@@ -724,7 +759,8 @@
         "capacity": 12,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AHMM3320UN",
@@ -787,7 +823,8 @@
         "capacity": 25,
         "enrollment": 25
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AHUM1399UN",
@@ -825,7 +862,8 @@
         "capacity": 20,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AHUM1400UN",
@@ -873,7 +911,8 @@
         "capacity": 25,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AHUM2604UN",
@@ -892,7 +931,8 @@
         "capacity": 22,
         "enrollment": 22
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AMST1010UN",
@@ -911,7 +951,8 @@
         "capacity": 60,
         "enrollment": 41
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AMST3920UN",
@@ -929,7 +970,8 @@
         "capacity": 15,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AMST3931UN",
@@ -967,7 +1009,8 @@
         "capacity": 18,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AMST3942UN",
@@ -985,7 +1028,8 @@
         "capacity": 18,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AMST3944UN",
@@ -1003,7 +1047,8 @@
         "capacity": 18,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AMST3945UN",
@@ -1021,7 +1066,8 @@
         "capacity": 18,
         "enrollment": 19
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AMST3997UN",
@@ -1039,7 +1085,8 @@
         "capacity": 18,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "AMST4210GU",
@@ -1057,7 +1104,8 @@
         "capacity": 16,
         "enrollment": 16
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ANTH1002UN",
@@ -1076,7 +1124,8 @@
         "capacity": 120,
         "enrollment": 60
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ANTH1008UN",
@@ -1095,7 +1144,8 @@
         "capacity": 120,
         "enrollment": 120
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ANTH2000UN",
@@ -1114,7 +1164,8 @@
         "capacity": 100,
         "enrollment": 25
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ANTH2005UN",
@@ -1133,7 +1184,8 @@
         "capacity": 60,
         "enrollment": 22
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ANTH2028UN",
@@ -1152,7 +1204,8 @@
         "capacity": 90,
         "enrollment": 60
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ANTH2427BC",
@@ -1171,7 +1224,8 @@
         "capacity": 213,
         "enrollment": 40
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ANTH2972UN",
@@ -1190,7 +1244,8 @@
         "capacity": 35,
         "enrollment": 38
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ANTH3604UN",
@@ -1208,7 +1263,8 @@
         "capacity": 15,
         "enrollment": 13
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ANTH3733UN",
@@ -1226,7 +1282,8 @@
         "capacity": 15,
         "enrollment": 11
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ANTH3811UN",
@@ -1244,7 +1301,8 @@
         "capacity": 14,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ANTH3880UN",
@@ -1262,7 +1320,8 @@
         "capacity": 12,
         "enrollment": 11
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ANTH3939UN",
@@ -1280,7 +1339,8 @@
         "capacity": 15,
         "enrollment": 13
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ANTH3947UN",
@@ -1298,7 +1358,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ANTH3983UN",
@@ -1316,7 +1377,8 @@
         "capacity": 15,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ANTH3999UN",
@@ -1334,7 +1396,8 @@
         "capacity": 10,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ANTH4078GU",
@@ -1352,7 +1415,8 @@
         "capacity": 18,
         "enrollment": 9
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ANTH4170GU",
@@ -1370,7 +1434,8 @@
         "capacity": 20,
         "enrollment": 18
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ANTH4177GU",
@@ -1388,7 +1453,8 @@
         "capacity": 15,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ANTH4346GU",
@@ -1406,7 +1472,8 @@
         "capacity": 14,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ANTH4529GU",
@@ -1424,7 +1491,8 @@
         "capacity": 25,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ANTH4653GU",
@@ -1442,7 +1510,8 @@
         "capacity": 20,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ANTH5480GR",
@@ -1460,7 +1529,8 @@
         "capacity": 15,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ANTH5555GR",
@@ -1478,7 +1548,8 @@
         "capacity": 25,
         "enrollment": 16
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "APMA4150E",
@@ -1497,7 +1568,8 @@
         "capacity": 30,
         "enrollment": 30
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "APPH4210E",
@@ -1516,7 +1588,8 @@
         "capacity": 25,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ARAM1102OC",
@@ -1534,7 +1607,8 @@
         "capacity": 5,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ASCE1359UN",
@@ -1553,7 +1627,8 @@
         "capacity": 30,
         "enrollment": 30
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ASCE1360UN",
@@ -1581,7 +1656,8 @@
         "capacity": 16,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ASPH1900UN",
@@ -1599,7 +1675,8 @@
         "capacity": 30,
         "enrollment": 30
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ASRL2034BC",
@@ -1617,7 +1694,8 @@
         "capacity": 30,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ASTR1420UN",
@@ -1636,7 +1714,8 @@
         "capacity": 75,
         "enrollment": 82
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ASTR1453UN",
@@ -1655,7 +1734,8 @@
         "capacity": 50,
         "enrollment": 44
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ASTR1836UN",
@@ -1674,7 +1754,8 @@
         "capacity": 50,
         "enrollment": 26
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ASTR1904UN",
@@ -1712,7 +1793,8 @@
         "capacity": 15,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ASTR2002UN",
@@ -1742,7 +1824,8 @@
         "capacity": 5,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ASTR3273UN",
@@ -1761,7 +1844,8 @@
         "capacity": 25,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ASTR3610UN",
@@ -1780,7 +1864,8 @@
         "capacity": 15,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ASTR3646UN",
@@ -1798,7 +1883,8 @@
         "capacity": 15,
         "enrollment": 17
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ASTR4242GU",
@@ -1817,7 +1903,8 @@
         "capacity": 30,
         "enrollment": 19
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BCRS1101UN",
@@ -1837,7 +1924,8 @@
         "capacity": 12,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BCRS1102UN",
@@ -1857,7 +1945,8 @@
         "capacity": 12,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BCRS4332GU",
@@ -1876,7 +1965,8 @@
         "capacity": 12,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BENG1102UN",
@@ -1895,7 +1985,8 @@
         "capacity": 17,
         "enrollment": 13
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BENG2102UN",
@@ -1914,7 +2005,8 @@
         "capacity": 15,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BINF4002G",
@@ -1933,7 +2025,8 @@
         "capacity": 30,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BINF4008GU",
@@ -1951,7 +2044,8 @@
         "capacity": 20,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BINF4011G",
@@ -1969,7 +2063,8 @@
         "capacity": 40,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BINF4013G",
@@ -1987,7 +2082,8 @@
         "capacity": 20,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BINF4019GU",
@@ -2006,7 +2102,8 @@
         "capacity": 25,
         "enrollment": 9
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BINF4099G",
@@ -2024,7 +2121,8 @@
         "capacity": 999,
         "enrollment": 18
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BIOL1004UN",
@@ -2043,7 +2141,8 @@
         "capacity": 60,
         "enrollment": 44
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BIOL1360UN",
@@ -2062,7 +2161,8 @@
         "capacity": 20,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BIOL2006UN",
@@ -2092,7 +2192,8 @@
         "capacity": 400,
         "enrollment": 109
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BIOL2016UN",
@@ -2230,7 +2331,8 @@
         "capacity": 27,
         "enrollment": 13
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BIOL2402UN",
@@ -2260,7 +2362,8 @@
         "capacity": 400,
         "enrollment": 11
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BIOL2501UN",
@@ -2308,7 +2411,8 @@
         "capacity": 30,
         "enrollment": 18
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BIOL3005UN",
@@ -2338,7 +2442,8 @@
         "capacity": 75,
         "enrollment": 35
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BIOL3006UN",
@@ -2357,7 +2462,8 @@
         "capacity": 60,
         "enrollment": 66
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BIOL3015UN",
@@ -2405,7 +2511,8 @@
         "capacity": 30,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BIOL3031UN",
@@ -2424,7 +2531,8 @@
         "capacity": 70,
         "enrollment": 66
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BIOL3052UN",
@@ -2443,7 +2551,8 @@
         "capacity": 12,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BIOL3058UN",
@@ -2462,7 +2571,8 @@
         "capacity": 14,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BIOL3193UN",
@@ -2481,7 +2591,8 @@
         "capacity": 25,
         "enrollment": 11
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BIOL3300UN",
@@ -2499,7 +2610,8 @@
         "capacity": 80,
         "enrollment": 80
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BIOL3510UN",
@@ -2537,7 +2649,8 @@
         "capacity": 35,
         "enrollment": 23
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BIOL3995UN",
@@ -2555,7 +2668,8 @@
         "capacity": 40,
         "enrollment": 26
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BIOL4001GU",
@@ -2573,7 +2687,8 @@
         "capacity": 25,
         "enrollment": 13
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BIOL4075GU",
@@ -2591,7 +2706,8 @@
         "capacity": 30,
         "enrollment": 30
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BIOL4080GU",
@@ -2609,7 +2725,8 @@
         "capacity": 30,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BIOL4305GU",
@@ -2627,7 +2744,8 @@
         "capacity": 40,
         "enrollment": 40
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BIOL4310GU",
@@ -2646,7 +2764,8 @@
         "capacity": 110,
         "enrollment": 110
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BIOL4402GU",
@@ -2665,7 +2784,8 @@
         "capacity": 40,
         "enrollment": 42
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BIOL4512GU",
@@ -2684,7 +2804,8 @@
         "capacity": 60,
         "enrollment": 37
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BIOL4551GU",
@@ -2703,7 +2824,8 @@
         "capacity": 20,
         "enrollment": 22
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BIOL4565GU",
@@ -2722,7 +2844,8 @@
         "capacity": 30,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BIOL4777GU",
@@ -2741,7 +2864,8 @@
         "capacity": 30,
         "enrollment": 30
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BIOL4799GU",
@@ -2760,7 +2884,8 @@
         "capacity": 50,
         "enrollment": 37
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BIOL5031GR",
@@ -2779,7 +2904,8 @@
         "capacity": 10,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BIOL5193GR",
@@ -2798,7 +2924,8 @@
         "capacity": 10,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "BIOT4161GU",
@@ -2816,7 +2943,8 @@
         "capacity": 12,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CANT1102OC",
@@ -2836,7 +2964,8 @@
         "capacity": 5,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CANT2102UN",
@@ -2856,7 +2985,8 @@
         "capacity": 5,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CATL1120UN",
@@ -2875,7 +3005,8 @@
         "capacity": 15,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CATL2102UN",
@@ -2894,7 +3025,8 @@
         "capacity": 15,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CATL3300UN",
@@ -2913,7 +3045,8 @@
         "capacity": 15,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CGTH3402UN",
@@ -2931,7 +3064,8 @@
         "capacity": 25,
         "enrollment": 26
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CGTH3600UN",
@@ -2949,7 +3083,8 @@
         "capacity": 12,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHEM1403UN",
@@ -2979,7 +3114,8 @@
         "capacity": 10,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHEM1404UN",
@@ -3031,7 +3167,8 @@
         "capacity": 10,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHEM1405UN",
@@ -3099,7 +3236,8 @@
         "capacity": 20,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHEM1406UN",
@@ -3197,7 +3335,8 @@
         "capacity": 20,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHEM1408UN",
@@ -3295,7 +3434,8 @@
         "capacity": 20,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHEM1410UN",
@@ -3363,7 +3503,8 @@
         "capacity": 20,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHEM1500UN",
@@ -3471,7 +3612,8 @@
         "capacity": 46,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHEM1501UN",
@@ -3499,7 +3641,8 @@
         "capacity": 250,
         "enrollment": 249
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHEM1507UN",
@@ -3527,7 +3670,8 @@
         "capacity": 20,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHEM2045UN",
@@ -3546,7 +3690,8 @@
         "capacity": 60,
         "enrollment": 37
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHEM2047UN",
@@ -3584,7 +3729,8 @@
         "capacity": 20,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHEM2408UN",
@@ -3602,7 +3748,8 @@
         "capacity": 80,
         "enrollment": 51
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHEM2444UN",
@@ -3654,7 +3801,8 @@
         "capacity": 10,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHEM2446UN",
@@ -3752,7 +3900,8 @@
         "capacity": 20,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHEM2448UN",
@@ -3850,7 +3999,8 @@
         "capacity": 20,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHEM2450UN",
@@ -3918,7 +4068,8 @@
         "capacity": 18,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHEM2494UN",
@@ -4046,7 +4197,8 @@
         "capacity": 34,
         "enrollment": 19
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHEM2496UN",
@@ -4094,7 +4246,8 @@
         "capacity": 140,
         "enrollment": 48
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHEM3080UN",
@@ -4113,7 +4266,8 @@
         "capacity": 60,
         "enrollment": 27
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHEM3086UN",
@@ -4131,7 +4285,8 @@
         "capacity": 15,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHEM3546UN",
@@ -4159,7 +4314,8 @@
         "capacity": 10,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHEM4102GU",
@@ -4178,7 +4334,8 @@
         "capacity": 21,
         "enrollment": 17
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHEM4111GU",
@@ -4197,7 +4354,8 @@
         "capacity": 42,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHEM4145GU",
@@ -4215,7 +4373,8 @@
         "capacity": 42,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHEM4313GU",
@@ -4234,7 +4393,8 @@
         "capacity": 25,
         "enrollment": 24
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHEM4324GU",
@@ -4253,7 +4413,8 @@
         "capacity": 25,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHNS1010UN",
@@ -4294,7 +4455,8 @@
         "capacity": 15,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHNS1102UN",
@@ -4367,7 +4529,8 @@
         "capacity": 15,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHNS1112UN",
@@ -4411,7 +4574,8 @@
         "capacity": 15,
         "enrollment": 17
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHNS2202UN",
@@ -4484,7 +4648,8 @@
         "capacity": 15,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHNS2222UN",
@@ -4504,7 +4669,8 @@
         "capacity": 15,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHNS3004UN",
@@ -4551,7 +4717,8 @@
         "capacity": 14,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHNS3010UN",
@@ -4581,7 +4748,8 @@
         "capacity": 14,
         "enrollment": 13
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHNS4013GU",
@@ -4601,7 +4769,8 @@
         "capacity": 15,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHNS4016GU",
@@ -4621,7 +4790,8 @@
         "capacity": 15,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHNS4018GU",
@@ -4641,7 +4811,8 @@
         "capacity": 15,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHNS4019GU",
@@ -4660,7 +4831,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHNS4113GU",
@@ -4680,7 +4852,8 @@
         "capacity": 15,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHNS4302GU",
@@ -4700,7 +4873,8 @@
         "capacity": 15,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHNS4508GU",
@@ -4719,7 +4893,8 @@
         "capacity": 15,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHNS4518GU",
@@ -4738,7 +4913,8 @@
         "capacity": 15,
         "enrollment": 13
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CHNS5001GR",
@@ -4758,7 +4934,8 @@
         "capacity": 15,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CLCV3008UN",
@@ -4777,7 +4954,8 @@
         "capacity": 35,
         "enrollment": 23
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CLCV4050GU",
@@ -4796,7 +4974,8 @@
         "capacity": 20,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CLCV5011GR",
@@ -4834,7 +5013,8 @@
         "capacity": 50,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CLEN2405UN",
@@ -4853,7 +5033,8 @@
         "capacity": 54,
         "enrollment": 23
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CLEN3125UN",
@@ -4871,7 +5052,8 @@
         "capacity": 18,
         "enrollment": 19
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CLEN3725UN",
@@ -4889,7 +5071,8 @@
         "capacity": 18,
         "enrollment": 19
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CLEN4414GU",
@@ -4908,7 +5091,8 @@
         "capacity": 54,
         "enrollment": 45
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CLEN4750GU",
@@ -4926,7 +5110,8 @@
         "capacity": 18,
         "enrollment": 17
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CLFR4321GU",
@@ -4944,7 +5129,8 @@
         "capacity": 15,
         "enrollment": 17
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CLFR4482GU",
@@ -4962,7 +5148,8 @@
         "capacity": 15,
         "enrollment": 16
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CLFR4521GU",
@@ -4990,7 +5177,8 @@
         "capacity": 3,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CLGM3090UN",
@@ -5008,7 +5196,8 @@
         "capacity": 20,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CLGM3110UN",
@@ -5026,7 +5215,8 @@
         "capacity": 25,
         "enrollment": 25
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CLGM3650UN",
@@ -5044,7 +5234,8 @@
         "capacity": 15,
         "enrollment": 16
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CLGR3460UN",
@@ -5062,7 +5253,8 @@
         "capacity": 15,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CLGR4130GU",
@@ -5080,7 +5272,8 @@
         "capacity": 30,
         "enrollment": 29
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CLGR4210GU",
@@ -5098,7 +5291,8 @@
         "capacity": 25,
         "enrollment": 25
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CLIA4499GU",
@@ -5116,7 +5310,8 @@
         "capacity": 45,
         "enrollment": 44
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CLIA4725GU",
@@ -5144,7 +5339,8 @@
         "capacity": 2,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CLME4211GU",
@@ -5162,7 +5358,8 @@
         "capacity": 20,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CLPS4201GU",
@@ -5180,7 +5377,8 @@
         "capacity": 20,
         "enrollment": 17
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CLRS3317UN",
@@ -5199,7 +5397,8 @@
         "capacity": 30,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CLRS4039GU",
@@ -5218,7 +5417,8 @@
         "capacity": 30,
         "enrollment": 19
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CLRS4039GU",
@@ -5237,7 +5437,8 @@
         "capacity": 30,
         "enrollment": 19
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CLSL4012GU",
@@ -5255,7 +5456,8 @@
         "capacity": 30,
         "enrollment": 30
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CLSL4029GU",
@@ -5273,7 +5475,8 @@
         "capacity": 20,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CLST3037UN",
@@ -5291,7 +5494,8 @@
         "capacity": 15,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CMBS4010G",
@@ -5309,7 +5513,8 @@
         "capacity": 99,
         "enrollment": 46
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "COCI1102CC",
@@ -6010,7 +6215,8 @@
         "capacity": 20,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "COCI1102GS",
@@ -6051,7 +6257,8 @@
         "capacity": 18,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CPLS3900UN",
@@ -6079,7 +6286,8 @@
         "capacity": 20,
         "enrollment": 13
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CPLS4162GU",
@@ -6097,7 +6305,8 @@
         "capacity": 20,
         "enrollment": 22
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CPLS4545GU",
@@ -6115,7 +6324,8 @@
         "capacity": 15,
         "enrollment": 11
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CPLS4756GU",
@@ -6133,7 +6343,8 @@
         "capacity": 12,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CPLS4802GU",
@@ -6151,7 +6362,8 @@
         "capacity": 18,
         "enrollment": 18
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CPLS4910GU",
@@ -6169,7 +6381,8 @@
         "capacity": 15,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CPLT3205BC",
@@ -6188,7 +6401,8 @@
         "capacity": 20,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CSER3701UN",
@@ -6206,7 +6420,8 @@
         "capacity": 22,
         "enrollment": 22
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CSER3821UN",
@@ -6224,7 +6439,8 @@
         "capacity": 15,
         "enrollment": 17
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CSER3905UN",
@@ -6242,7 +6458,8 @@
         "capacity": 15,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CSER3940UN",
@@ -6260,7 +6477,8 @@
         "capacity": 22,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CSER3942UN",
@@ -6278,7 +6496,8 @@
         "capacity": 10,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CSER4004GU",
@@ -6296,7 +6515,8 @@
         "capacity": 22,
         "enrollment": 11
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CSER4340GU",
@@ -6314,7 +6534,8 @@
         "capacity": 20,
         "enrollment": 19
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CSER4350GU",
@@ -6332,7 +6553,8 @@
         "capacity": 22,
         "enrollment": 22
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "CSER5001GR",
@@ -6350,7 +6572,8 @@
         "capacity": 15,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "DTCH1102UN",
@@ -6380,7 +6603,8 @@
         "capacity": 18,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "DTCH2102UN",
@@ -6410,7 +6634,8 @@
         "capacity": 18,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "DTCH3102UN",
@@ -6429,7 +6654,8 @@
         "capacity": 15,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EAAS2844UN",
@@ -6448,7 +6674,8 @@
         "capacity": 40,
         "enrollment": 41
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EAAS3217UN",
@@ -6466,7 +6693,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EAAS3343UN",
@@ -6484,7 +6712,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EAAS4122GU",
@@ -6502,7 +6731,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EAAS4124GU",
@@ -6520,7 +6750,8 @@
         "capacity": 15,
         "enrollment": 17
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EAAS4236GU",
@@ -6538,7 +6769,8 @@
         "capacity": 22,
         "enrollment": 18
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EAAS4255GU",
@@ -6556,7 +6788,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EAAS4346GU",
@@ -6574,7 +6807,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EAAS4412GU",
@@ -6593,7 +6827,8 @@
         "capacity": 20,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EAAS4615GU",
@@ -6611,7 +6846,8 @@
         "capacity": 15,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EAAS4633GU",
@@ -6629,7 +6865,8 @@
         "capacity": 15,
         "enrollment": 11
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EAAS4888GU",
@@ -6647,7 +6884,8 @@
         "capacity": 12,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECON1105UN",
@@ -6688,7 +6926,8 @@
         "capacity": 220,
         "enrollment": 129
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECON2257UN",
@@ -6707,7 +6946,8 @@
         "capacity": 189,
         "enrollment": 115
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECON2261UN",
@@ -6737,7 +6977,8 @@
         "capacity": 110,
         "enrollment": 110
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECON3025UN",
@@ -6767,7 +7008,8 @@
         "capacity": 66,
         "enrollment": 69
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECON3211UN",
@@ -6819,7 +7061,8 @@
         "capacity": 96,
         "enrollment": 96
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECON3213UN",
@@ -6860,7 +7103,8 @@
         "capacity": 125,
         "enrollment": 125
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECON3265UN",
@@ -6879,7 +7123,8 @@
         "capacity": 150,
         "enrollment": 150
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECON3412UN",
@@ -6920,7 +7165,8 @@
         "capacity": 86,
         "enrollment": 86
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECON3902UN",
@@ -6938,7 +7184,8 @@
         "capacity": 15,
         "enrollment": 11
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECON4211GU",
@@ -6957,7 +7204,8 @@
         "capacity": 50,
         "enrollment": 33
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECON4230GU",
@@ -6976,7 +7224,8 @@
         "capacity": 125,
         "enrollment": 125
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECON4251GU",
@@ -6995,7 +7244,8 @@
         "capacity": 86,
         "enrollment": 77
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECON4280GU",
@@ -7025,7 +7275,8 @@
         "capacity": 90,
         "enrollment": 90
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECON4330GU",
@@ -7044,7 +7295,8 @@
         "capacity": 54,
         "enrollment": 50
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECON4400GU",
@@ -7063,7 +7315,8 @@
         "capacity": 54,
         "enrollment": 43
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECON4415GU",
@@ -7082,7 +7335,8 @@
         "capacity": 96,
         "enrollment": 96
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECON4465GU",
@@ -7101,7 +7355,8 @@
         "capacity": 54,
         "enrollment": 54
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECON4480GU",
@@ -7120,7 +7375,8 @@
         "capacity": 60,
         "enrollment": 22
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECON4500GU",
@@ -7139,7 +7395,8 @@
         "capacity": 86,
         "enrollment": 46
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECON4505GU",
@@ -7158,7 +7415,8 @@
         "capacity": 54,
         "enrollment": 24
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECON4630GU",
@@ -7177,7 +7435,8 @@
         "capacity": 150,
         "enrollment": 116
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECON4710GU",
@@ -7196,7 +7455,8 @@
         "capacity": 86,
         "enrollment": 55
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECON4913GU",
@@ -7234,7 +7494,8 @@
         "capacity": 16,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECON4918GU",
@@ -7252,7 +7513,8 @@
         "capacity": 16,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECON4999GU",
@@ -7270,7 +7532,8 @@
         "capacity": 100,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECON5005GR",
@@ -7298,7 +7561,8 @@
         "capacity": 43,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECON5006GR",
@@ -7326,7 +7590,8 @@
         "capacity": 43,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECON5212GR",
@@ -7345,7 +7610,8 @@
         "capacity": 86,
         "enrollment": 82
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECON5216GR",
@@ -7364,7 +7630,8 @@
         "capacity": 86,
         "enrollment": 82
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECON5250GR",
@@ -7382,7 +7649,8 @@
         "capacity": 51,
         "enrollment": 51
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECON5412GR",
@@ -7400,7 +7668,8 @@
         "capacity": 86,
         "enrollment": 82
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECON5711GR",
@@ -7418,7 +7687,8 @@
         "capacity": 52,
         "enrollment": 52
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECON5911GR",
@@ -7436,7 +7706,8 @@
         "capacity": 51,
         "enrollment": 39
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECPH4950GU",
@@ -7454,7 +7725,8 @@
         "capacity": 20,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ECPS4921GU",
@@ -7482,7 +7754,8 @@
         "capacity": 16,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EEEB1011UN",
@@ -7501,7 +7774,8 @@
         "capacity": 50,
         "enrollment": 33
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EEEB1111UN",
@@ -7529,7 +7803,8 @@
         "capacity": 25,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EEEB2002UN",
@@ -7548,7 +7823,8 @@
         "capacity": 40,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EEEB3087UN",
@@ -7566,7 +7842,8 @@
         "capacity": 30,
         "enrollment": 30
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EEEB3187UN",
@@ -7594,7 +7871,8 @@
         "capacity": 20,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EEEB3215UN",
@@ -7613,7 +7891,8 @@
         "capacity": 15,
         "enrollment": 17
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EEEB3320UN",
@@ -7632,7 +7911,8 @@
         "capacity": 20,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EEEB3910UN",
@@ -7650,7 +7930,8 @@
         "capacity": 12,
         "enrollment": 9
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EEEB3992UN",
@@ -7668,7 +7949,8 @@
         "capacity": 20,
         "enrollment": 9
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EEEB3994UN",
@@ -7686,7 +7968,8 @@
         "capacity": 6,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EEEB4055GU",
@@ -7705,7 +7988,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EEEB4105GU",
@@ -7723,7 +8007,8 @@
         "capacity": 20,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EEEB4112GU",
@@ -7741,7 +8026,8 @@
         "capacity": 15,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EEEB4126GU",
@@ -7759,7 +8045,8 @@
         "capacity": 15,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EEEB4135GU",
@@ -7777,7 +8064,8 @@
         "capacity": 45,
         "enrollment": 45
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EEEB4192GU",
@@ -7795,7 +8083,8 @@
         "capacity": 25,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EEEB4201GU",
@@ -7813,7 +8102,8 @@
         "capacity": 12,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EEEB4340GU",
@@ -7832,7 +8122,8 @@
         "capacity": 18,
         "enrollment": 13
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EEEB4670GU",
@@ -7850,7 +8141,8 @@
         "capacity": 34,
         "enrollment": 36
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EEEB5851GR",
@@ -7868,7 +8160,8 @@
         "capacity": 20,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EESC1006UN",
@@ -7886,7 +8179,8 @@
         "capacity": 30,
         "enrollment": 29
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EESC1009UN",
@@ -7916,7 +8210,8 @@
         "capacity": 10,
         "enrollment": 9
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EESC1010UN",
@@ -7934,7 +8229,8 @@
         "capacity": 20,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EESC2100UN",
@@ -7953,7 +8249,8 @@
         "capacity": 40,
         "enrollment": 38
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EESC2200UN",
@@ -7972,7 +8269,8 @@
         "capacity": 35,
         "enrollment": 27
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EESC2300UN",
@@ -7991,7 +8289,8 @@
         "capacity": 50,
         "enrollment": 31
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EESC2310UN",
@@ -8049,7 +8348,8 @@
         "capacity": 0,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EESC3010UN",
@@ -8067,7 +8367,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EESC3109UN",
@@ -8086,7 +8387,8 @@
         "capacity": 25,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EESC3201UN",
@@ -8105,7 +8407,8 @@
         "capacity": 25,
         "enrollment": 19
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EESC3901UN",
@@ -8123,7 +8426,8 @@
         "capacity": 50,
         "enrollment": 23
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EESC4235GU",
@@ -8153,7 +8457,8 @@
         "capacity": 5,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EESC4330GU",
@@ -8172,7 +8477,8 @@
         "capacity": 25,
         "enrollment": 24
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EESC4885GU",
@@ -8202,7 +8508,8 @@
         "capacity": 2,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EESC4924GU",
@@ -8221,7 +8528,8 @@
         "capacity": 25,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EESC4947GU",
@@ -8240,7 +8548,8 @@
         "capacity": 25,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EGYP1102OC",
@@ -8258,7 +8567,8 @@
         "capacity": 5,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "EHPS4000GU",
@@ -8276,7 +8586,8 @@
         "capacity": 25,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENGL1010CC",
@@ -8944,7 +9255,8 @@
         "capacity": 16,
         "enrollment": 16
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENGL1010GS",
@@ -9238,7 +9550,8 @@
         "capacity": 16,
         "enrollment": 16
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENGL1075UN",
@@ -9268,7 +9581,8 @@
         "capacity": 4,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENGL1100UN",
@@ -9298,7 +9612,8 @@
         "capacity": 5,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENGL1336UN",
@@ -9328,7 +9643,8 @@
         "capacity": 4,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENGL1520UN",
@@ -9347,7 +9663,8 @@
         "capacity": 120,
         "enrollment": 107
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENGL2000UN",
@@ -9365,7 +9682,8 @@
         "capacity": 75,
         "enrollment": 75
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENGL2228UN",
@@ -9395,7 +9713,8 @@
         "capacity": 3,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENGL2404UN",
@@ -9425,7 +9744,8 @@
         "capacity": 8,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENGL2826UN",
@@ -9455,7 +9775,8 @@
         "capacity": 2,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENGL2898UN",
@@ -9485,7 +9806,8 @@
         "capacity": 20,
         "enrollment": 21
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENGL3042UN",
@@ -9503,7 +9825,8 @@
         "capacity": 18,
         "enrollment": 19
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENGL3300UN",
@@ -9521,7 +9844,8 @@
         "capacity": 18,
         "enrollment": 19
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENGL3343UN",
@@ -9539,7 +9863,8 @@
         "capacity": 18,
         "enrollment": 18
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENGL3394UN",
@@ -9557,7 +9882,8 @@
         "capacity": 18,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENGL3402UN",
@@ -9575,7 +9901,8 @@
         "capacity": 18,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENGL3440UN",
@@ -9593,7 +9920,8 @@
         "capacity": 18,
         "enrollment": 18
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENGL3444UN",
@@ -9611,7 +9939,8 @@
         "capacity": 18,
         "enrollment": 18
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENGL3477UN",
@@ -9629,7 +9958,8 @@
         "capacity": 18,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENGL3660UN",
@@ -9647,7 +9977,8 @@
         "capacity": 18,
         "enrollment": 17
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENGL3726UN",
@@ -9665,7 +9996,8 @@
         "capacity": 18,
         "enrollment": 19
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENGL3781UN",
@@ -9683,7 +10015,8 @@
         "capacity": 18,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENGL3832UN",
@@ -9701,7 +10034,8 @@
         "capacity": 18,
         "enrollment": 18
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENGL3851UN",
@@ -9719,7 +10053,8 @@
         "capacity": 18,
         "enrollment": 18
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENGL3883UN",
@@ -9737,7 +10072,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENGL3888UN",
@@ -9755,7 +10091,8 @@
         "capacity": 15,
         "enrollment": 13
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENGL3892UN",
@@ -9773,7 +10110,8 @@
         "capacity": 18,
         "enrollment": 19
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENGL3943UN",
@@ -9791,7 +10129,8 @@
         "capacity": 18,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENGL3999UN",
@@ -9809,7 +10148,8 @@
         "capacity": 54,
         "enrollment": 31
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENGL4462GU",
@@ -9827,7 +10167,8 @@
         "capacity": 18,
         "enrollment": 17
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENGL4729GU",
@@ -9857,7 +10198,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENGL4851GU",
@@ -9875,7 +10217,8 @@
         "capacity": 18,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENGL4975GU",
@@ -9893,7 +10236,8 @@
         "capacity": 18,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENTA3970UN",
@@ -9911,7 +10255,8 @@
         "capacity": 18,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ENTA4725GU",
@@ -9929,7 +10274,8 @@
         "capacity": 18,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "FILI1102OC",
@@ -9948,7 +10294,8 @@
         "capacity": 5,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "FILI2102OC",
@@ -9967,7 +10314,8 @@
         "capacity": 5,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "FILM4048GU",
@@ -10005,7 +10353,8 @@
         "capacity": 30,
         "enrollment": 30
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "FINN2102UN",
@@ -10024,7 +10373,8 @@
         "capacity": 15,
         "enrollment": 9
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "FREN1101UN",
@@ -10107,7 +10457,8 @@
         "capacity": 18,
         "enrollment": 18
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "FREN1102UN",
@@ -10201,7 +10552,8 @@
         "capacity": 18,
         "enrollment": 17
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "FREN2101UN",
@@ -10259,7 +10611,8 @@
         "capacity": 18,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "FREN2102UN",
@@ -10340,7 +10693,8 @@
         "capacity": 18,
         "enrollment": 18
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "FREN2106UN",
@@ -10359,7 +10713,8 @@
         "capacity": 18,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "FREN2121UN",
@@ -10378,7 +10733,8 @@
         "capacity": 15,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "FREN2122UN",
@@ -10397,7 +10753,8 @@
         "capacity": 15,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "FREN3132UN",
@@ -10427,7 +10784,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "FREN3405UN",
@@ -10457,7 +10815,8 @@
         "capacity": 18,
         "enrollment": 16
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "FREN3409UN",
@@ -10487,7 +10846,8 @@
         "capacity": 2,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "FREN3410UN",
@@ -10517,7 +10877,8 @@
         "capacity": 3,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "FREN3412UN",
@@ -10536,7 +10897,8 @@
         "capacity": 15,
         "enrollment": 16
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "FREN3473UN",
@@ -10555,7 +10917,8 @@
         "capacity": 15,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "FREN3687UN",
@@ -10574,7 +10937,8 @@
         "capacity": 20,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "FREN3995UN",
@@ -10592,7 +10956,8 @@
         "capacity": 15,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "FREN4028GU",
@@ -10610,7 +10975,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "FREN4301GU",
@@ -10628,7 +10994,8 @@
         "capacity": 14,
         "enrollment": 11
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "FRHS3572UN",
@@ -10646,7 +11013,8 @@
         "capacity": 15,
         "enrollment": 11
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "GERM1101UN",
@@ -10690,7 +11058,8 @@
         "capacity": 15,
         "enrollment": 13
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "GERM1102UN",
@@ -10745,7 +11114,8 @@
         "capacity": 15,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "GERM2101UN",
@@ -10777,7 +11147,8 @@
         "capacity": 15,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "GERM2102UN",
@@ -10820,7 +11191,8 @@
         "capacity": 12,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "GERM2520UN",
@@ -10839,7 +11211,8 @@
         "capacity": 15,
         "enrollment": 11
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "GERM3002UN",
@@ -10858,7 +11231,8 @@
         "capacity": 15,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "GERM3082BC",
@@ -10877,7 +11251,8 @@
         "capacity": 12,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "GERM3780UN",
@@ -10895,7 +11270,8 @@
         "capacity": 25,
         "enrollment": 24
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "GERM3991UN",
@@ -10913,7 +11289,8 @@
         "capacity": 25,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "GERM4448GU",
@@ -10931,7 +11308,8 @@
         "capacity": 25,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "GEST0005UN",
@@ -10959,7 +11337,8 @@
         "capacity": 75,
         "enrollment": 53
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "GEST0007UN",
@@ -10977,7 +11356,8 @@
         "capacity": 15,
         "enrollment": 9
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "GREK1102UN",
@@ -10997,7 +11377,8 @@
         "capacity": 20,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "GREK1121UN",
@@ -11017,7 +11398,8 @@
         "capacity": 20,
         "enrollment": 9
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "GREK2101UN",
@@ -11036,7 +11418,8 @@
         "capacity": 20,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "GREK2102UN",
@@ -11056,7 +11439,8 @@
         "capacity": 20,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "GREK3310UN",
@@ -11075,7 +11459,8 @@
         "capacity": 20,
         "enrollment": 11
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "GREK4010GU",
@@ -11094,7 +11479,8 @@
         "capacity": 20,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "GREK4100GU",
@@ -11113,7 +11499,8 @@
         "capacity": 20,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "GRKM1102UN",
@@ -11132,7 +11519,8 @@
         "capacity": 20,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "GRKM2102UN",
@@ -11151,7 +11539,8 @@
         "capacity": 20,
         "enrollment": 13
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST1402BC",
@@ -11170,7 +11559,8 @@
         "capacity": 60,
         "enrollment": 58
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST1501UN",
@@ -11198,7 +11588,8 @@
         "capacity": 15,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST1512UN",
@@ -11217,7 +11608,8 @@
         "capacity": 30,
         "enrollment": 30
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST1760BC",
@@ -11236,7 +11628,8 @@
         "capacity": 70,
         "enrollment": 49
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST1942UN",
@@ -11266,7 +11659,8 @@
         "capacity": 12,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HUMA1002CC",
@@ -12132,7 +12526,8 @@
         "capacity": 20,
         "enrollment": 16
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HUMA1002GS",
@@ -12195,7 +12590,8 @@
         "capacity": 20,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HUMA1121UN",
@@ -12709,7 +13105,8 @@
         "capacity": 20,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HUMA1123UN",
@@ -13146,7 +13543,8 @@
         "capacity": 22,
         "enrollment": 22
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HUMA3000UN",
@@ -13172,7 +13570,8 @@
         "capacity": 60,
         "enrollment": 49
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "INDO1102UN",
@@ -13191,7 +13590,8 @@
         "capacity": 7,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "INDO2102UN",
@@ -13210,7 +13610,8 @@
         "capacity": 7,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "IRSH1102OC",
@@ -13229,7 +13630,8 @@
         "capacity": 5,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "IRSH2102OC",
@@ -13247,7 +13649,8 @@
         "capacity": 5,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ITAL1101UN",
@@ -13279,7 +13682,8 @@
         "capacity": 18,
         "enrollment": 18
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ITAL1102UN",
@@ -13332,7 +13736,8 @@
         "capacity": 18,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ITAL1121UN",
@@ -13352,7 +13757,8 @@
         "capacity": 18,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST1943UN",
@@ -13480,7 +13886,8 @@
         "capacity": 15,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST2099BC",
@@ -13499,7 +13906,8 @@
         "capacity": 70,
         "enrollment": 67
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST2195BC",
@@ -13518,7 +13926,8 @@
         "capacity": 70,
         "enrollment": 34
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST2215UN",
@@ -13537,7 +13946,8 @@
         "capacity": 90,
         "enrollment": 65
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST2216UN",
@@ -13645,7 +14055,8 @@
         "capacity": 8,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST2222UN",
@@ -13675,7 +14086,8 @@
         "capacity": 5,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST2319UN",
@@ -13694,7 +14106,8 @@
         "capacity": 30,
         "enrollment": 13
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST2323UN",
@@ -13724,7 +14137,8 @@
         "capacity": 10,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST2336UN",
@@ -13743,7 +14157,8 @@
         "capacity": 120,
         "enrollment": 120
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST2337UN",
@@ -13791,7 +14206,8 @@
         "capacity": 18,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST2375BC",
@@ -13810,7 +14226,8 @@
         "capacity": 70,
         "enrollment": 70
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST2398UN",
@@ -13840,7 +14257,8 @@
         "capacity": 5,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST2432UN",
@@ -13870,7 +14288,8 @@
         "capacity": 10,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST2433UN",
@@ -13938,7 +14357,8 @@
         "capacity": 15,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST2438UN",
@@ -13968,7 +14388,8 @@
         "capacity": 10,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST2439UN",
@@ -13996,7 +14417,8 @@
         "capacity": 15,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST2477BC",
@@ -14015,7 +14437,8 @@
         "capacity": 60,
         "enrollment": 60
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST2540UN",
@@ -14045,7 +14468,8 @@
         "capacity": 6,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST2541UN",
@@ -14113,7 +14537,8 @@
         "capacity": 15,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST2611UN",
@@ -14143,7 +14568,8 @@
         "capacity": 3,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST2681BC",
@@ -14162,7 +14588,8 @@
         "capacity": 70,
         "enrollment": 43
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST2699BC",
@@ -14181,7 +14608,8 @@
         "capacity": 70,
         "enrollment": 66
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST2709UN",
@@ -14200,7 +14628,8 @@
         "capacity": 86,
         "enrollment": 85
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST2717UN",
@@ -14230,7 +14659,8 @@
         "capacity": 10,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST2803BC",
@@ -14249,7 +14679,8 @@
         "capacity": 35,
         "enrollment": 34
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST2820UN",
@@ -14268,7 +14699,8 @@
         "capacity": 30,
         "enrollment": 30
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST2821UN",
@@ -14296,7 +14728,8 @@
         "capacity": 14,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST2985BC",
@@ -14315,7 +14748,8 @@
         "capacity": 50,
         "enrollment": 32
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST3011UN",
@@ -14333,7 +14767,8 @@
         "capacity": 15,
         "enrollment": 13
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST3021UN",
@@ -14351,7 +14786,8 @@
         "capacity": 15,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST3076BC",
@@ -14369,7 +14805,8 @@
         "capacity": 15,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST3120UN",
@@ -14387,7 +14824,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST3301BC",
@@ -14405,7 +14843,8 @@
         "capacity": 15,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST3327BC",
@@ -14423,7 +14862,8 @@
         "capacity": 15,
         "enrollment": 17
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST3339UN",
@@ -14441,7 +14881,8 @@
         "capacity": 15,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST3421UN",
@@ -14459,7 +14900,8 @@
         "capacity": 15,
         "enrollment": 11
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST3429UN",
@@ -14477,7 +14919,8 @@
         "capacity": 15,
         "enrollment": 11
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST3490UN",
@@ -14495,7 +14938,8 @@
         "capacity": 15,
         "enrollment": 11
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST3502UN",
@@ -14513,7 +14957,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST3517UN",
@@ -14531,7 +14976,8 @@
         "capacity": 15,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST3571UN",
@@ -14549,7 +14995,8 @@
         "capacity": 17,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST3586BC",
@@ -14567,7 +15014,8 @@
         "capacity": 18,
         "enrollment": 18
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST3644UN",
@@ -14585,7 +15033,8 @@
         "capacity": 15,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST3698BC",
@@ -14603,7 +15052,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST3784UN",
@@ -14621,7 +15071,8 @@
         "capacity": 12,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST3791BC",
@@ -14639,7 +15090,8 @@
         "capacity": 15,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST3825BC",
@@ -14657,7 +15109,8 @@
         "capacity": 15,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST3829UN",
@@ -14675,7 +15128,8 @@
         "capacity": 14,
         "enrollment": 11
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST3839UN",
@@ -14723,7 +15177,8 @@
         "capacity": 10,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST4223GU",
@@ -14741,7 +15196,8 @@
         "capacity": 15,
         "enrollment": 16
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST4231GU",
@@ -14759,7 +15215,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST4334GU",
@@ -14777,7 +15234,8 @@
         "capacity": 15,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST4354GU",
@@ -14795,7 +15253,8 @@
         "capacity": 13,
         "enrollment": 11
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST4355GU",
@@ -14813,7 +15272,8 @@
         "capacity": 15,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST4363GU",
@@ -14831,7 +15291,8 @@
         "capacity": 13,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST4387GU",
@@ -14849,7 +15310,8 @@
         "capacity": 18,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST4481GU",
@@ -14867,7 +15329,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST4699GU",
@@ -14885,7 +15348,8 @@
         "capacity": 18,
         "enrollment": 18
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST4716GU",
@@ -14903,7 +15367,8 @@
         "capacity": 15,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST4747GU",
@@ -14921,7 +15386,8 @@
         "capacity": 15,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST4752GU",
@@ -14939,7 +15405,8 @@
         "capacity": 15,
         "enrollment": 9
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST4769GU",
@@ -14957,7 +15424,8 @@
         "capacity": 15,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST4779GU",
@@ -14975,7 +15443,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST4811GU",
@@ -14993,7 +15462,8 @@
         "capacity": 20,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST4842GU",
@@ -15011,7 +15481,8 @@
         "capacity": 15,
         "enrollment": 16
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST4872GU",
@@ -15029,7 +15500,8 @@
         "capacity": 15,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST4933GU",
@@ -15047,7 +15519,8 @@
         "capacity": 15,
         "enrollment": 17
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HIST5001GR",
@@ -15065,7 +15538,8 @@
         "capacity": 25,
         "enrollment": 19
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HNGR1102UN",
@@ -15084,7 +15558,8 @@
         "capacity": 18,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HNGR3341UN",
@@ -15103,7 +15578,8 @@
         "capacity": 6,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HROH5555GR",
@@ -15121,7 +15597,8 @@
         "capacity": 18,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HRTS3190UN",
@@ -15139,7 +15616,8 @@
         "capacity": 24,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HRTS3940UN",
@@ -15158,7 +15636,8 @@
         "capacity": 65,
         "enrollment": 57
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HRTS3995UN",
@@ -15176,7 +15655,8 @@
         "capacity": 20,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HRTS3996UN",
@@ -15194,7 +15674,8 @@
         "capacity": 12,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HRTS4270GU",
@@ -15212,7 +15693,8 @@
         "capacity": 22,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HRTS4380GU",
@@ -15230,7 +15712,8 @@
         "capacity": 22,
         "enrollment": 11
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HRTS4460GU",
@@ -15248,7 +15731,8 @@
         "capacity": 22,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HRTS4930GU",
@@ -15266,7 +15750,8 @@
         "capacity": 22,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HRTS4940GU",
@@ -15284,7 +15769,8 @@
         "capacity": 22,
         "enrollment": 21
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HRTS4975GU",
@@ -15302,7 +15788,8 @@
         "capacity": 22,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HSEA3320UN",
@@ -15320,7 +15807,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HSEA3862UN",
@@ -15338,7 +15826,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HSEA3898UN",
@@ -15356,7 +15845,8 @@
         "capacity": 25,
         "enrollment": 27
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HSEA4725GU",
@@ -15374,7 +15864,8 @@
         "capacity": 15,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HSEA4762GU",
@@ -15392,7 +15883,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HSEA4882GU",
@@ -15411,7 +15903,8 @@
         "capacity": 20,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "HSME4052GU",
@@ -15429,7 +15922,8 @@
         "capacity": 25,
         "enrollment": 25
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ITAL1222UN",
@@ -15448,7 +15942,8 @@
         "capacity": 18,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ITAL1312UN",
@@ -15467,7 +15962,8 @@
         "capacity": 18,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ITAL2101UN",
@@ -15486,7 +15982,8 @@
         "capacity": 18,
         "enrollment": 13
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ITAL2102UN",
@@ -15528,7 +16025,8 @@
         "capacity": 18,
         "enrollment": 18
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ITAL2121UN",
@@ -15548,7 +16046,8 @@
         "capacity": 18,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ITAL3334UN",
@@ -15567,7 +16066,8 @@
         "capacity": 25,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ITAL3335UN",
@@ -15586,7 +16086,8 @@
         "capacity": 18,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ITAL3337UN",
@@ -15605,7 +16106,8 @@
         "capacity": 18,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ITAL3865UN",
@@ -15623,7 +16125,8 @@
         "capacity": 25,
         "enrollment": 25
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ITAL4005GU",
@@ -15641,7 +16144,8 @@
         "capacity": 20,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ITAL4220GU",
@@ -15659,7 +16163,8 @@
         "capacity": 20,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "JPNS1001UN",
@@ -15711,7 +16216,8 @@
         "capacity": 12,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "JPNS1102UN",
@@ -15797,7 +16303,8 @@
         "capacity": 12,
         "enrollment": 11
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "JPNS2202UN",
@@ -15857,7 +16364,8 @@
         "capacity": 12,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "JPNS3006UN",
@@ -15891,7 +16399,8 @@
         "capacity": 12,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "JPNS4018GU",
@@ -15923,7 +16432,8 @@
         "capacity": 12,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "JPNS4519GU",
@@ -15942,7 +16452,8 @@
         "capacity": 12,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "JWST4155GU",
@@ -15960,7 +16471,8 @@
         "capacity": 25,
         "enrollment": 13
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "JWST4159GU",
@@ -15978,7 +16490,8 @@
         "capacity": 25,
         "enrollment": 26
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "KORN1001UN",
@@ -16030,7 +16543,8 @@
         "capacity": 14,
         "enrollment": 11
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "KORN1102UN",
@@ -16090,7 +16604,8 @@
         "capacity": 12,
         "enrollment": 13
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "KORN2202UN",
@@ -16137,7 +16652,8 @@
         "capacity": 12,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "KORN2222UN",
@@ -16171,7 +16687,8 @@
         "capacity": 12,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "KORN3006UN",
@@ -16205,7 +16722,8 @@
         "capacity": 12,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "KORN4103GU",
@@ -16223,7 +16741,8 @@
         "capacity": 14,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "KORN4106GU",
@@ -16243,7 +16762,8 @@
         "capacity": 12,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "KORN4108GU",
@@ -16263,7 +16783,8 @@
         "capacity": 12,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "KORN4512GU",
@@ -16282,7 +16803,8 @@
         "capacity": 12,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "KREY1102OC",
@@ -16302,7 +16824,8 @@
         "capacity": 5,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "KREY2102OC",
@@ -16322,7 +16845,8 @@
         "capacity": 5,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "LACV1020UN",
@@ -16341,7 +16865,8 @@
         "capacity": 22,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "LATN1101UN",
@@ -16371,7 +16896,8 @@
         "capacity": 20,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "LATN1102UN",
@@ -16413,7 +16939,8 @@
         "capacity": 2,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "LATN2102UN",
@@ -16444,7 +16971,8 @@
         "capacity": 20,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "LATN3310UN",
@@ -16474,7 +17002,8 @@
         "capacity": 2,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "LATN4010GU",
@@ -16504,7 +17033,8 @@
         "capacity": 2,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "LATN4100GU",
@@ -16523,7 +17053,8 @@
         "capacity": 20,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "LING3101UN",
@@ -16542,7 +17073,8 @@
         "capacity": 30,
         "enrollment": 29
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "LING3104UN",
@@ -16561,7 +17093,8 @@
         "capacity": 30,
         "enrollment": 31
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "LING3105UN",
@@ -16580,7 +17113,8 @@
         "capacity": 30,
         "enrollment": 21
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "LING3994UN",
@@ -16598,7 +17132,8 @@
         "capacity": 20,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "LING4023GU",
@@ -16617,7 +17152,8 @@
         "capacity": 30,
         "enrollment": 33
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "LING4800GU",
@@ -16636,7 +17172,8 @@
         "capacity": 60,
         "enrollment": 26
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "LING4903GU",
@@ -16655,7 +17192,8 @@
         "capacity": 54,
         "enrollment": 39
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH1003UN",
@@ -16674,7 +17212,8 @@
         "capacity": 30,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH1101UN",
@@ -16737,7 +17276,8 @@
         "capacity": 100,
         "enrollment": 21
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH1102UN",
@@ -16800,7 +17340,8 @@
         "capacity": 100,
         "enrollment": 26
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH1201UN",
@@ -16874,7 +17415,8 @@
         "capacity": 100,
         "enrollment": 100
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH1202UN",
@@ -16893,7 +17435,8 @@
         "capacity": 100,
         "enrollment": 100
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH1205UN",
@@ -16912,7 +17455,8 @@
         "capacity": 49,
         "enrollment": 26
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH1208UN",
@@ -16931,7 +17475,8 @@
         "capacity": 64,
         "enrollment": 40
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH1215UN",
@@ -16949,7 +17494,8 @@
         "capacity": 49,
         "enrollment": 18
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH1218UN",
@@ -16967,7 +17513,8 @@
         "capacity": 64,
         "enrollment": 31
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH2000UN",
@@ -16986,7 +17533,8 @@
         "capacity": 49,
         "enrollment": 38
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH2005UN",
@@ -17004,7 +17552,8 @@
         "capacity": 100,
         "enrollment": 24
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH2010UN",
@@ -17034,7 +17583,8 @@
         "capacity": 100,
         "enrollment": 56
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH2030UN",
@@ -17064,7 +17614,8 @@
         "capacity": 100,
         "enrollment": 100
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH2500UN",
@@ -17083,7 +17634,8 @@
         "capacity": 110,
         "enrollment": 110
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH3007UN",
@@ -17102,7 +17654,8 @@
         "capacity": 64,
         "enrollment": 64
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH3020UN",
@@ -17121,7 +17674,8 @@
         "capacity": 100,
         "enrollment": 45
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH3028UN",
@@ -17140,7 +17694,8 @@
         "capacity": 100,
         "enrollment": 100
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH3050UN",
@@ -17159,7 +17714,8 @@
         "capacity": 64,
         "enrollment": 63
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH4007GU",
@@ -17178,7 +17734,8 @@
         "capacity": 20,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH4041GU",
@@ -17197,7 +17754,8 @@
         "capacity": 80,
         "enrollment": 74
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH4042GU",
@@ -17216,7 +17774,8 @@
         "capacity": 64,
         "enrollment": 54
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH4043GU",
@@ -17235,7 +17794,8 @@
         "capacity": 20,
         "enrollment": 9
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH4045GU",
@@ -17254,7 +17814,8 @@
         "capacity": 20,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH4053GU",
@@ -17273,7 +17834,8 @@
         "capacity": 20,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH4061GU",
@@ -17292,7 +17854,8 @@
         "capacity": 100,
         "enrollment": 100
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH4062GU",
@@ -17311,7 +17874,8 @@
         "capacity": 64,
         "enrollment": 61
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH4155GU",
@@ -17330,7 +17894,8 @@
         "capacity": 64,
         "enrollment": 64
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH5010GR",
@@ -17349,7 +17914,8 @@
         "capacity": 150,
         "enrollment": 147
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH5030GR",
@@ -17368,7 +17934,8 @@
         "capacity": 100,
         "enrollment": 81
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH5051GR",
@@ -17386,7 +17953,8 @@
         "capacity": 110,
         "enrollment": 69
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH5260GR",
@@ -17404,7 +17972,8 @@
         "capacity": 49,
         "enrollment": 45
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH5320GR",
@@ -17422,7 +17991,8 @@
         "capacity": 60,
         "enrollment": 30
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH5380GR",
@@ -17441,7 +18011,8 @@
         "capacity": 116,
         "enrollment": 74
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH5450GR",
@@ -17459,7 +18030,8 @@
         "capacity": 60,
         "enrollment": 16
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH5490GR",
@@ -17477,7 +18049,8 @@
         "capacity": 60,
         "enrollment": 32
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH5520GR",
@@ -17496,7 +18069,8 @@
         "capacity": 64,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MATH6000GR",
@@ -17514,7 +18088,8 @@
         "capacity": 20,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES1210UN",
@@ -17548,7 +18123,8 @@
         "capacity": 12,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES1211UN",
@@ -17595,7 +18171,8 @@
         "capacity": 12,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES1302UN",
@@ -17614,7 +18191,8 @@
         "capacity": 10,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES1402UN",
@@ -17635,7 +18213,8 @@
         "capacity": 10,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES1502UN",
@@ -17669,7 +18248,8 @@
         "capacity": 12,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES1602UN",
@@ -17690,7 +18270,8 @@
         "capacity": 15,
         "enrollment": 16
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES1609UN",
@@ -17711,7 +18292,8 @@
         "capacity": 18,
         "enrollment": 18
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES1615UN",
@@ -17732,7 +18314,8 @@
         "capacity": 15,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES1630UN",
@@ -17751,7 +18334,8 @@
         "capacity": 120,
         "enrollment": 126
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES1631UN",
@@ -17819,7 +18403,8 @@
         "capacity": 15,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES1702UN",
@@ -17838,7 +18423,8 @@
         "capacity": 15,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES1902UN",
@@ -17857,7 +18443,8 @@
         "capacity": 15,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES2102UN",
@@ -17878,7 +18465,8 @@
         "capacity": 10,
         "enrollment": 9
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES2201UN",
@@ -17899,7 +18487,8 @@
         "capacity": 12,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES2202UN",
@@ -17933,7 +18522,8 @@
         "capacity": 12,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES2209UN",
@@ -17954,7 +18544,8 @@
         "capacity": 15,
         "enrollment": 9
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES2302UN",
@@ -17973,7 +18564,8 @@
         "capacity": 10,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES2402UN",
@@ -17992,7 +18584,8 @@
         "capacity": 10,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES2502UN",
@@ -18013,7 +18606,8 @@
         "capacity": 12,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES2518UN",
@@ -18032,7 +18626,8 @@
         "capacity": 14,
         "enrollment": 11
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES2602UN",
@@ -18053,7 +18648,8 @@
         "capacity": 15,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES2702UN",
@@ -18072,7 +18668,8 @@
         "capacity": 15,
         "enrollment": 9
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES2902UN",
@@ -18091,7 +18688,8 @@
         "capacity": 15,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES3000UN",
@@ -18110,7 +18708,8 @@
         "capacity": 90,
         "enrollment": 79
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES3005UN",
@@ -18158,7 +18757,8 @@
         "capacity": 15,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES3042UN",
@@ -18177,7 +18777,8 @@
         "capacity": 60,
         "enrollment": 16
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES3043UN",
@@ -18225,7 +18826,8 @@
         "capacity": 15,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES3121UN",
@@ -18244,7 +18846,8 @@
         "capacity": 60,
         "enrollment": 50
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES3260UN",
@@ -18263,7 +18866,8 @@
         "capacity": 120,
         "enrollment": 130
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES3261UN",
@@ -18351,7 +18955,8 @@
         "capacity": 13,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES3331UN",
@@ -18369,7 +18974,8 @@
         "capacity": 20,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES3923UN",
@@ -18387,7 +18993,8 @@
         "capacity": 20,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES3961UN",
@@ -18405,7 +19012,8 @@
         "capacity": 15,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES4060GU",
@@ -18423,7 +19031,8 @@
         "capacity": 20,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES4151GU",
@@ -18441,7 +19050,8 @@
         "capacity": 20,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES4211GU",
@@ -18462,7 +19072,8 @@
         "capacity": 12,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES4213GU",
@@ -18481,7 +19092,8 @@
         "capacity": 10,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES4216GU",
@@ -18500,7 +19112,8 @@
         "capacity": 10,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES4219GU",
@@ -18519,7 +19132,8 @@
         "capacity": 10,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES4220GU",
@@ -18537,7 +19151,8 @@
         "capacity": 20,
         "enrollment": 17
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES4311GU",
@@ -18555,7 +19170,8 @@
         "capacity": 10,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES4501GU",
@@ -18574,7 +19190,8 @@
         "capacity": 12,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES4511GU",
@@ -18593,7 +19210,8 @@
         "capacity": 14,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES4532GU",
@@ -18611,7 +19229,8 @@
         "capacity": 20,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES4610GU",
@@ -18630,7 +19249,8 @@
         "capacity": 15,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES4625GU",
@@ -18649,7 +19269,8 @@
         "capacity": 10,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES4634GU",
@@ -18667,7 +19288,8 @@
         "capacity": 17,
         "enrollment": 16
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES4636GU",
@@ -18686,7 +19308,8 @@
         "capacity": 15,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES4655GU",
@@ -18704,7 +19327,8 @@
         "capacity": 20,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES4711GU",
@@ -18723,7 +19347,8 @@
         "capacity": 15,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES4726GU",
@@ -18742,7 +19367,8 @@
         "capacity": 12,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES4911GU",
@@ -18761,7 +19387,8 @@
         "capacity": 10,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES4927GU",
@@ -18780,7 +19407,8 @@
         "capacity": 15,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MDES5001GR",
@@ -18798,7 +19426,8 @@
         "capacity": 20,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MEUS5001GR",
@@ -18846,7 +19475,8 @@
         "capacity": 25,
         "enrollment": 25
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MUSI1002UN",
@@ -18865,7 +19495,8 @@
         "capacity": 30,
         "enrollment": 28
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MUSI1350UN",
@@ -18884,7 +19515,8 @@
         "capacity": 16,
         "enrollment": 16
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MUSI2024UN",
@@ -18903,7 +19535,8 @@
         "capacity": 25,
         "enrollment": 11
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MUSI2034UN",
@@ -18922,7 +19555,8 @@
         "capacity": 25,
         "enrollment": 18
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MUSI2205UN",
@@ -18952,7 +19586,8 @@
         "capacity": 18,
         "enrollment": 18
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MUSI2318UN",
@@ -18971,7 +19606,8 @@
         "capacity": 20,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MUSI2319UN",
@@ -18990,7 +19626,8 @@
         "capacity": 20,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MUSI2320UN",
@@ -19009,7 +19646,8 @@
         "capacity": 30,
         "enrollment": 30
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MUSI2351UN",
@@ -19039,7 +19677,8 @@
         "capacity": 14,
         "enrollment": 13
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MUSI2352UN",
@@ -19058,7 +19697,8 @@
         "capacity": 14,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MUSI2353UN",
@@ -19088,7 +19728,8 @@
         "capacity": 14,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MUSI2582UN",
@@ -19107,7 +19748,8 @@
         "capacity": 20,
         "enrollment": 19
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MUSI3129UN",
@@ -19126,7 +19768,8 @@
         "capacity": 35,
         "enrollment": 19
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MUSI3239UN",
@@ -19145,7 +19788,8 @@
         "capacity": 12,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MUSI3321UN",
@@ -19164,7 +19808,8 @@
         "capacity": 20,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MUSI3322UN",
@@ -19183,7 +19828,8 @@
         "capacity": 20,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MUSI3400UN",
@@ -19202,7 +19848,8 @@
         "capacity": 30,
         "enrollment": 26
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MUSI3413UN",
@@ -19221,7 +19868,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MUSI4208GU",
@@ -19239,7 +19887,8 @@
         "capacity": 15,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MUSI4215GU",
@@ -19257,7 +19906,8 @@
         "capacity": 15,
         "enrollment": 11
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MUSI4420GU",
@@ -19276,7 +19926,8 @@
         "capacity": 20,
         "enrollment": 11
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MUSI4438GU",
@@ -19294,7 +19945,8 @@
         "capacity": 30,
         "enrollment": 33
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MUSI4515GU",
@@ -19313,7 +19965,8 @@
         "capacity": 15,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "MUSI4635GU",
@@ -19331,7 +19984,8 @@
         "capacity": 12,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "NBHV4359GU",
@@ -19350,7 +20004,8 @@
         "capacity": 20,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "NBHV4990G",
@@ -19368,7 +20023,8 @@
         "capacity": 21,
         "enrollment": 18
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "NEPA1102UN",
@@ -19389,7 +20045,8 @@
         "capacity": 5,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "NEPA2102UN",
@@ -19408,7 +20065,8 @@
         "capacity": 5,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "OHMA5011GR",
@@ -19426,7 +20084,8 @@
         "capacity": 20,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "OHMA5012GR",
@@ -19444,7 +20103,8 @@
         "capacity": 15,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "OHMA5021GR",
@@ -19462,7 +20122,8 @@
         "capacity": 12,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "OHMA5075GR",
@@ -19480,7 +20141,8 @@
         "capacity": 10,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "OHMA5080GR",
@@ -19498,7 +20160,8 @@
         "capacity": 12,
         "enrollment": 9
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHIL1010UN",
@@ -19517,7 +20180,8 @@
         "capacity": 60,
         "enrollment": 60
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHIL2109UN",
@@ -19536,7 +20200,8 @@
         "capacity": 40,
         "enrollment": 39
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHIL3121UN",
@@ -19555,7 +20220,8 @@
         "capacity": 60,
         "enrollment": 49
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHIL3411UN",
@@ -19574,7 +20240,8 @@
         "capacity": 120,
         "enrollment": 120
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHIL3413UN",
@@ -19622,7 +20289,8 @@
         "capacity": 30,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHIL3769UN",
@@ -19641,7 +20309,8 @@
         "capacity": 90,
         "enrollment": 100
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHIL3912UN",
@@ -19669,7 +20338,8 @@
         "capacity": 20,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHIL3960UN",
@@ -19688,7 +20358,8 @@
         "capacity": 60,
         "enrollment": 60
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHIL3963UN",
@@ -19716,7 +20387,8 @@
         "capacity": 30,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHIL4089GU",
@@ -19734,7 +20406,8 @@
         "capacity": 40,
         "enrollment": 44
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHIL4142GU",
@@ -19752,7 +20425,8 @@
         "capacity": 20,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHIL5415GR",
@@ -19771,7 +20445,8 @@
         "capacity": 15,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHYS1001UN",
@@ -19790,7 +20465,8 @@
         "capacity": 130,
         "enrollment": 127
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHYS1018UN",
@@ -19809,7 +20485,8 @@
         "capacity": 130,
         "enrollment": 107
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHYS1202UN",
@@ -19839,7 +20516,8 @@
         "capacity": 150,
         "enrollment": 126
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHYS1203UN",
@@ -19917,7 +20595,8 @@
         "capacity": 22,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHYS1204UN",
@@ -20105,7 +20784,8 @@
         "capacity": 22,
         "enrollment": 16
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHYS1291UN",
@@ -20173,7 +20853,8 @@
         "capacity": 15,
         "enrollment": 13
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHYS1292UN",
@@ -20371,7 +21052,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHYS1402UN",
@@ -20412,7 +21094,8 @@
         "capacity": 150,
         "enrollment": 150
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHYS1405UN",
@@ -20630,7 +21313,8 @@
         "capacity": 27,
         "enrollment": 27
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHYS1494UN",
@@ -20738,7 +21422,8 @@
         "capacity": 15,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHYS1602UN",
@@ -20757,7 +21442,8 @@
         "capacity": 130,
         "enrollment": 111
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHYS1604UN",
@@ -20815,7 +21501,8 @@
         "capacity": 25,
         "enrollment": 25
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHYS2802UN",
@@ -20834,7 +21521,8 @@
         "capacity": 50,
         "enrollment": 35
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHYS3003UN",
@@ -20853,7 +21541,8 @@
         "capacity": 75,
         "enrollment": 74
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHYS3008UN",
@@ -20872,7 +21561,8 @@
         "capacity": 75,
         "enrollment": 69
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHYS3081UN",
@@ -20900,7 +21590,8 @@
         "capacity": 16,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHYS3084UN",
@@ -20919,7 +21610,8 @@
         "capacity": 20,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHYS4003GU",
@@ -20938,7 +21630,8 @@
         "capacity": 50,
         "enrollment": 42
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHYS4018GU",
@@ -20957,7 +21650,8 @@
         "capacity": 30,
         "enrollment": 23
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHYS4022GU",
@@ -20976,7 +21670,8 @@
         "capacity": 75,
         "enrollment": 73
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHYS4040GU",
@@ -20995,7 +21690,8 @@
         "capacity": 30,
         "enrollment": 25
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PHYS5084GR",
@@ -21014,7 +21710,8 @@
         "capacity": 20,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLI1102UN",
@@ -21034,7 +21731,8 @@
         "capacity": 12,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLI4102GU",
@@ -21054,7 +21752,8 @@
         "capacity": 12,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS2201UN",
@@ -21084,7 +21783,8 @@
         "capacity": 5,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS2211UN",
@@ -21192,7 +21892,8 @@
         "capacity": 15,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS2601UN",
@@ -21211,7 +21912,8 @@
         "capacity": 250,
         "enrollment": 250
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS2611UN",
@@ -21399,7 +22101,8 @@
         "capacity": 15,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS3104UN",
@@ -21418,7 +22121,8 @@
         "capacity": 90,
         "enrollment": 90
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS3136UN",
@@ -21448,7 +22152,8 @@
         "capacity": 5,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS3213UN",
@@ -21467,7 +22172,8 @@
         "capacity": 90,
         "enrollment": 78
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS3225UN",
@@ -21486,7 +22192,8 @@
         "capacity": 20,
         "enrollment": 18
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS3226UN",
@@ -21504,7 +22211,8 @@
         "capacity": 20,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS3516UN",
@@ -21523,7 +22231,8 @@
         "capacity": 60,
         "enrollment": 60
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS3528UN",
@@ -21542,7 +22251,8 @@
         "capacity": 40,
         "enrollment": 40
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS3534UN",
@@ -21561,7 +22271,8 @@
         "capacity": 60,
         "enrollment": 60
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS3619UN",
@@ -21580,7 +22291,8 @@
         "capacity": 60,
         "enrollment": 63
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS3631UN",
@@ -21599,7 +22311,8 @@
         "capacity": 90,
         "enrollment": 77
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS3632UN",
@@ -21667,7 +22380,8 @@
         "capacity": 15,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS3692UN",
@@ -21686,7 +22400,8 @@
         "capacity": 150,
         "enrollment": 150
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS3704UN",
@@ -21705,7 +22420,8 @@
         "capacity": 30,
         "enrollment": 32
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS3720UN",
@@ -21724,7 +22440,8 @@
         "capacity": 90,
         "enrollment": 84
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS3722UN",
@@ -21792,7 +22509,8 @@
         "capacity": 15,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS3768UN",
@@ -21811,7 +22529,8 @@
         "capacity": 40,
         "enrollment": 16
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS3769UN",
@@ -21839,7 +22558,8 @@
         "capacity": 20,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS3871UN",
@@ -21858,7 +22578,8 @@
         "capacity": 110,
         "enrollment": 110
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS3872UN",
@@ -21946,7 +22667,8 @@
         "capacity": 15,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS3911UN",
@@ -21964,7 +22686,8 @@
         "capacity": 20,
         "enrollment": 16
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS3921UN",
@@ -22042,7 +22765,8 @@
         "capacity": 20,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS3951UN",
@@ -22070,7 +22794,8 @@
         "capacity": 19,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS3961UN",
@@ -22138,7 +22863,8 @@
         "capacity": 20,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS3999UN",
@@ -22156,7 +22882,8 @@
         "capacity": 18,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS4134GU",
@@ -22175,7 +22902,8 @@
         "capacity": 40,
         "enrollment": 38
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS4135GU",
@@ -22193,7 +22921,8 @@
         "capacity": 40,
         "enrollment": 9
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS4240GU",
@@ -22211,7 +22940,8 @@
         "capacity": 20,
         "enrollment": 13
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS4280GU",
@@ -22241,7 +22971,8 @@
         "capacity": 3,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS4413GU",
@@ -22259,7 +22990,8 @@
         "capacity": 14,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS4434GU",
@@ -22277,7 +23009,8 @@
         "capacity": 20,
         "enrollment": 19
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS4702GU",
@@ -22295,7 +23028,8 @@
         "capacity": 20,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS4712GU",
@@ -22314,7 +23048,8 @@
         "capacity": 30,
         "enrollment": 30
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS4713GU",
@@ -22362,7 +23097,8 @@
         "capacity": 15,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS4722GU",
@@ -22381,7 +23117,8 @@
         "capacity": 30,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS4723GU",
@@ -22399,7 +23136,8 @@
         "capacity": 15,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS4726GU",
@@ -22418,7 +23156,8 @@
         "capacity": 30,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS4730GU",
@@ -22437,7 +23176,8 @@
         "capacity": 30,
         "enrollment": 27
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "POLS4731GU",
@@ -22455,7 +23195,8 @@
         "capacity": 15,
         "enrollment": 9
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PORT1101UN",
@@ -22474,7 +23215,8 @@
         "capacity": 18,
         "enrollment": 17
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PORT1102UN",
@@ -22493,7 +23235,8 @@
         "capacity": 18,
         "enrollment": 13
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PORT1320UN",
@@ -22512,7 +23255,8 @@
         "capacity": 15,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PORT2101UN",
@@ -22531,7 +23275,8 @@
         "capacity": 15,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PORT2102UN",
@@ -22550,7 +23295,8 @@
         "capacity": 15,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PORT2120UN",
@@ -22569,7 +23315,8 @@
         "capacity": 15,
         "enrollment": 11
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PORT3350UN",
@@ -22588,7 +23335,8 @@
         "capacity": 18,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PORT3490UN",
@@ -22607,7 +23355,8 @@
         "capacity": 25,
         "enrollment": 25
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSAM3707UN",
@@ -22626,7 +23375,8 @@
         "capacity": 70,
         "enrollment": 53
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC1001UN",
@@ -22667,7 +23417,8 @@
         "capacity": 220,
         "enrollment": 201
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC1450UN",
@@ -22685,7 +23436,8 @@
         "capacity": 65,
         "enrollment": 65
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC1451UN",
@@ -22743,7 +23495,8 @@
         "capacity": 15,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC1610UN",
@@ -22762,7 +23515,8 @@
         "capacity": 45,
         "enrollment": 43
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC1611UN",
@@ -22800,7 +23554,8 @@
         "capacity": 15,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC1950UN",
@@ -22818,7 +23573,8 @@
         "capacity": 25,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC1951UN",
@@ -22836,7 +23592,8 @@
         "capacity": 25,
         "enrollment": 18
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC1990UN",
@@ -22854,7 +23611,8 @@
         "capacity": 30,
         "enrollment": 26
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC2235UN",
@@ -22873,7 +23631,8 @@
         "capacity": 150,
         "enrollment": 152
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC2255UN",
@@ -22891,7 +23650,8 @@
         "capacity": 60,
         "enrollment": 61
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC2260UN",
@@ -22910,7 +23670,8 @@
         "capacity": 30,
         "enrollment": 30
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC2430UN",
@@ -22929,7 +23690,8 @@
         "capacity": 120,
         "enrollment": 121
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC2435UN",
@@ -22948,7 +23710,8 @@
         "capacity": 130,
         "enrollment": 108
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC2450UN",
@@ -22967,7 +23730,8 @@
         "capacity": 125,
         "enrollment": 139
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC2636UN",
@@ -22986,7 +23750,8 @@
         "capacity": 60,
         "enrollment": 60
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC2645UN",
@@ -23005,7 +23770,8 @@
         "capacity": 100,
         "enrollment": 97
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC3281UN",
@@ -23023,7 +23789,8 @@
         "capacity": 20,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC3434UN",
@@ -23041,7 +23808,8 @@
         "capacity": 20,
         "enrollment": 21
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC3450UN",
@@ -23059,7 +23827,8 @@
         "capacity": 15,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC3620UN",
@@ -23077,7 +23846,8 @@
         "capacity": 15,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC3623UN",
@@ -23115,7 +23885,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC3840UN",
@@ -23133,7 +23904,8 @@
         "capacity": 20,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC3930UN",
@@ -23161,7 +23933,8 @@
         "capacity": 25,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC4202GU",
@@ -23179,7 +23952,8 @@
         "capacity": 20,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC4242GU",
@@ -23197,7 +23971,8 @@
         "capacity": 15,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC4265GU",
@@ -23215,7 +23990,8 @@
         "capacity": 15,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC4270GU",
@@ -23233,7 +24009,8 @@
         "capacity": 15,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC4274GU",
@@ -23251,7 +24028,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC4440GU",
@@ -23269,7 +24047,8 @@
         "capacity": 15,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC4470GU",
@@ -23287,7 +24066,8 @@
         "capacity": 20,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC4482GU",
@@ -23305,7 +24085,8 @@
         "capacity": 15,
         "enrollment": 17
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC4493GU",
@@ -23323,7 +24104,8 @@
         "capacity": 20,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC4612GU",
@@ -23341,7 +24123,8 @@
         "capacity": 20,
         "enrollment": 22
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC4615GU",
@@ -23359,7 +24142,8 @@
         "capacity": 20,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC4645GU",
@@ -23377,7 +24161,8 @@
         "capacity": 20,
         "enrollment": 16
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC4670GU",
@@ -23395,7 +24180,8 @@
         "capacity": 11,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC4885GU",
@@ -23413,7 +24199,8 @@
         "capacity": 28,
         "enrollment": 31
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PSYC4940GU",
@@ -23431,7 +24218,8 @@
         "capacity": 15,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PUBH3100UN",
@@ -23450,7 +24238,8 @@
         "capacity": 115,
         "enrollment": 115
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PUBH3400UN",
@@ -23469,7 +24258,8 @@
         "capacity": 100,
         "enrollment": 45
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PUBH4100GU",
@@ -23488,7 +24278,8 @@
         "capacity": 100,
         "enrollment": 100
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PUNJ1102UN",
@@ -23507,7 +24298,8 @@
         "capacity": 12,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "PUNJ2102UN",
@@ -23526,7 +24318,8 @@
         "capacity": 12,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "QMSS5015GR",
@@ -23544,7 +24337,8 @@
         "capacity": 25,
         "enrollment": 13
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "QMSS5018GR",
@@ -23562,7 +24356,8 @@
         "capacity": 104,
         "enrollment": 81
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "QMSS5021GR",
@@ -23600,7 +24395,8 @@
         "capacity": 22,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "QMSS5022GR",
@@ -23638,7 +24434,8 @@
         "capacity": 22,
         "enrollment": 13
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "QMSS5052GR",
@@ -23656,7 +24453,8 @@
         "capacity": 20,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "QMSS5053GR",
@@ -23684,7 +24482,8 @@
         "capacity": 40,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "QMSS5055GR",
@@ -23712,7 +24511,8 @@
         "capacity": 20,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "QMSS5056GR",
@@ -23740,7 +24540,8 @@
         "capacity": 20,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "QMSS5062GR",
@@ -23758,7 +24559,8 @@
         "capacity": 119,
         "enrollment": 90
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "QMSS5063GR",
@@ -23776,7 +24578,8 @@
         "capacity": 63,
         "enrollment": 60
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "QMSS5065GR",
@@ -23794,7 +24597,8 @@
         "capacity": 30,
         "enrollment": 30
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "QMSS5067GR",
@@ -23822,7 +24626,8 @@
         "capacity": 50,
         "enrollment": 16
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "QMSS5069GR",
@@ -23840,7 +24645,8 @@
         "capacity": 110,
         "enrollment": 71
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "QMSS5070GR",
@@ -23858,7 +24664,8 @@
         "capacity": 40,
         "enrollment": 27
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "QMSS5072GR",
@@ -23876,7 +24683,8 @@
         "capacity": 86,
         "enrollment": 85
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "QMSS5073GR",
@@ -23904,7 +24712,8 @@
         "capacity": 44,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "QMSS5074GR",
@@ -23922,7 +24731,8 @@
         "capacity": 55,
         "enrollment": 44
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "QMSS5999GR",
@@ -23970,7 +24780,8 @@
         "capacity": 30,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "QUCH1101OC",
@@ -23990,7 +24801,8 @@
         "capacity": 5,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "QUCH1102OC",
@@ -24010,7 +24822,8 @@
         "capacity": 5,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "QUCH2102OC",
@@ -24030,7 +24843,8 @@
         "capacity": 5,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "RELI1612UN",
@@ -24049,7 +24863,8 @@
         "capacity": 150,
         "enrollment": 155
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "RELI1613S",
@@ -24157,7 +24972,8 @@
         "capacity": 15,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "RELI2201UN",
@@ -24225,7 +25041,8 @@
         "capacity": 15,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "RELI2205UN",
@@ -24244,7 +25061,8 @@
         "capacity": 90,
         "enrollment": 91
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "RELI2405UN",
@@ -24263,7 +25081,8 @@
         "capacity": 60,
         "enrollment": 60
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "RELI3007UN",
@@ -24282,7 +25101,8 @@
         "capacity": 15,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "RELI3025UN",
@@ -24300,7 +25120,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "RELI3199UN",
@@ -24318,7 +25139,8 @@
         "capacity": 20,
         "enrollment": 19
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "RELI4216GU",
@@ -24336,7 +25158,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "RELI4217GU",
@@ -24354,7 +25177,8 @@
         "capacity": 15,
         "enrollment": 17
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "RELI4547GU",
@@ -24372,7 +25196,8 @@
         "capacity": 13,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "RSCH0020GR",
@@ -24390,7 +25215,8 @@
         "capacity": 100,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "RUSS1102UN",
@@ -24437,7 +25263,8 @@
         "capacity": 12,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "RUSS2102UN",
@@ -24471,7 +25298,8 @@
         "capacity": 12,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "RUSS3102UN",
@@ -24491,7 +25319,8 @@
         "capacity": 15,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "RUSS3107UN",
@@ -24509,7 +25338,8 @@
         "capacity": 15,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "RUSS3221UN",
@@ -24539,7 +25369,8 @@
         "capacity": 3,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "RUSS3222UN",
@@ -24569,7 +25400,8 @@
         "capacity": 4,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "RUSS3431UN",
@@ -24588,7 +25420,8 @@
         "capacity": 15,
         "enrollment": 11
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "RUSS4339GU",
@@ -24618,7 +25451,8 @@
         "capacity": 3,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "RUSS4343GU",
@@ -24638,7 +25472,8 @@
         "capacity": 15,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "RUSS4434GU",
@@ -24657,7 +25492,8 @@
         "capacity": 18,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SCNC1000CC",
@@ -24685,7 +25521,8 @@
         "capacity": 325,
         "enrollment": 323
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SCNC1100CC",
@@ -25003,7 +25840,8 @@
         "capacity": 20,
         "enrollment": 22
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SCNC1500UN",
@@ -25021,7 +25859,8 @@
         "capacity": 14,
         "enrollment": 13
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SCNC1900UN",
@@ -25040,7 +25879,8 @@
         "capacity": 30,
         "enrollment": 9
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SDEV2000UN",
@@ -25059,7 +25899,8 @@
         "capacity": 50,
         "enrollment": 32
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SDEV2100UN",
@@ -25077,7 +25918,8 @@
         "capacity": 20,
         "enrollment": 16
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SDEV2300UN",
@@ -25096,7 +25938,8 @@
         "capacity": 100,
         "enrollment": 65
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SDEV3280UN",
@@ -25115,7 +25958,8 @@
         "capacity": 15,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SDEV3355UN",
@@ -25144,7 +25988,8 @@
         "capacity": 15,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SDEV3390UN",
@@ -25162,7 +26007,8 @@
         "capacity": 16,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SDEV3410UN",
@@ -25180,7 +26026,8 @@
         "capacity": 20,
         "enrollment": 19
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SDEV3450UN",
@@ -25198,7 +26045,8 @@
         "capacity": 16,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SDEV3820UN",
@@ -25216,7 +26064,8 @@
         "capacity": 10,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SDEV4050GU",
@@ -25234,7 +26083,8 @@
         "capacity": 20,
         "enrollment": 21
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SDEV4325GU",
@@ -25253,7 +26103,8 @@
         "capacity": 20,
         "enrollment": 13
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SDEV4400GU",
@@ -25271,7 +26122,8 @@
         "capacity": 10,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SDEV4660GU",
@@ -25289,7 +26141,8 @@
         "capacity": 15,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SDEV4670GU",
@@ -25307,7 +26160,8 @@
         "capacity": 15,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SDEV4680GU",
@@ -25325,7 +26179,8 @@
         "capacity": 15,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SOCI1000UN",
@@ -25344,7 +26199,8 @@
         "capacity": 150,
         "enrollment": 150
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SOCI1100UN",
@@ -25402,7 +26258,8 @@
         "capacity": 30,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SOCI2210UN",
@@ -25421,7 +26278,8 @@
         "capacity": 75,
         "enrollment": 75
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SOCI2211UN",
@@ -25459,7 +26317,8 @@
         "capacity": 25,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SOCI2234UN",
@@ -25478,7 +26337,8 @@
         "capacity": 30,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SOCI3000UN",
@@ -25497,7 +26357,8 @@
         "capacity": 90,
         "enrollment": 64
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SOCI3001UN",
@@ -25525,7 +26386,8 @@
         "capacity": 30,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SOCI3010UN",
@@ -25544,7 +26406,8 @@
         "capacity": 70,
         "enrollment": 56
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SOCI3011UN",
@@ -25572,7 +26435,8 @@
         "capacity": 30,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SOCI3265UN",
@@ -25591,7 +26455,8 @@
         "capacity": 100,
         "enrollment": 59
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SOCI3661UN",
@@ -25609,7 +26474,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SOCI3662UN",
@@ -25627,7 +26493,8 @@
         "capacity": 15,
         "enrollment": 13
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SOCI3969UN",
@@ -25645,7 +26512,8 @@
         "capacity": 20,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SOCI3989UN",
@@ -25663,7 +26531,8 @@
         "capacity": 15,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SOCI4043GU",
@@ -25681,7 +26550,8 @@
         "capacity": 20,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SOCI4671GU",
@@ -25699,7 +26569,8 @@
         "capacity": 14,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SOCI4701GU",
@@ -25717,7 +26588,8 @@
         "capacity": 17,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SOCI5052GR",
@@ -25735,7 +26607,8 @@
         "capacity": 30,
         "enrollment": 21
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SOCI5063GR",
@@ -25753,7 +26626,8 @@
         "capacity": 30,
         "enrollment": 21
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SOCI5065GR",
@@ -25771,7 +26645,8 @@
         "capacity": 30,
         "enrollment": 18
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SOCI5067GR",
@@ -25799,7 +26674,8 @@
         "capacity": 15,
         "enrollment": 11
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SOCI5076GR",
@@ -25817,7 +26693,8 @@
         "capacity": 10,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SPAN1101UN",
@@ -25945,7 +26822,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SPAN1102UN",
@@ -26157,7 +27035,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SPAN1108UN",
@@ -26177,7 +27056,8 @@
         "capacity": 15,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SPAN2101UN",
@@ -26365,7 +27245,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SPAN2102UN",
@@ -26541,7 +27422,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SPAN2103UN",
@@ -26561,7 +27443,8 @@
         "capacity": 15,
         "enrollment": 11
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SPAN3300UN",
@@ -26646,7 +27529,8 @@
         "capacity": 15,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SPAN3349UN",
@@ -26687,7 +27571,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SPAN3350UN",
@@ -26728,7 +27613,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SPAN3361UN",
@@ -26746,7 +27632,8 @@
         "capacity": 15,
         "enrollment": 17
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SPAN3898UN",
@@ -26764,7 +27651,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SPAN3899UN",
@@ -26783,7 +27671,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SPAN4030GU",
@@ -26802,7 +27691,8 @@
         "capacity": 15,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SPAN5450GR",
@@ -26821,7 +27711,8 @@
         "capacity": 15,
         "enrollment": 13
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SPJS3303UN",
@@ -26840,7 +27731,8 @@
         "capacity": 22,
         "enrollment": 22
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT1001UN",
@@ -26881,7 +27773,8 @@
         "capacity": 86,
         "enrollment": 42
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT1101UN",
@@ -26911,7 +27804,8 @@
         "capacity": 150,
         "enrollment": 148
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT1102UN",
@@ -26979,7 +27873,8 @@
         "capacity": 50,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT1201UN",
@@ -27031,7 +27926,8 @@
         "capacity": 126,
         "enrollment": 77
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT2102UN",
@@ -27050,7 +27946,8 @@
         "capacity": 120,
         "enrollment": 91
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT2103UN",
@@ -27069,7 +27966,8 @@
         "capacity": 86,
         "enrollment": 51
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT2104UN",
@@ -27088,7 +27986,8 @@
         "capacity": 86,
         "enrollment": 67
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT2109UN",
@@ -27106,7 +28005,8 @@
         "capacity": 25,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT3106UN",
@@ -27125,7 +28025,8 @@
         "capacity": 86,
         "enrollment": 86
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT3293UN",
@@ -27144,7 +28045,8 @@
         "capacity": 15,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT3702UN",
@@ -27163,7 +28065,8 @@
         "capacity": 45,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT4001GU",
@@ -27193,7 +28096,8 @@
         "capacity": 125,
         "enrollment": 79
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT4203GU",
@@ -27223,7 +28127,8 @@
         "capacity": 5,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT4204GU",
@@ -27264,7 +28169,8 @@
         "capacity": 35,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT4205GU",
@@ -27283,7 +28189,8 @@
         "capacity": 35,
         "enrollment": 33
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT4206GU",
@@ -27301,7 +28208,8 @@
         "capacity": 35,
         "enrollment": 35
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT4207GU",
@@ -27331,7 +28239,8 @@
         "capacity": 40,
         "enrollment": 31
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT4222GU",
@@ -27350,7 +28259,8 @@
         "capacity": 25,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT4224GU",
@@ -27369,7 +28279,8 @@
         "capacity": 40,
         "enrollment": 40
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT4231GU",
@@ -27388,7 +28299,8 @@
         "capacity": 25,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT4234GU",
@@ -27407,7 +28319,8 @@
         "capacity": 25,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT4241GU",
@@ -27437,7 +28350,8 @@
         "capacity": 35,
         "enrollment": 8
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT4243GU",
@@ -27466,7 +28380,8 @@
         "capacity": 25,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT4264GU",
@@ -27485,7 +28400,8 @@
         "capacity": 25,
         "enrollment": 18
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT4265GU",
@@ -27504,7 +28420,8 @@
         "capacity": 25,
         "enrollment": 11
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT4291GU",
@@ -27522,7 +28439,8 @@
         "capacity": 25,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT4541GU",
@@ -27541,7 +28459,8 @@
         "capacity": 50,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT5203GR",
@@ -27571,7 +28490,8 @@
         "capacity": 86,
         "enrollment": 28
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT5204GR",
@@ -27601,7 +28521,8 @@
         "capacity": 86,
         "enrollment": 23
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT5205GR",
@@ -27620,7 +28541,8 @@
         "capacity": 125,
         "enrollment": 49
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT5206GR",
@@ -27638,7 +28560,8 @@
         "capacity": 50,
         "enrollment": 31
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT5207GR",
@@ -27657,7 +28580,8 @@
         "capacity": 100,
         "enrollment": 87
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT5222GR",
@@ -27676,7 +28600,8 @@
         "capacity": 86,
         "enrollment": 20
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT5224GR",
@@ -27695,7 +28620,8 @@
         "capacity": 125,
         "enrollment": 69
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT5231GR",
@@ -27714,7 +28640,8 @@
         "capacity": 125,
         "enrollment": 67
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT5234GR",
@@ -27733,7 +28660,8 @@
         "capacity": 125,
         "enrollment": 76
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT5241GR",
@@ -27752,7 +28680,8 @@
         "capacity": 400,
         "enrollment": 304
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT5243GR",
@@ -27778,7 +28707,8 @@
         "capacity": 75,
         "enrollment": 75
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT5264GR",
@@ -27797,7 +28727,8 @@
         "capacity": 86,
         "enrollment": 65
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT5265GR",
@@ -27816,7 +28747,8 @@
         "capacity": 147,
         "enrollment": 147
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT5291GR",
@@ -27864,7 +28796,8 @@
         "capacity": 50,
         "enrollment": 16
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT5293GR",
@@ -27924,7 +28857,8 @@
         "capacity": 60,
         "enrollment": 21
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT5700GR",
@@ -27972,7 +28906,8 @@
         "capacity": 70,
         "enrollment": 32
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "STAT5703GR",
@@ -27991,7 +28926,8 @@
         "capacity": 250,
         "enrollment": 210
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SWED2102UN",
@@ -28010,7 +28946,8 @@
         "capacity": 15,
         "enrollment": 11
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SWHL1102UN",
@@ -28031,7 +28968,8 @@
         "capacity": 20,
         "enrollment": 11
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SWHL2102UN",
@@ -28052,7 +28990,8 @@
         "capacity": 20,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "SWHL3302UN",
@@ -28071,7 +29010,8 @@
         "capacity": 15,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "TELU1102UN",
@@ -28093,7 +29033,8 @@
         "capacity": 5,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "TELU1202UN",
@@ -28115,7 +29056,8 @@
         "capacity": 5,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "TIBT1411UN",
@@ -28134,7 +29076,8 @@
         "capacity": 15,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "TIBT1601UN",
@@ -28155,7 +29098,8 @@
         "capacity": 15,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "TIBT2413UN",
@@ -28174,7 +29118,8 @@
         "capacity": 15,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "TIBT2604UN",
@@ -28193,7 +29138,8 @@
         "capacity": 15,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "TIBT2711UN",
@@ -28212,7 +29158,8 @@
         "capacity": 15,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "TIBT3612UN",
@@ -28231,7 +29178,8 @@
         "capacity": 15,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "UGAR4101OC",
@@ -28249,7 +29197,8 @@
         "capacity": 5,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "UKRN1102UN",
@@ -28269,7 +29218,8 @@
         "capacity": 12,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "UKRN2102UN",
@@ -28289,7 +29239,8 @@
         "capacity": 12,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "UKRN4007GU",
@@ -28308,7 +29259,8 @@
         "capacity": 12,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "UKRN4037GU",
@@ -28327,7 +29279,8 @@
         "capacity": 20,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "VIET1102UN",
@@ -28348,7 +29301,8 @@
         "capacity": 15,
         "enrollment": 7
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "VIET2102UN",
@@ -28367,7 +29321,8 @@
         "capacity": 12,
         "enrollment": 14
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "WLOF1102UN",
@@ -28388,7 +29343,8 @@
         "capacity": 15,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "WLOF2102UN",
@@ -28407,7 +29363,8 @@
         "capacity": 15,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "WLOF3302UN",
@@ -28426,7 +29383,8 @@
         "capacity": 10,
         "enrollment": 1
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "WMST2140BC",
@@ -28445,7 +29403,8 @@
         "capacity": 70,
         "enrollment": 26
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "WMST2141BC",
@@ -28473,7 +29432,8 @@
         "capacity": 35,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "WMST2150BC",
@@ -28492,7 +29452,8 @@
         "capacity": 70,
         "enrollment": 30
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "WMST2151BC",
@@ -28510,7 +29471,8 @@
         "capacity": 35,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "WMST3125UN",
@@ -28529,7 +29491,8 @@
         "capacity": 85,
         "enrollment": 29
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "WMST3138BC",
@@ -28547,7 +29510,8 @@
         "capacity": 16,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "WMST3504BC",
@@ -28565,7 +29529,8 @@
         "capacity": 15,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "WMST3514UN",
@@ -28583,7 +29548,8 @@
         "capacity": 20,
         "enrollment": 16
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "WMST3522UN",
@@ -28601,7 +29567,8 @@
         "capacity": 10,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "WMST3589BC",
@@ -28619,7 +29586,8 @@
         "capacity": 16,
         "enrollment": 6
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "WMST3800UN",
@@ -28637,7 +29605,8 @@
         "capacity": 12,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "WMST3813UN",
@@ -28655,7 +29624,8 @@
         "capacity": 20,
         "enrollment": 10
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "WMST4210GU",
@@ -28673,7 +29643,8 @@
         "capacity": 15,
         "enrollment": 15
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "WMST4310GU",
@@ -28691,7 +29662,8 @@
         "capacity": 20,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "WMST4317GU",
@@ -28709,7 +29681,8 @@
         "capacity": 15,
         "enrollment": 12
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "WMST4325GU",
@@ -28727,7 +29700,8 @@
         "capacity": 18,
         "enrollment": 5
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "WMST4330GU",
@@ -28745,7 +29719,8 @@
         "capacity": 14,
         "enrollment": 13
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "WMST4905GU",
@@ -28763,7 +29738,8 @@
         "capacity": 16,
         "enrollment": 16
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "YIDD1101UN",
@@ -28782,7 +29758,8 @@
         "capacity": 15,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "YIDD2102UN",
@@ -28801,7 +29778,8 @@
         "capacity": 15,
         "enrollment": 4
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "YORU1102OC",
@@ -28822,7 +29800,8 @@
         "capacity": 7,
         "enrollment": 3
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "YORU2102OC",
@@ -28843,7 +29822,8 @@
         "capacity": 7,
         "enrollment": 2
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ZULU1102UN",
@@ -28865,7 +29845,8 @@
         "capacity": 5,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ZULU2102UN",
@@ -28887,7 +29868,8 @@
         "capacity": 5,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   },
   {
     "id": "ZULU3102UN",
@@ -28906,6 +29888,7 @@
         "capacity": 5,
         "enrollment": 0
       }
-    ]
+    ],
+    "school": "Columbia College"
   }
 ]
