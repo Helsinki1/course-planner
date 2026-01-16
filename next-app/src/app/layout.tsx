@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Columbia University 3D Campus Map",
-  description: "Interactive 3D map of Columbia University's Morningside Heights campus with architectural lighting and shadows",
+  title: "Course Planner - Columbia University",
+  description: "Search and plan your Columbia University courses with professor ratings and schedule information",
 };
 
 export default function RootLayout({
