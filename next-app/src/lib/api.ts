@@ -161,3 +161,106 @@ export async function unmarkCourseTaken(userId: string, courseId: string): Promi
     throw new Error('Failed to unmark course as taken');
   }
 }
+
+// Friends API
+export interface FriendInvite {
+  id: string;
+  sender_id: string;
+  sender_name: string;
+  recipient_email: string;
+  status: 'pending' | 'accepted' | 'declined';
+  created_at: string;
+}
+
+export interface Friend {
+  id: string;
+  email: string;
+}
+
+export async function sendFriendInvite(
+  senderId: string,
+  senderName: string,
+  recipientEmail: string
+): Promise<FriendInvite[]> {
+  const response = await fetch(`${API_BASE_URL}/api/friends/invite`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      sender_id: senderId,
+      sender_name: senderName,
+      recipient_email: recipientEmail,
+    }),
+  });
+
+  if (!response.ok) {
+    const errorData = await response.json().catch(() => ({}));
+    throw new Error(errorData.error || 'Failed to send invitation');
+  }
+
+  return response.json();
+}
+
+export async function getSentInvites(userId: string): Promise<FriendInvite[]> {
+  const response = await fetch(`${API_BASE_URL}/api/friends/invites/sent?user_id=${userId}`);
+
+  if (!response.ok) {
+    throw new Error('Failed to get sent invites');
+  }
+
+  return response.json();
+}
+
+export async function getReceivedInvites(email: string): Promise<FriendInvite[]> {
+  const response = await fetch(`${API_BASE_URL}/api/friends/invites/received?email=${encodeURIComponent(email)}`);
+
+  if (!response.ok) {
+    throw new Error('Failed to get received invites');
+  }
+
+  return response.json();
+}
+
+export async function acceptInvite(inviteId: string, recipientId: string): Promise<void> {
+  const response = await fetch(`${API_BASE_URL}/api/friends/invites/accept`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      invite_id: inviteId,
+      recipient_id: recipientId,
+    }),
+  });
+
+  if (!response.ok) {
+    throw new Error('Failed to accept invitation');
+  }
+}
+
+export async function declineInvite(inviteId: string): Promise<void> {
+  const response = await fetch(`${API_BASE_URL}/api/friends/invites/decline`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      invite_id: inviteId,
+    }),
+  });
+
+  if (!response.ok) {
+    throw new Error('Failed to decline invitation');
+  }
+}
+
+export async function getFriends(userId: string): Promise<Friend[]> {
+  const response = await fetch(`${API_BASE_URL}/api/friends?user_id=${userId}`);
+
+  if (!response.ok) {
+    throw new Error('Failed to get friends');
+  }
+
+  return response.json();
+}

@@ -46,9 +46,14 @@ export default function Navbar({ onSearch, isLoading }: NavbarProps) {
   };
 
   const handleLogout = async () => {
-    await signOut();
+    console.log('Logout clicked');
     setIsDropdownOpen(false);
-    router.push('/');
+    try {
+      await signOut();
+      router.push('/');
+    } catch (error) {
+      console.error('Logout failed:', error);
+    }
   };
 
   // Close dropdown when clicking outside
@@ -187,15 +192,17 @@ export default function Navbar({ onSearch, isLoading }: NavbarProps) {
 
             {isDropdownOpen && (
               <div
-                className="absolute right-0 top-full mt-2 w-40 rounded-lg border shadow-lg overflow-hidden z-[60]"
+                className="absolute right-0 top-full mt-2 w-40 rounded-lg border shadow-lg overflow-hidden z-[100]"
                 style={{
                   backgroundColor: 'var(--bg-card)',
                   borderColor: 'var(--border-color)',
                 }}
+                onMouseDown={(e) => e.stopPropagation()}
               >
                 <button
+                  type="button"
                   onClick={handleLogout}
-                  className="w-full px-4 py-2.5 text-left text-sm transition-colors duration-200 hover:bg-[var(--bg-card-hover)]"
+                  className="w-full px-4 py-2.5 text-left text-sm transition-colors duration-200 hover:bg-[var(--bg-card-hover)] cursor-pointer"
                   style={{ color: 'var(--text-primary)' }}
                 >
                   Log out

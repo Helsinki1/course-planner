@@ -4,6 +4,7 @@ from flask_cors import CORS
 from dotenv import load_dotenv
 from supabase import create_client
 from openai import OpenAI
+import resend
 import json
 
 load_dotenv()
@@ -22,6 +23,7 @@ CORS(app, origins=[
 
 supabase = create_client(os.getenv("SUPABASE_URL"), os.getenv("SUPABASE_KEY"))
 openai = OpenAI(api_key=os.getenv("OPENAI_KEY"))
+resend.api_key = os.getenv("RESEND_KEY")
 
 # ============================================================================
 # Functions copied from database-setup/query-courses.py
@@ -382,6 +384,221 @@ def check_course_taken():
     
     except Exception as e:
         return jsonify({"error": f"Failed to check course taken status: {str(e)}"}), 500
+
+
+# ============================================================================
+# Friends Endpoints
+# ============================================================================
+
+@app.route("/api/friends/invite", methods=["POST"])
+def send_friend_invite():
+    """
+    Send a friend invitation email via Resend.
+    """
+    try:
+        data = request.get_json()
+        sender_id = data.get("sender_id")
+        sender_name = data.get("sender_name")
+        recipient_email = data.get("recipient_email")
+        
+        if not all([sender_id, sender_name, recipient_email]):
+            return jsonify({"error": "Missing required fields"}), 400
+        
+        # Check if invite already exists
+        existing = supabase.table("friend_invites") \
+            .select("*") \
+            .eq("sender_id", sender_id) \
+            .eq("recipient_email", recipient_email) \
+            .eq("status", "pending") \
+            .execute()
+        
+        if existing.data:
+            return jsonify({"error": "Invitation already sent to this email"}), 400
+        
+        # Create the invite in database
+        result = supabase.table("friend_invites").insert({
+            "sender_id": sender_id,
+            "sender_name": sender_name,
+            "recipient_email": recipient_email,
+            "status": "pending"
+        }).execute()
+        
+        # Send email via Resend
+        resend.Emails.send({
+            "from": "Course Planner <onboarding@resend.dev>",
+            "to": recipient_email,
+            "subject": f"{sender_name} shared their schedule with you!",
+            "html": f"""
+                <div style="font-family: system-ui, -apple-system, sans-serif; max-width: 600px; margin: 0 auto; padding: 40px 20px;">
+                    <h1 style="color: #e5a829; margin-bottom: 24px;">You're Invited!</h1>
+                    <p style="font-size: 18px; color: #333; line-height: 1.6;">
+                        <strong>{sender_name}</strong> shared their course schedule with you on Course Planner!
+                    </p>
+                    <p style="font-size: 16px; color: #666; line-height: 1.6;">
+                        Course Planner helps Columbia students search and plan their courses with professor ratings and schedule information.
+                    </p>
+                    <p style="font-size: 16px; color: #666; line-height: 1.6;">
+                        Create an account to accept this invitation, view {sender_name}'s schedule, and share your own!
+                    </p>
+                    <a href="http://localhost:3000/login" 
+                       style="display: inline-block; background-color: #e5a829; color: #000; padding: 14px 28px; 
+                              text-decoration: none; border-radius: 8px; font-weight: 600; margin-top: 24px;">
+                        Accept Invitation
+                    </a>
+                    <p style="font-size: 14px; color: #999; margin-top: 40px;">
+                        If you didn't expect this email, you can safely ignore it.
+                    </p>
+                </div>
+            """
+        })
+        
+        return jsonify(result.data), 201
+    
+    except Exception as e:
+        return jsonify({"error": f"Failed to send invitation: {str(e)}"}), 500
+
+
+@app.route("/api/friends/invites/sent", methods=["GET"])
+def get_sent_invites():
+    """
+    Get all invitations sent by a user.
+    """
+    try:
+        user_id = request.args.get("user_id")
+        if not user_id:
+            return jsonify({"error": "user_id is required"}), 400
+        
+        result = supabase.table("friend_invites") \
+            .select("*") \
+            .eq("sender_id", user_id) \
+            .order("created_at", desc=True) \
+            .execute()
+        
+        return jsonify(result.data)
+    
+    except Exception as e:
+        return jsonify({"error": f"Failed to get sent invites: {str(e)}"}), 500
+
+
+@app.route("/api/friends/invites/received", methods=["GET"])
+def get_received_invites():
+    """
+    Get all pending invitations received by a user (by email).
+    """
+    try:
+        email = request.args.get("email")
+        if not email:
+            return jsonify({"error": "email is required"}), 400
+        
+        result = supabase.table("friend_invites") \
+            .select("*") \
+            .eq("recipient_email", email) \
+            .eq("status", "pending") \
+            .order("created_at", desc=True) \
+            .execute()
+        
+        return jsonify(result.data)
+    
+    except Exception as e:
+        return jsonify({"error": f"Failed to get received invites: {str(e)}"}), 500
+
+
+@app.route("/api/friends/invites/accept", methods=["POST"])
+def accept_invite():
+    """
+    Accept a friend invitation and create a friendship.
+    """
+    try:
+        data = request.get_json()
+        invite_id = data.get("invite_id")
+        recipient_id = data.get("recipient_id")
+        
+        if not all([invite_id, recipient_id]):
+            return jsonify({"error": "Missing required fields"}), 400
+        
+        # Get the invite
+        invite_result = supabase.table("friend_invites") \
+            .select("*") \
+            .eq("id", invite_id) \
+            .single() \
+            .execute()
+        
+        if not invite_result.data:
+            return jsonify({"error": "Invite not found"}), 404
+        
+        invite = invite_result.data
+        
+        # Update invite status
+        supabase.table("friend_invites") \
+            .update({"status": "accepted"}) \
+            .eq("id", invite_id) \
+            .execute()
+        
+        # Create bidirectional friendship
+        supabase.table("friendships").insert([
+            {"user_id": invite["sender_id"], "friend_id": recipient_id},
+            {"user_id": recipient_id, "friend_id": invite["sender_id"]}
+        ]).execute()
+        
+        return jsonify({"message": "Invitation accepted"})
+    
+    except Exception as e:
+        return jsonify({"error": f"Failed to accept invitation: {str(e)}"}), 500
+
+
+@app.route("/api/friends/invites/decline", methods=["POST"])
+def decline_invite():
+    """
+    Decline a friend invitation.
+    """
+    try:
+        data = request.get_json()
+        invite_id = data.get("invite_id")
+        
+        if not invite_id:
+            return jsonify({"error": "invite_id is required"}), 400
+        
+        supabase.table("friend_invites") \
+            .update({"status": "declined"}) \
+            .eq("id", invite_id) \
+            .execute()
+        
+        return jsonify({"message": "Invitation declined"})
+    
+    except Exception as e:
+        return jsonify({"error": f"Failed to decline invitation: {str(e)}"}), 500
+
+
+@app.route("/api/friends", methods=["GET"])
+def get_friends():
+    """
+    Get all friends for a user.
+    """
+    try:
+        user_id = request.args.get("user_id")
+        if not user_id:
+            return jsonify({"error": "user_id is required"}), 400
+        
+        # Get friendships where user is the user_id
+        result = supabase.table("friendships") \
+            .select("friend_id, created_at") \
+            .eq("user_id", user_id) \
+            .execute()
+        
+        if not result.data:
+            return jsonify([])
+        
+        # Get friend profiles
+        friend_ids = [f["friend_id"] for f in result.data]
+        profiles = supabase.table("user_profiles") \
+            .select("id, email") \
+            .in_("id", friend_ids) \
+            .execute()
+        
+        return jsonify(profiles.data)
+    
+    except Exception as e:
+        return jsonify({"error": f"Failed to get friends: {str(e)}"}), 500
 
 
 # ============================================================================

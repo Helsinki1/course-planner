@@ -62,7 +62,7 @@ export default function SearchPage() {
         style={{ backgroundColor: 'var(--bg-primary)', paddingTop: '3.5rem' }}
       >
         {/* Main content area */}
-        <main className="flex-1 overflow-auto px-8 py-6">
+        <main className="flex-1 overflow-auto px-8 py-6 relative left-16 top-5">
           <div className="max-w-4xl">
             <div className="space-y-4">
               {isLoading && <LoadingSkeleton />}
