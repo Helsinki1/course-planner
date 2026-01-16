@@ -198,6 +198,193 @@ def get_ratings():
 
 
 # ============================================================================
+# Selected Courses Endpoints
+# ============================================================================
+
+@app.route("/api/courses/selected", methods=["GET"])
+def get_selected_courses():
+    """
+    Get all selected courses for a user.
+    """
+    try:
+        user_id = request.args.get("user_id")
+        if not user_id:
+            return jsonify({"error": "user_id is required"}), 400
+        
+        result = supabase.table("courses_selected") \
+            .select("*") \
+            .eq("user_id", user_id) \
+            .execute()
+        
+        return jsonify(result.data)
+    
+    except Exception as e:
+        return jsonify({"error": f"Failed to get selected courses: {str(e)}"}), 500
+
+
+@app.route("/api/courses/selected", methods=["POST"])
+def add_selected_course():
+    """
+    Add a course to user's selected courses.
+    """
+    try:
+        data = request.get_json()
+        user_id = data.get("user_id")
+        course_id = data.get("course_id")
+        course_name = data.get("course_name")
+        section_index = data.get("section_index")
+        section_data = data.get("section_data")
+        credits = data.get("credits")
+        
+        if not all([user_id, course_id, course_name, section_data]):
+            return jsonify({"error": "Missing required fields"}), 400
+        
+        result = supabase.table("courses_selected").insert({
+            "user_id": user_id,
+            "course_id": course_id,
+            "course_name": course_name,
+            "section_index": section_index,
+            "section_data": json.dumps(section_data),
+            "credits": credits
+        }).execute()
+        
+        return jsonify(result.data), 201
+    
+    except Exception as e:
+        return jsonify({"error": f"Failed to add selected course: {str(e)}"}), 500
+
+
+@app.route("/api/courses/selected", methods=["DELETE"])
+def remove_selected_course():
+    """
+    Remove a course from user's selected courses.
+    """
+    try:
+        data = request.get_json()
+        user_id = data.get("user_id")
+        course_id = data.get("course_id")
+        section_index = data.get("section_index")
+        
+        if not all([user_id, course_id]):
+            return jsonify({"error": "user_id and course_id are required"}), 400
+        
+        query = supabase.table("courses_selected") \
+            .delete() \
+            .eq("user_id", user_id) \
+            .eq("course_id", course_id)
+        
+        if section_index is not None:
+            query = query.eq("section_index", section_index)
+        
+        result = query.execute()
+        
+        return jsonify({"message": "Course removed successfully"})
+    
+    except Exception as e:
+        return jsonify({"error": f"Failed to remove selected course: {str(e)}"}), 500
+
+
+# ============================================================================
+# Courses Taken Endpoints
+# ============================================================================
+
+@app.route("/api/courses/taken", methods=["GET"])
+def get_taken_courses():
+    """
+    Get all taken courses for a user.
+    """
+    try:
+        user_id = request.args.get("user_id")
+        if not user_id:
+            return jsonify({"error": "user_id is required"}), 400
+        
+        result = supabase.table("courses_taken") \
+            .select("*") \
+            .eq("user_id", user_id) \
+            .execute()
+        
+        return jsonify(result.data)
+    
+    except Exception as e:
+        return jsonify({"error": f"Failed to get taken courses: {str(e)}"}), 500
+
+
+@app.route("/api/courses/taken", methods=["POST"])
+def mark_course_taken():
+    """
+    Mark a course as taken for a user.
+    """
+    try:
+        data = request.get_json()
+        user_id = data.get("user_id")
+        course_id = data.get("course_id")
+        course_name = data.get("course_name")
+        
+        if not all([user_id, course_id, course_name]):
+            return jsonify({"error": "Missing required fields"}), 400
+        
+        result = supabase.table("courses_taken").insert({
+            "user_id": user_id,
+            "course_id": course_id,
+            "course_name": course_name
+        }).execute()
+        
+        return jsonify(result.data), 201
+    
+    except Exception as e:
+        return jsonify({"error": f"Failed to mark course as taken: {str(e)}"}), 500
+
+
+@app.route("/api/courses/taken", methods=["DELETE"])
+def unmark_course_taken():
+    """
+    Unmark a course as taken for a user.
+    """
+    try:
+        data = request.get_json()
+        user_id = data.get("user_id")
+        course_id = data.get("course_id")
+        
+        if not all([user_id, course_id]):
+            return jsonify({"error": "user_id and course_id are required"}), 400
+        
+        result = supabase.table("courses_taken") \
+            .delete() \
+            .eq("user_id", user_id) \
+            .eq("course_id", course_id) \
+            .execute()
+        
+        return jsonify({"message": "Course unmarked as taken"})
+    
+    except Exception as e:
+        return jsonify({"error": f"Failed to unmark course as taken: {str(e)}"}), 500
+
+
+@app.route("/api/courses/taken/check", methods=["GET"])
+def check_course_taken():
+    """
+    Check if a user has taken a specific course.
+    """
+    try:
+        user_id = request.args.get("user_id")
+        course_id = request.args.get("course_id")
+        
+        if not all([user_id, course_id]):
+            return jsonify({"error": "user_id and course_id are required"}), 400
+        
+        result = supabase.table("courses_taken") \
+            .select("*") \
+            .eq("user_id", user_id) \
+            .eq("course_id", course_id) \
+            .execute()
+        
+        return jsonify({"taken": len(result.data) > 0})
+    
+    except Exception as e:
+        return jsonify({"error": f"Failed to check course taken status: {str(e)}"}), 500
+
+
+# ============================================================================
 # Run with: flask run --port 8000 --debug
 # Or: python main.py
 # ============================================================================

@@ -133,8 +133,17 @@ export default function Navbar({ onSearch, isLoading }: NavbarProps) {
           </div>
         </div>
 
-        {/* Right side - Map link and Profile */}
+        {/* Right side - Calendar, Map links and Profile */}
         <div className="flex items-center gap-3 shrink-0">
+          <Link
+            href="/calendar"
+            className="px-3 py-1.5 rounded-lg text-sm transition-colors duration-200 hover:opacity-80"
+            style={{
+              color: 'var(--text-secondary)',
+            }}
+          >
+            Calendar
+          </Link>
           <Link
             href="/map"
             className="px-3 py-1.5 rounded-lg text-sm transition-colors duration-200 hover:opacity-80"

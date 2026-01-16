@@ -19,3 +19,22 @@ export interface Course {
 export interface ProfessorRatings {
   [name: string]: number | null;
 }
+
+export interface SelectedCourse {
+  id?: string;
+  user_id: string;
+  course_id: string;
+  course_name: string;
+  section_index: number;
+  section_data: TimeSlot;
+  credits: number;
+  created_at?: string;
+}
+
+export interface TakenCourse {
+  id?: string;
+  user_id: string;
+  course_id: string;
+  course_name: string;
+  created_at?: string;
+}

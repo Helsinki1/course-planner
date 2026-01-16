@@ -2,7 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import { Course, TimeSlot, ProfessorRatings } from '@/types/course';
-import { getProfessorRatings } from '@/lib/api';
+import { getProfessorRatings, checkCourseTaken, markCourseTaken, unmarkCourseTaken } from '@/lib/api';
+import { useAuth } from '@/contexts/AuthContext';
 import ProfessorRatingBar from './ProfessorRatingBar';
 
 interface CourseDetailModalProps {
@@ -18,8 +19,12 @@ export default function CourseDetailModal({
   sectionIndex,
   onClose,
 }: CourseDetailModalProps) {
+  const { user } = useAuth();
   const [ratings, setRatings] = useState<ProfessorRatings>({});
   const [loadingRatings, setLoadingRatings] = useState(true);
+  const [isTaken, setIsTaken] = useState(false);
+  const [loadingTaken, setLoadingTaken] = useState(true);
+  const [updatingTaken, setUpdatingTaken] = useState(false);
 
   useEffect(() => {
     const fetchRatings = async () => {
@@ -42,6 +47,46 @@ export default function CourseDetailModal({
 
     fetchRatings();
   }, [course.times]);
+
+  useEffect(() => {
+    const checkTaken = async () => {
+      if (!user) {
+        setLoadingTaken(false);
+        return;
+      }
+      
+      setLoadingTaken(true);
+      try {
+        const taken = await checkCourseTaken(user.id, course.id);
+        setIsTaken(taken);
+      } catch (error) {
+        console.error('Failed to check course taken status:', error);
+      } finally {
+        setLoadingTaken(false);
+      }
+    };
+
+    checkTaken();
+  }, [user, course.id]);
+
+  const handleToggleTaken = async () => {
+    if (!user || updatingTaken) return;
+
+    setUpdatingTaken(true);
+    try {
+      if (isTaken) {
+        await unmarkCourseTaken(user.id, course.id);
+        setIsTaken(false);
+      } else {
+        await markCourseTaken(user.id, course.id, course.name);
+        setIsTaken(true);
+      }
+    } catch (error) {
+      console.error('Failed to update course taken status:', error);
+    } finally {
+      setUpdatingTaken(false);
+    }
+  };
 
   const handleBackdropClick = (e: React.MouseEvent) => {
     if (e.target === e.currentTarget) {
@@ -194,6 +239,27 @@ export default function CourseDetailModal({
                 )}
               </div>
             )}
+          </div>
+
+          {/* Mark Taken/Untaken button */}
+          <div className="pt-4 border-t" style={{ borderColor: 'var(--border-color)' }}>
+            <button
+              onClick={handleToggleTaken}
+              disabled={loadingTaken || updatingTaken}
+              className="w-full py-2.5 rounded-lg text-sm font-medium transition-colors duration-200 disabled:opacity-50"
+              style={{
+                backgroundColor: isTaken ? 'var(--bg-card-hover)' : 'var(--accent-yellow)',
+                color: isTaken ? 'var(--text-secondary)' : 'var(--bg-primary)',
+                border: isTaken ? '1px solid var(--border-color)' : 'none',
+              }}
+            >
+              {loadingTaken ? 'Loading...' : updatingTaken ? 'Updating...' : isTaken ? 'Mark Untaken' : 'Mark Taken'}
+            </button>
+            <p className="text-xs mt-2 text-center" style={{ color: 'var(--text-secondary)' }}>
+              {isTaken 
+                ? 'You have marked this course as taken. Click to remove from your taken courses.'
+                : 'Mark this course as taken to track your academic progress.'}
+            </p>
           </div>
         </div>
       </div>

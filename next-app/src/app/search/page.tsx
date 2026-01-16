@@ -7,6 +7,7 @@ import Navbar from '@/components/Navbar';
 import CourseCard from '@/components/CourseCard';
 import CourseDetailModal from '@/components/CourseDetailModal';
 import LoadingSkeleton from '@/components/LoadingSkeleton';
+import SelectedCoursesPanel from '@/components/SelectedCoursesPanel';
 
 export default function SearchPage() {
   const [courses, setCourses] = useState<Course[]>([]);
@@ -46,64 +47,70 @@ export default function SearchPage() {
   return (
     <>
       <Navbar onSearch={handleSearch} isLoading={isLoading} />
-      <main
-        className="min-h-screen px-6 pb-6"
-        style={{ backgroundColor: 'var(--bg-primary)', paddingTop: '4.5rem' }}
+      <div
+        className="min-h-screen flex"
+        style={{ backgroundColor: 'var(--bg-primary)', paddingTop: '3.5rem' }}
       >
-        <div className="max-w-5xl mx-auto">
-          <div className="space-y-4">
-            {isLoading && <LoadingSkeleton />}
+        {/* Main content area */}
+        <main className="flex-1 overflow-auto px-8 py-6">
+          <div className="max-w-4xl">
+            <div className="space-y-4">
+              {isLoading && <LoadingSkeleton />}
 
-            {error && (
-              <div
-                className="p-4 rounded-lg text-center"
-                style={{
-                  backgroundColor: 'rgba(248, 81, 73, 0.1)',
-                  color: '#f85149',
-                }}
-              >
-                {error}
-              </div>
-            )}
+              {error && (
+                <div
+                  className="p-4 rounded-lg text-center"
+                  style={{
+                    backgroundColor: 'rgba(248, 81, 73, 0.1)',
+                    color: '#f85149',
+                  }}
+                >
+                  {error}
+                </div>
+              )}
 
-            {!isLoading && !error && hasSearched && courses.length === 0 && (
-              <div
-                className="p-8 rounded-lg text-center"
-                style={{ backgroundColor: 'var(--bg-card)' }}
-              >
-                <p style={{ color: 'var(--text-secondary)' }}>
-                  No courses found. Try a different search term.
-                </p>
-              </div>
-            )}
+              {!isLoading && !error && hasSearched && courses.length === 0 && (
+                <div
+                  className="p-8 rounded-lg text-center"
+                  style={{ backgroundColor: 'var(--bg-card)' }}
+                >
+                  <p style={{ color: 'var(--text-secondary)' }}>
+                    No courses found. Try a different search term.
+                  </p>
+                </div>
+              )}
 
-            {!isLoading && !error && courses.length > 0 && (
-              <div className="space-y-3">
-                <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>
-                  Found {courses.length} course{courses.length !== 1 ? 's' : ''}
-                </p>
-                {courses.map((course, index) => (
-                  <CourseCard
-                    key={`${course.id}-${index}`}
-                    course={course}
-                    onSectionSelect={handleSectionSelect}
-                  />
-                ))}
-              </div>
-            )}
+              {!isLoading && !error && courses.length > 0 && (
+                <div className="space-y-3">
+                  <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>
+                    Found {courses.length} course{courses.length !== 1 ? 's' : ''}
+                  </p>
+                  {courses.map((course, index) => (
+                    <CourseCard
+                      key={`${course.id}-${index}`}
+                      course={course}
+                      onSectionSelect={handleSectionSelect}
+                    />
+                  ))}
+                </div>
+              )}
 
-            {!hasSearched && (
-              <div
-                className="p-8 rounded-lg text-center"
-                style={{ backgroundColor: 'var(--bg-card)' }}
-              >
-                <p style={{ color: 'var(--text-secondary)' }}>
-                  Search for courses by name, professor, topic, or course code.
-                </p>
-              </div>
-            )}
+              {!hasSearched && (
+                <div
+                  className="p-8 rounded-lg text-center"
+                  style={{ backgroundColor: 'var(--bg-card)' }}
+                >
+                  <p style={{ color: 'var(--text-secondary)' }}>
+                    Search for courses by name, professor, topic, or course code.
+                  </p>
+                </div>
+              )}
+            </div>
           </div>
-        </div>
+        </main>
+
+        {/* Right panel - Selected Courses */}
+        <SelectedCoursesPanel />
 
         {selectedCourse && (
           <CourseDetailModal
@@ -113,7 +120,7 @@ export default function SearchPage() {
             onClose={handleCloseModal}
           />
         )}
-      </main>
+      </div>
     </>
   );
 }
