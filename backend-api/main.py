@@ -2,11 +2,9 @@ import os
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 from dotenv import load_dotenv
-
-# LangChain imports for semantic search
-from langchain_openai import OpenAIEmbeddings
-from langchain_community.vectorstores import Chroma, FAISS
-from langchain.schema import Document
+from supabase import create_client
+from openai import OpenAI
+import json
 
 load_dotenv()
 
@@ -19,36 +17,122 @@ CORS(app, origins=[
 ])
 
 # ============================================================================
-# Vector Store Setup (lazy initialization)
+# Supabase and OpenAI Setup
 # ============================================================================
 
-_vector_store = None
+supabase = create_client(os.getenv("SUPABASE_URL"), os.getenv("SUPABASE_KEY"))
+openai = OpenAI(api_key=os.getenv("OPENAI_KEY"))
 
+# ============================================================================
+# Functions copied from database-setup/query-courses.py
+# ============================================================================
 
-def get_vector_store():
+def analyze_query(query: str) -> tuple[bool, str]:
     """
-    Lazy initialization of the vector store.
-    In production, you would load your pre-indexed course data here.
+    Use LLM to:
+    1. Determine if query contains specific named entities (keyword search)
+    2. Extract only the meaningful keywords, removing filler words
+    
+    Returns: (use_keyword_search, cleaned_keywords)
     """
-    global _vector_store
-    
-    if _vector_store is None:
-        openai_api_key = os.getenv("OPENAI_API_KEY")
-        if not openai_api_key:
-            return None, "OpenAI API key not configured for embeddings"
-        
-        embeddings = OpenAIEmbeddings(openai_api_key=openai_api_key)
-        
-        # Placeholder: In production, load your actual course data
-        # For now, create an empty Chroma store
-        _vector_store = Chroma(
-            collection_name="courses",
-            embedding_function=embeddings,
-            persist_directory="./chroma_db",
-        )
-    
-    return _vector_store, None
+    response = openai.chat.completions.create(
+        model="gpt-4o-mini",
+        messages=[
+            {
+                "role": "system",
+                "content": 
 
+                    """
+                    Analyze course search queries. Return TWO lines:
+
+                    Line 1: "keyword" or "semantic"
+                    - "keyword" if query contains: names, places, course codes, institutions
+                    - "semantic" if query is conceptual/thematic
+
+                    Line 2: Extract ONLY the specific searchable terms (names, places, course codes).
+                    Remove filler words like: class, classes, course, courses, taught, by, with, and, the, for, about, professor, prof, dr, prepositions
+
+                    Examples:
+                    Query: "math and cs classes taught by professor Tony Dear"
+                    keyword
+                    Tony Dear
+
+                    Query: "introductory biology courses"
+                    semantic
+
+                    Query: "COMS4111 with Brian Borowski"
+                    keyword
+                    COMS4111 Brian Borowski
+
+                    Query: "courses about social justice in Harlem"
+                    keyword
+                    Harlem
+
+                    Query: "machine learning fundamentals"
+                    semantic
+                    """
+            },
+            {"role": "user", "content": query}
+        ],
+        max_tokens=50,
+        temperature=0
+    )
+    
+    lines = response.choices[0].message.content.strip().split('\n')
+    use_keywords = lines[0].strip().lower() == "keyword"
+    cleaned_keywords = lines[1].strip() if len(lines) > 1 else ""
+    
+    return use_keywords, cleaned_keywords
+
+
+def get_professor_ratings(names: list[str]) -> dict:
+    """Batch lookup: ["Erica Hunt", "Tony Dear"] -> {name: rating}"""
+    keys = [n.lower().replace(" ", "_") for n in names]
+    result = supabase.table("professors") \
+        .select("id, first_name, last_name, rating") \
+        .in_("id", keys) \
+        .execute()
+    
+    return {
+        f"{r['first_name']} {r['last_name']}".title(): r["rating"] 
+        for r in result.data
+    }
+
+# the query will not have user context, just search bar text
+def get_courses(query: str) -> list[dict]:
+
+    # LLM determines search strategy AND extracts clean keywords
+    use_keywords, cleaned_keywords = analyze_query(query)
+    keyword_weight = 0.3 if use_keywords else 0.0
+    semantic_weight = 0.7 if use_keywords else 1.0
+
+    # Full query for semantic embedding (captures intent)
+    query_embedding = openai.embeddings.create(
+        input=query,
+        model="text-embedding-ada-002"
+    ).data[0].embedding
+
+    # Cleaned keywords for tsvector matching (precise terms only)
+    keyword_query = cleaned_keywords if use_keywords and cleaned_keywords else query
+
+    # Hybrid search: combines vector similarity + keyword matching
+    result = supabase.rpc(
+        "hybrid_search",
+        {
+            "query_text": keyword_query,  # Use cleaned keywords for tsvector
+            "query_embedding": query_embedding,
+            "match_count": 50,
+            "keyword_weight": keyword_weight,
+            "semantic_weight": semantic_weight
+        }
+    ).execute()
+
+    courses = []
+    for item in result.data:
+        content = item["content"]
+        course = json.loads(content)
+        courses.append(course)
+    return courses
 
 # ============================================================================
 # Endpoints
@@ -75,65 +159,42 @@ def get_mapbox_token():
     return response
 
 
-@app.route("/api/search", methods=["POST"])
-def semantic_search():
+@app.route("/api/courses/search", methods=["POST"])
+def search_courses():
     """
-    Perform semantic search over the course vector database.
+    Search for courses using hybrid search (semantic + keyword).
     """
     try:
         data = request.get_json()
         query = data.get("query", "")
-        top_k = data.get("top_k", 5)
         
-        vector_store, error = get_vector_store()
-        if error:
-            return jsonify({"error": error}), 500
+        if not query:
+            return jsonify({"error": "Query is required"}), 400
         
-        # Perform similarity search
-        docs_with_scores = vector_store.similarity_search_with_score(query, k=top_k)
-        
-        results = [
-            {
-                "content": doc.page_content,
-                "metadata": doc.metadata,
-                "score": score,
-            }
-            for doc, score in docs_with_scores
-        ]
-        
-        return jsonify({"results": results})
+        courses = get_courses(query)
+        return jsonify(courses)
     
     except Exception as e:
         return jsonify({"error": f"Search failed: {str(e)}"}), 500
 
 
-@app.route("/api/index", methods=["POST"])
-def index_documents():
+@app.route("/api/professors/ratings", methods=["POST"])
+def get_ratings():
     """
-    Index new documents into the vector store.
-    Each document should have 'content' and optional 'metadata'.
+    Get professor ratings by names.
     """
     try:
-        documents = request.get_json()
+        data = request.get_json()
+        names = data.get("names", [])
         
-        vector_store, error = get_vector_store()
-        if error:
-            return jsonify({"error": error}), 500
+        if not names:
+            return jsonify({})
         
-        docs = [
-            Document(
-                page_content=doc["content"],
-                metadata=doc.get("metadata", {}),
-            )
-            for doc in documents
-        ]
-        
-        vector_store.add_documents(docs)
-        
-        return jsonify({"message": f"Successfully indexed {len(docs)} documents"}), 201
+        ratings = get_professor_ratings(names)
+        return jsonify(ratings)
     
     except Exception as e:
-        return jsonify({"error": f"Indexing failed: {str(e)}"}), 500
+        return jsonify({"error": f"Failed to get ratings: {str(e)}"}), 500
 
 
 # ============================================================================
