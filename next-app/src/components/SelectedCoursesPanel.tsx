@@ -186,8 +186,10 @@ function SelectedCourseCard({ course, isHighlighted, onRemove, onClick }: Select
 
         {/* Remove button */}
         <button
+          type="button"
           onClick={(e) => {
             e.stopPropagation();
+            e.preventDefault();
             onRemove();
           }}
           className="mt-3 px-3 py-1.5 rounded text-xs font-medium transition-colors duration-200 hover:opacity-80"
@@ -195,6 +197,9 @@ function SelectedCourseCard({ course, isHighlighted, onRemove, onClick }: Select
             backgroundColor: 'var(--bg-card)',
             color: 'var(--text-secondary)',
             border: '1px solid var(--border-color)',
+            position: 'relative',
+            zIndex: 10,
+            cursor: 'pointer',
           }}
         >
           Remove

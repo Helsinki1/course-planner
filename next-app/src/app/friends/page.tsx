@@ -37,11 +37,14 @@ export default function FriendsPage() {
     router.push('/search');
   };
 
-  // Get user's first name from Google metadata
-  const getUserFirstName = useCallback(() => {
-    if (!user) return 'Someone';
+  // Get user's first and last name from Google metadata
+  const getUserName = useCallback(() => {
+    if (!user) return { firstName: 'Someone', lastName: '' };
     const fullName = user.user_metadata?.full_name || user.user_metadata?.name || '';
-    return fullName.split(' ')[0] || user.email?.split('@')[0] || 'Someone';
+    const parts = fullName.split(' ');
+    const firstName = parts[0] || user.email?.split('@')[0] || 'Someone';
+    const lastName = parts.slice(1).join(' ') || '';
+    return { firstName, lastName };
   }, [user]);
 
   // Fetch all friend data
@@ -80,7 +83,8 @@ export default function FriendsPage() {
     setSubmitSuccess('');
 
     try {
-      await sendFriendInvite(user.id, getUserFirstName(), email.trim());
+      const { firstName, lastName } = getUserName();
+      await sendFriendInvite(user.id, firstName, lastName, email.trim());
       setSubmitSuccess(`Invitation sent to ${email}`);
       setEmail('');
       fetchFriendData();
@@ -248,7 +252,7 @@ export default function FriendsPage() {
                     >
                       <div>
                         <p className="font-medium" style={{ color: 'var(--text-primary)' }}>
-                          {invite.sender_name}
+                          {invite.sender_first_name} {invite.sender_last_name}
                         </p>
                         <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>
                           Invited you on {formatDate(invite.created_at)}

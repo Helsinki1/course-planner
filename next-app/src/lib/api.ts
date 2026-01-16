@@ -166,7 +166,8 @@ export async function unmarkCourseTaken(userId: string, courseId: string): Promi
 export interface FriendInvite {
   id: string;
   sender_id: string;
-  sender_name: string;
+  sender_first_name: string;
+  sender_last_name: string;
   recipient_email: string;
   status: 'pending' | 'accepted' | 'declined';
   created_at: string;
@@ -179,7 +180,8 @@ export interface Friend {
 
 export async function sendFriendInvite(
   senderId: string,
-  senderName: string,
+  senderFirstName: string,
+  senderLastName: string,
   recipientEmail: string
 ): Promise<FriendInvite[]> {
   const response = await fetch(`${API_BASE_URL}/api/friends/invite`, {
@@ -189,7 +191,8 @@ export async function sendFriendInvite(
     },
     body: JSON.stringify({
       sender_id: senderId,
-      sender_name: senderName,
+      sender_first_name: senderFirstName,
+      sender_last_name: senderLastName,
       recipient_email: recipientEmail,
     }),
   });

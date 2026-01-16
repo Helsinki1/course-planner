@@ -398,11 +398,14 @@ def send_friend_invite():
     try:
         data = request.get_json()
         sender_id = data.get("sender_id")
-        sender_name = data.get("sender_name")
+        sender_first_name = data.get("sender_first_name")
+        sender_last_name = data.get("sender_last_name")
         recipient_email = data.get("recipient_email")
         
-        if not all([sender_id, sender_name, recipient_email]):
+        if not all([sender_id, sender_first_name, sender_last_name, recipient_email]):
             return jsonify({"error": "Missing required fields"}), 400
+        
+        sender_full_name = f"{sender_first_name} {sender_last_name}"
         
         # Check if invite already exists
         existing = supabase.table("friend_invites") \
@@ -418,32 +421,33 @@ def send_friend_invite():
         # Create the invite in database
         result = supabase.table("friend_invites").insert({
             "sender_id": sender_id,
-            "sender_name": sender_name,
+            "sender_first_name": sender_first_name,
+            "sender_last_name": sender_last_name,
             "recipient_email": recipient_email,
             "status": "pending"
         }).execute()
         
         # Send email via Resend
         resend.Emails.send({
-            "from": "Course Planner <onboarding@resend.dev>",
+            "from": "Lion-Cal <onboarding@resend.dev>",
             "to": recipient_email,
-            "subject": f"{sender_name} shared their schedule with you!",
+            "subject": f"{sender_full_name} shared their course schedule with you!",
             "html": f"""
                 <div style="font-family: system-ui, -apple-system, sans-serif; max-width: 600px; margin: 0 auto; padding: 40px 20px;">
-                    <h1 style="color: #e5a829; margin-bottom: 24px;">You're Invited!</h1>
+                    <h1 style="color: #e5a829; margin-bottom: 24px;">New Friend Request</h1>
                     <p style="font-size: 18px; color: #333; line-height: 1.6;">
-                        <strong>{sender_name}</strong> shared their course schedule with you on Course Planner!
+                        <strong>{sender_full_name}</strong> shared their course schedule with you on Lion-Cal!
                     </p>
                     <p style="font-size: 16px; color: #666; line-height: 1.6;">
-                        Course Planner helps Columbia students search and plan their courses with professor ratings and schedule information.
+                        Lion-Cal helps Columbia students search and plan their courses with professor ratings, an AI academic advisor trained on the Columbia Bulletin, and a 3D interactive map.
                     </p>
                     <p style="font-size: 16px; color: #666; line-height: 1.6;">
-                        Create an account to accept this invitation, view {sender_name}'s schedule, and share your own!
+                        Create an account on Lion-Cal.com to accept this invitation, view {sender_full_name}'s schedule, and share your own!
                     </p>
                     <a href="http://localhost:3000/login" 
                        style="display: inline-block; background-color: #e5a829; color: #000; padding: 14px 28px; 
                               text-decoration: none; border-radius: 8px; font-weight: 600; margin-top: 24px;">
-                        Accept Invitation
+                        Open Lion-Cal.com
                     </a>
                     <p style="font-size: 14px; color: #999; margin-top: 40px;">
                         If you didn't expect this email, you can safely ignore it.
