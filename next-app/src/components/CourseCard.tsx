@@ -92,6 +92,8 @@ export default function CourseCard({ course, onSectionSelect }: CourseCardProps)
                   section={section}
                   sectionNumber={index + 1}
                   credits={course.credits}
+                  courseId={course.id}
+                  courseName={course.name}
                   onSelect={() => onSectionSelect(course, section, index)}
                 />
               ))}

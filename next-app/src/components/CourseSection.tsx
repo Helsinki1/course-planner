@@ -1,11 +1,14 @@
 'use client';
 
 import { TimeSlot } from '@/types/course';
+import { useSelectedCourses } from '@/contexts/SelectedCoursesContext';
 
 interface CourseSectionProps {
   section: TimeSlot;
   sectionNumber: number;
   credits: number;
+  courseId: string;
+  courseName: string;
   onSelect: () => void;
 }
 
@@ -13,10 +16,23 @@ export default function CourseSection({
   section,
   sectionNumber,
   credits,
+  courseId,
+  courseName,
   onSelect,
 }: CourseSectionProps) {
+  const { addCourse, isCourseSelected } = useSelectedCourses();
   const isRestricted = section.enrollment >= section.capacity;
   const enrollmentPercent = (section.enrollment / section.capacity) * 100;
+  const isSelected = isCourseSelected(courseId, sectionNumber - 1);
+
+  const handleAdd = async (e: React.MouseEvent) => {
+    e.stopPropagation();
+    try {
+      await addCourse(courseId, courseName, sectionNumber - 1, section, credits);
+    } catch (error) {
+      console.error('Failed to add course:', error);
+    }
+  };
 
   return (
     <div
@@ -90,6 +106,22 @@ export default function CourseSection({
             </div>
           </div>
         </div>
+      </div>
+
+      {/* Add button */}
+      <div className="mt-3 flex justify-end">
+        <button
+          onClick={handleAdd}
+          disabled={isSelected}
+          className="px-4 py-1.5 rounded text-xs font-medium transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
+          style={{
+            backgroundColor: isSelected ? 'var(--bg-card)' : 'var(--accent-green)',
+            color: isSelected ? 'var(--text-secondary)' : 'var(--bg-primary)',
+            border: isSelected ? '1px solid var(--border-color)' : 'none',
+          }}
+        >
+          {isSelected ? 'Added' : 'Add'}
+        </button>
       </div>
     </div>
   );
