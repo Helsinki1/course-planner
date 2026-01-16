@@ -2,6 +2,7 @@
 
 import { TimeSlot } from '@/types/course';
 import { useSelectedCourses } from '@/contexts/SelectedCoursesContext';
+import { useAuth } from '@/contexts/AuthContext';
 
 interface CourseSectionProps {
   section: TimeSlot;
@@ -21,16 +22,22 @@ export default function CourseSection({
   onSelect,
 }: CourseSectionProps) {
   const { addCourse, isCourseSelected } = useSelectedCourses();
+  const { user } = useAuth();
   const isRestricted = section.enrollment >= section.capacity;
   const enrollmentPercent = (section.enrollment / section.capacity) * 100;
   const isSelected = isCourseSelected(courseId, sectionNumber - 1);
 
   const handleAdd = async (e: React.MouseEvent) => {
     e.stopPropagation();
+    if (!user) {
+      alert('Please sign in to add courses to your schedule.');
+      return;
+    }
     try {
       await addCourse(courseId, courseName, sectionNumber - 1, section, credits);
     } catch (error) {
       console.error('Failed to add course:', error);
+      alert(`Failed to add course: ${error instanceof Error ? error.message : 'Unknown error'}`);
     }
   };
 

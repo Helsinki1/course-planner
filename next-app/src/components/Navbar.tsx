@@ -169,7 +169,7 @@ export default function Navbar({ onSearch, isLoading }: NavbarProps) {
 
             {isDropdownOpen && (
               <div
-                className="absolute right-0 top-full mt-2 w-40 rounded-lg border shadow-lg overflow-hidden"
+                className="absolute right-0 top-full mt-2 w-40 rounded-lg border shadow-lg overflow-hidden z-[60]"
                 style={{
                   backgroundColor: 'var(--bg-card)',
                   borderColor: 'var(--border-color)',

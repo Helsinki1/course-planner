@@ -80,7 +80,8 @@ export async function addSelectedCourse(
   });
 
   if (!response.ok) {
-    throw new Error('Failed to add selected course');
+    const errorData = await response.json().catch(() => ({}));
+    throw new Error(errorData.error || `Failed to add selected course (${response.status})`);
   }
 
   return response.json();
