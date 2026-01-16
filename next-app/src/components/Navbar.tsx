@@ -79,11 +79,11 @@ export default function Navbar({ onSearch, isLoading }: NavbarProps) {
         borderColor: 'var(--border-color)',
       }}
     >
-      <div className="flex items-center justify-between w-full max-w-7xl mx-auto gap-4">
+      <div className="flex items-center justify-between w-full gap-4">
         {/* Logo */}
         <Link
           href="/search"
-          className="text-lg font-bold shrink-0"
+          className="text-lg font-bold shrink-0 relative left-10"
           style={{ color: 'var(--text-primary)' }}
         >
           Lion-Cal
@@ -133,8 +133,26 @@ export default function Navbar({ onSearch, isLoading }: NavbarProps) {
           </div>
         </div>
 
-        {/* Right side - Calendar, Map links and Profile */}
-        <div className="flex items-center gap-3 shrink-0">
+        {/* Right side - Friends, Counselor, Calendar, Map links and Profile */}
+        <div className="flex items-center gap-3 shrink-0 relative right-10">
+          <Link
+            href="/friends"
+            className="px-3 py-1.5 rounded-lg text-sm transition-colors duration-200 hover:opacity-80"
+            style={{
+              color: 'var(--text-secondary)',
+            }}
+          >
+            Friends
+          </Link>
+          <Link
+            href="/counselor"
+            className="px-3 py-1.5 rounded-lg text-sm transition-colors duration-200 hover:opacity-80"
+            style={{
+              color: 'var(--text-secondary)',
+            }}
+          >
+            Counselor
+          </Link>
           <Link
             href="/calendar"
             className="px-3 py-1.5 rounded-lg text-sm transition-colors duration-200 hover:opacity-80"

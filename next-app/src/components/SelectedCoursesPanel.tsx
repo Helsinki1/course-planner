@@ -67,19 +67,17 @@ export default function SelectedCoursesPanel({ className = '' }: SelectedCourses
         <div className="mt-3 flex items-center justify-between text-sm">
           <div className="flex items-center gap-2">
             <span
-              className="w-2 h-2 rounded-full"
-              style={{ backgroundColor: 'var(--accent-green)' }}
-            />
-            <span style={{ color: 'var(--text-secondary)' }}>Selected</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <span
               className="px-2 py-0.5 rounded text-xs"
               style={{ backgroundColor: 'var(--bg-card-hover)', color: 'var(--text-primary)' }}
             >
               {totalCredits} credits
             </span>
-            <span style={{ color: 'var(--text-primary)' }}>{selectedCourses.length}</span>
+            <span
+              className="px-2 py-0.5 rounded text-xs"
+              style={{ backgroundColor: 'var(--bg-card-hover)', color: 'var(--text-primary)' }}
+            >
+              {selectedCourses.length} courses
+            </span>
           </div>
         </div>
       </div>
@@ -89,12 +87,6 @@ export default function SelectedCoursesPanel({ className = '' }: SelectedCourses
         <div className="flex items-center justify-between mb-2">
           <span className="text-xs font-medium uppercase tracking-wide" style={{ color: 'var(--text-secondary)' }}>
             Selected Classes
-          </span>
-          <span
-            className="w-5 h-5 rounded-full flex items-center justify-center text-xs"
-            style={{ backgroundColor: 'var(--accent-green)', color: 'var(--bg-primary)' }}
-          >
-            {selectedCourses.length}
           </span>
         </div>
 
@@ -158,7 +150,7 @@ function SelectedCourseCard({ course, isHighlighted, onRemove, onClick }: Select
         className="px-3 py-1.5 text-xs font-medium"
         style={{ backgroundColor: 'rgba(63, 185, 80, 0.2)', color: 'var(--accent-green)' }}
       >
-        SELECTED
+        ___________________________________________________
       </div>
 
       {/* Course info */}

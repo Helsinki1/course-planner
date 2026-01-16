@@ -1,16 +1,19 @@
 'use client';
 
 import { useMemo } from 'react';
+import { useRouter } from 'next/navigation';
 import Navbar from '@/components/Navbar';
 import SelectedCoursesPanel from '@/components/SelectedCoursesPanel';
 import { useSelectedCourses } from '@/contexts/SelectedCoursesContext';
+import { useSearch } from '@/contexts/SearchContext';
 import { SelectedCourse } from '@/types/course';
 
 const DAYS = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
 const HOURS = Array.from({ length: 15 }, (_, i) => i + 7); // 7 AM to 9 PM
 
-// Map day abbreviations to full day names
+// Map day abbreviations and full names to calendar day headers
 const DAY_MAP: Record<string, string> = {
+  // Abbreviations
   'Su': 'SUN',
   'M': 'MON',
   'Mo': 'MON',
@@ -24,6 +27,14 @@ const DAY_MAP: Record<string, string> = {
   'Fr': 'FRI',
   'Sa': 'SAT',
   'S': 'SAT',
+  // Full day names
+  'Sunday': 'SUN',
+  'Monday': 'MON',
+  'Tuesday': 'TUE',
+  'Wednesday': 'WED',
+  'Thursday': 'THU',
+  'Friday': 'FRI',
+  'Saturday': 'SAT',
 };
 
 interface CalendarEvent {
@@ -68,7 +79,9 @@ function parseDays(daysArray: string[]): string[] {
 }
 
 export default function CalendarPage() {
+  const router = useRouter();
   const { selectedCourses, setHighlightedCourseId } = useSelectedCourses();
+  const { setPendingQuery } = useSearch();
 
   // Convert selected courses to calendar events
   const events = useMemo(() => {
@@ -98,8 +111,11 @@ export default function CalendarPage() {
     setHighlightedCourseId(course.course_id);
   };
 
-  // Dummy search handler for navbar (calendar page doesn't need search)
-  const handleSearch = () => {};
+  // Set pending query and navigate to search page
+  const handleSearch = (query: string) => {
+    setPendingQuery(query);
+    router.push('/search');
+  };
 
   return (
     <>
@@ -142,7 +158,7 @@ export default function CalendarPage() {
                 >
                   {/* Time label */}
                   <div
-                    className="p-2 text-xs text-right pr-3"
+                    className="p-2 text-sm text-right pr-3"
                     style={{ color: 'var(--text-secondary)' }}
                   >
                     {hour === 12 ? '12 PM' : hour > 12 ? `${hour - 12} PM` : `${hour} AM`}

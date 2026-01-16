@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { Course, TimeSlot } from '@/types/course';
 import { searchCourses } from '@/lib/api';
 import Navbar from '@/components/Navbar';
@@ -8,8 +8,10 @@ import CourseCard from '@/components/CourseCard';
 import CourseDetailModal from '@/components/CourseDetailModal';
 import LoadingSkeleton from '@/components/LoadingSkeleton';
 import SelectedCoursesPanel from '@/components/SelectedCoursesPanel';
+import { useSearch } from '@/contexts/SearchContext';
 
 export default function SearchPage() {
+  const { consumePendingQuery } = useSearch();
   const [courses, setCourses] = useState<Course[]>([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -20,7 +22,7 @@ export default function SearchPage() {
     sectionIndex: number;
   } | null>(null);
 
-  const handleSearch = async (query: string) => {
+  const handleSearch = useCallback(async (query: string) => {
     setIsLoading(true);
     setError(null);
     setHasSearched(true);
@@ -34,7 +36,15 @@ export default function SearchPage() {
     } finally {
       setIsLoading(false);
     }
-  };
+  }, []);
+
+  // Auto-search if pending query from another page
+  useEffect(() => {
+    const query = consumePendingQuery();
+    if (query) {
+      handleSearch(query);
+    }
+  }, []);
 
   const handleSectionSelect = (course: Course, section: TimeSlot, sectionIndex: number) => {
     setSelectedCourse({ course, section, sectionIndex });
