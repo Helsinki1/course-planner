@@ -40,7 +40,7 @@ export default function CourseSection({
                 color: 'var(--accent-green)',
               }}
             >
-              Restricted
+              Full Capacity
             </span>
           )}
           <span
