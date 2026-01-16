@@ -3,7 +3,7 @@
 export default function LoadingSkeleton() {
   return (
     <div className="space-y-4">
-      {[1, 2, 3].map((i) => (
+      {Array.from({ length: 12 }, (_, i) => i + 1).map((i) => (
         <div
           key={i}
           className="rounded-lg p-4 animate-pulse"
