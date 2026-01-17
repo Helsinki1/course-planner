@@ -434,7 +434,7 @@ def send_friend_invite():
         
         # Send email via Resend
         resend.Emails.send({
-            "from": "Lion-Cal <onboarding@resend.dev>",
+            "from": "Lion-Cal <notifications@lion-cal.com>",
             "to": recipient_email,
             "subject": f"{sender_full_name} shared their course schedule with you!",
             "html": f"""
