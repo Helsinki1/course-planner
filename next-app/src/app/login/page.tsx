@@ -79,23 +79,31 @@ function LoginContent() {
         }}
       >
         <div className="text-center mb-10">
+
+          <div className="h-6" style={{ backgroundColor: 'var(--bg-card)' }}></div>
+
           <h1
             className="text-3xl font-bold mb-3"
             style={{ color: 'var(--text-primary)' }}
           >
             Lion-Cal
           </h1>
+
+          <div className="h-3" style={{ backgroundColor: 'var(--bg-card)' }}></div>
+
           <p
             className="text-sm"
             style={{ color: 'var(--text-secondary)' }}
           >
             Columbia University Course Planning Tool
           </p>
+
+          <div className="h-4" style={{ backgroundColor: 'var(--bg-card)' }}></div>
         </div>
 
         {/* Mode Toggle */}
         <div
-          className="flex rounded-lg p-1 mb-8"
+          className="flex rounded-lg p-1 mb-8 h-9"
           style={{ backgroundColor: 'var(--bg-primary)' }}
         >
           <button
@@ -107,7 +115,7 @@ function LoginContent() {
             }}
             className="flex-1 py-2 px-4 rounded-md text-sm font-medium transition-all duration-200"
             style={{
-              backgroundColor: !isSignUp ? 'var(--bg-card)' : 'transparent',
+              backgroundColor: !isSignUp ? '#1a2332' : 'var(--bg-card)',
               color: !isSignUp ? 'var(--text-primary)' : 'var(--text-secondary)',
               boxShadow: !isSignUp ? '0 1px 3px rgba(0,0,0,0.1)' : 'none',
             }}
@@ -123,7 +131,7 @@ function LoginContent() {
             }}
             className="flex-1 py-2 px-4 rounded-md text-sm font-medium transition-all duration-200"
             style={{
-              backgroundColor: isSignUp ? 'var(--bg-card)' : 'transparent',
+              backgroundColor: isSignUp ? '#1a2332' : 'var(--bg-card)',
               color: isSignUp ? 'var(--text-primary)' : 'var(--text-secondary)',
               boxShadow: isSignUp ? '0 1px 3px rgba(0,0,0,0.1)' : 'none',
             }}
@@ -132,7 +140,7 @@ function LoginContent() {
           </button>
         </div>
 
-        <div className="space-y-5">
+        <div className="space-y-5 flex flex-col items-center">
           {/* URL Error Message */}
           {urlErrorMessage && (
             <div
@@ -173,15 +181,17 @@ function LoginContent() {
           )}
 
           {/* Email/Password Form */}
-          <form onSubmit={handleEmailSubmit} className="space-y-5">
-            <div>
+          <form onSubmit={handleEmailSubmit} className="flex flex-col items-center">
+            <div className="h-6" style={{ backgroundColor: 'var(--bg-card)' }}></div>
+            <div style={{ width: '288px' }}>
               <label
                 htmlFor="email"
-                className="block text-sm font-medium mb-1.5"
+                className="block text-sm font-medium"
                 style={{ color: 'var(--text-secondary)' }}
               >
                 Email
               </label>
+              <div className="h-2" style={{ backgroundColor: 'var(--bg-card)' }}></div>
               <input
                 id="email"
                 type="email"
@@ -189,8 +199,11 @@ function LoginContent() {
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="uni@columbia.edu"
                 required
-                className="w-full px-4 py-2.5 rounded-lg border text-sm transition-colors duration-200 focus:outline-none focus:ring-2"
+                className="rounded-lg border text-sm transition-colors duration-200 focus:outline-none focus:ring-2"
                 style={{
+                  width: '100%',
+                  height: '42px',
+                  padding: '0 16px',
                   backgroundColor: 'var(--bg-primary)',
                   borderColor: 'var(--border-color)',
                   color: 'var(--text-primary)',
@@ -198,14 +211,17 @@ function LoginContent() {
               />
             </div>
 
-            <div>
+            <div className="h-5" style={{ backgroundColor: 'var(--bg-card)' }}></div>
+
+            <div style={{ width: '288px' }}>
               <label
                 htmlFor="password"
-                className="block text-sm font-medium mb-1.5"
+                className="block text-sm font-medium"
                 style={{ color: 'var(--text-secondary)' }}
               >
                 Password
               </label>
+              <div className="h-2" style={{ backgroundColor: 'var(--bg-card)' }}></div>
               <input
                 id="password"
                 type="password"
@@ -214,19 +230,23 @@ function LoginContent() {
                 placeholder={isSignUp ? 'At least 6 characters' : 'Enter your password'}
                 required
                 minLength={6}
-                className="w-full px-4 py-2.5 rounded-lg border text-sm transition-colors duration-200 focus:outline-none focus:ring-2"
+                className="rounded-lg border text-sm transition-colors duration-200 focus:outline-none focus:ring-2"
                 style={{
+                  width: '100%',
+                  height: '42px',
+                  padding: '0 16px',
                   backgroundColor: 'var(--bg-primary)',
                   borderColor: 'var(--border-color)',
                   color: 'var(--text-primary)',
                 }}
               />
             </div>
+            <div className="h-6" style={{ backgroundColor: 'var(--bg-card)' }}></div>
 
             <button
               type="submit"
               disabled={isSubmitting || isLoading}
-              className="w-full py-2.5 px-4 rounded-lg font-medium text-sm transition-opacity duration-200 hover:opacity-90 disabled:opacity-50"
+              className="w-72 h-10 rounded-lg font-medium text-sm transition-opacity duration-200 hover:opacity-90 disabled:opacity-50"
               style={{
                 backgroundColor: '#e5a829',
                 color: '#000',
@@ -235,6 +255,8 @@ function LoginContent() {
               {isSubmitting ? 'Please wait...' : isSignUp ? 'Create Account' : 'Sign In'}
             </button>
           </form>
+
+          <div className="h-2" style={{ backgroundColor: 'var(--bg-card)' }}></div>
 
           {/* Divider */}
           <div className="relative my-6">
@@ -260,11 +282,13 @@ function LoginContent() {
             </div>
           </div>
 
+          <div className="h-3" style={{ backgroundColor: 'var(--bg-card)' }}></div>
+
           {/* Google Sign In */}
           <button
             onClick={handleGoogleSignIn}
             disabled={isLoading || isSubmitting}
-            className="w-full flex items-center justify-center gap-3 px-6 py-2.5 rounded-lg border transition-colors duration-200 hover:opacity-90 disabled:opacity-50"
+            className="flex items-center justify-center w-8/12 h-10 rounded-lg border transition-colors duration-200 hover:opacity-90 disabled:opacity-50"
             style={{
               backgroundColor: 'var(--bg-card-hover)',
               borderColor: 'var(--border-color)',
@@ -292,12 +316,16 @@ function LoginContent() {
             {isLoading ? 'Loading...' : 'Continue with Google'}
           </button>
 
+          <div className="h-3" style={{ backgroundColor: 'var(--bg-card)' }}></div>
+
           <p
             className="text-center text-xs mt-4"
             style={{ color: 'var(--text-secondary)' }}
           >
             Only @columbia.edu and @barnard.edu emails are allowed.
           </p>
+
+          <div className="h-4" style={{ backgroundColor: 'var(--bg-card)' }}></div>
         </div>
       </div>
     </main>
