@@ -15,6 +15,8 @@ app = Flask(__name__)
 CORS(app, origins=[
     "http://localhost:3000",
     "http://127.0.0.1:3000",
+    "https://lion-cal.com",
+    "https://www.lion-cal.com",
 ])
 
 # ============================================================================
@@ -444,7 +446,7 @@ def send_friend_invite():
                     <p style="font-size: 16px; color: #666; line-height: 1.6;">
                         Create an account on Lion-Cal.com to accept this invitation, view {sender_full_name}'s schedule, and share your own!
                     </p>
-                    <a href="http://localhost:3000/login" 
+                    <a href="https://lion-cal.com/login" 
                        style="display: inline-block; background-color: #e5a829; color: #000; padding: 14px 28px; 
                               text-decoration: none; border-radius: 8px; font-weight: 600; margin-top: 24px;">
                         Open Lion-Cal.com
