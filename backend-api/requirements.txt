@@ -9,7 +9,7 @@ supabase==2.10.0
 openai==1.55.0
 
 # Resend for sending emails
-resend==2.5.0
+resend==2.19.0
 
 # Production WSGI server
 gunicorn==23.0.0
