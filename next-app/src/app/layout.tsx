@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Course Planner - Columbia University",
+  title: "Lion-Cal",
   description: "Search and plan your Columbia University courses with professor ratings and schedule information",
 };
 

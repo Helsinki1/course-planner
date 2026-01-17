@@ -5,6 +5,8 @@ import { Map, NavigationControl, FullscreenControl } from 'react-map-gl/mapbox';
 import type { MapRef } from 'react-map-gl/mapbox';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+
 // Columbia University Morningside Heights Campus coordinates
 const COLUMBIA_CENTER = {
   longitude: -73.9626,
@@ -33,7 +35,7 @@ export default function CampusMap() {
 
   // Fetch token from Python backend
   useEffect(() => {
-    fetch('http://localhost:8000/api/mapbox-token')
+    fetch(`${API_BASE_URL}/api/mapbox-token`)
       .then((res) => {
         if (!res.ok) throw new Error('Failed to get map token');
         return res.json();
