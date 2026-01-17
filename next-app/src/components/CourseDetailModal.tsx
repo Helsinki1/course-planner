@@ -218,7 +218,20 @@ export default function CourseDetailModal({
                 ))}
               </div>
             ) : (
-              <div className="space-y-3">
+              <div className="space-y-2">
+                {/* Column headers */}
+                <div 
+                  className="flex items-center gap-3 text-xs font-medium pb-2 border-b" 
+                  style={{ borderColor: 'var(--border-color)', color: 'var(--text-secondary)' }}
+                >
+                  <span style={{ width: '128px' }}>Professor</span>
+                  <span style={{ width: '150px' }}>Rating</span>
+                  <span style={{ width: '64px' }}></span>
+                  <span style={{ width: '40px', textAlign: 'center' }}>#HWs</span>
+                  <span style={{ width: '40px', textAlign: 'center' }}>#MTs</span>
+                  <span style={{ width: '40px', textAlign: 'center' }}>#Finals</span>
+                  <span style={{ width: '48px', textAlign: 'center' }}>Hrs/Wk</span>
+                </div>
                 {course.times.map((timeSlot, index) => {
                   if (!timeSlot.professor || timeSlot.professor.trim() === '') {
                     return null;
@@ -235,7 +248,7 @@ export default function CourseDetailModal({
                       name={timeSlot.professor}
                       rating={rating}
                       courses={courses}
-                      showHeader={index === 0}
+                      showHeader={false}
                     />
                   );
                 })}
