@@ -16,8 +16,17 @@ export interface Course {
   school: string;
 }
 
+export interface CourseStats {
+  [courseName: string]: [number | null, number | null, number | null, number | null];
+}
+
+export interface ProfessorData {
+  rating: number | null;
+  courses: CourseStats;
+}
+
 export interface ProfessorRatings {
-  [name: string]: number | null;
+  [name: string]: ProfessorData | number | null;
 }
 
 export interface SelectedCourse {

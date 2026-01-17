@@ -66,15 +66,6 @@ export default function CourseSection({
               Full Capacity
             </span>
           )}
-          <span
-            className="ml-2 px-2 py-0.5 text-xs rounded"
-            style={{
-              backgroundColor: 'var(--bg-card)',
-              color: 'var(--text-secondary)',
-            }}
-          >
-            {section.enrollment}/{section.capacity}
-          </span>
         </div>
       </div>
 
@@ -98,36 +89,45 @@ export default function CourseSection({
               {section.professor}
             </div>
           </div>
-          <div className="flex items-center gap-2">
+        </div>
+
+        {/* Centered capacity bar with enrollment text */}
+        <div className="flex items-center justify-center gap-3 mt-3 pt-3 border-t" style={{ borderColor: 'var(--border-color)' }}>
+          <div
+            className="w-32 h-2.5 rounded-full overflow-hidden"
+            style={{ backgroundColor: 'var(--border-color)' }}
+          >
             <div
-              className="w-24 h-2 rounded-full overflow-hidden"
-              style={{ backgroundColor: 'var(--border-color)' }}
-            >
-              <div
-                className="h-full rounded-full"
-                style={{
-                  width: `${enrollmentPercent}%`,
-                  backgroundColor: isRestricted ? 'var(--accent-yellow)' : 'var(--accent-green)',
-                }}
-              />
-            </div>
+              className="h-full rounded-full transition-all duration-300"
+              style={{
+                width: `${enrollmentPercent}%`,
+                backgroundColor: isRestricted ? 'var(--accent-yellow)' : 'var(--accent-green)',
+              }}
+            />
           </div>
+          <span
+            className="text-xs font-medium"
+            style={{ color: isRestricted ? 'var(--accent-yellow)' : 'var(--accent-green)' }}
+          >
+            {section.enrollment}/{section.capacity}
+          </span>
         </div>
       </div>
 
       {/* Add button */}
-      <div className="mt-3 flex justify-end">
+      <div className="mt-4 flex justify-center">
         <button
           onClick={handleAdd}
           disabled={isSelected}
-          className="px-4 py-1.5 rounded text-xs font-medium transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
+          className="px-6 py-2 rounded-lg text-sm font-medium transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed hover:scale-105"
           style={{
             backgroundColor: isSelected ? 'var(--bg-card)' : 'var(--accent-green)',
             color: isSelected ? 'var(--text-secondary)' : 'var(--bg-primary)',
             border: isSelected ? '1px solid var(--border-color)' : 'none',
+            boxShadow: isSelected ? 'none' : '0 2px 4px rgba(63, 185, 80, 0.3)',
           }}
         >
-          {isSelected ? 'Added' : 'Add'}
+          {isSelected ? 'Added' : 'Add to Schedule'}
         </button>
       </div>
     </div>

@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { Course, TimeSlot, ProfessorRatings } from '@/types/course';
+import { Course, TimeSlot, ProfessorRatings, ProfessorData } from '@/types/course';
 import { getProfessorRatings, checkCourseTaken, markCourseTaken, unmarkCourseTaken } from '@/lib/api';
 import { useAuth } from '@/contexts/AuthContext';
 import ProfessorRatingBar from './ProfessorRatingBar';
@@ -223,12 +223,19 @@ export default function CourseDetailModal({
                   if (!timeSlot.professor || timeSlot.professor.trim() === '') {
                     return null;
                   }
-                  const rating = ratings[timeSlot.professor] ?? null;
+                  const professorData = ratings[timeSlot.professor];
+                  const isProfessorData = (data: ProfessorData | number | null | undefined): data is ProfessorData => {
+                    return data !== null && data !== undefined && typeof data === 'object' && 'rating' in data;
+                  };
+                  const rating = isProfessorData(professorData) ? professorData.rating : (typeof professorData === 'number' ? professorData : null);
+                  const courses = isProfessorData(professorData) ? professorData.courses : undefined;
                   return (
                     <ProfessorRatingBar
                       key={index}
                       name={timeSlot.professor}
                       rating={rating}
+                      courses={courses}
+                      showHeader={index === 0}
                     />
                   );
                 })}
@@ -242,20 +249,22 @@ export default function CourseDetailModal({
           </div>
 
           {/* Mark Taken/Untaken button */}
-          <div className="pt-4 border-t" style={{ borderColor: 'var(--border-color)' }}>
+          <div className="pt-4 border-t flex flex-col items-center" style={{ borderColor: 'var(--border-color)' }}>
             <button
               onClick={handleToggleTaken}
               disabled={loadingTaken || updatingTaken}
-              className="w-full py-2.5 rounded-lg text-sm font-medium transition-colors duration-200 disabled:opacity-50"
+              className="px-6 py-4 rounded-lg text-sm font-medium transition-all duration-200 disabled:opacity-50 hover:scale-105"
               style={{
                 backgroundColor: isTaken ? 'var(--bg-card-hover)' : 'var(--accent-yellow)',
                 color: isTaken ? 'var(--text-secondary)' : 'var(--bg-primary)',
                 border: isTaken ? '1px solid var(--border-color)' : 'none',
+                minWidth: '140px',
+                boxShadow: isTaken ? 'none' : '0 2px 4px rgba(210, 153, 34, 0.3)',
               }}
             >
               {loadingTaken ? 'Loading...' : updatingTaken ? 'Updating...' : isTaken ? 'Mark Untaken' : 'Mark Taken'}
             </button>
-            <p className="text-xs mt-2 text-center" style={{ color: 'var(--text-secondary)' }}>
+            <p className="text-xs mt-3 text-center" style={{ color: 'var(--text-secondary)' }}>
               {isTaken 
                 ? 'You have marked this course as taken. Click to remove from your taken courses.'
                 : 'Mark this course as taken to track your academic progress.'}
