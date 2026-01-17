@@ -57,7 +57,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       try {
         // Add timeout to prevent infinite loading on stale sessions
         const timeoutPromise = new Promise<null>((_, reject) => 
-          setTimeout(() => reject(new Error('Session timeout')), 5000)
+          setTimeout(() => reject(new Error('Session timeout')), 3000)
         );
         
         const sessionPromise = supabase.auth.getSession();
@@ -74,8 +74,13 @@ export function AuthProvider({ children }: { children: ReactNode }) {
           await fetchProfile(session.user.id);
         }
       } catch (error) {
-        // Session expired or timed out - clear state and let user log in again
+        // Session expired or timed out - sign out to clear cookies and state
         console.warn('Session check failed:', error);
+        try {
+          await supabase.auth.signOut();
+        } catch {
+          // Ignore signOut errors
+        }
         if (isMounted) {
           setSession(null);
           setUser(null);
