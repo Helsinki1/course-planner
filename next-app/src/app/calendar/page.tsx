@@ -1,12 +1,14 @@
 'use client';
 
-import { useMemo } from 'react';
+import { useMemo, useState, useEffect, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import Navbar from '@/components/Navbar';
 import SelectedCoursesPanel from '@/components/SelectedCoursesPanel';
 import { useSelectedCourses } from '@/contexts/SelectedCoursesContext';
 import { useSearch } from '@/contexts/SearchContext';
+import { useAuth } from '@/contexts/AuthContext';
 import { SelectedCourse } from '@/types/course';
+import { getFriends, getFriendCourses, Friend } from '@/lib/api';
 
 const DAYS = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
 const HOURS = Array.from({ length: 15 }, (_, i) => i + 7); // 7 AM to 9 PM
@@ -82,12 +84,65 @@ export default function CalendarPage() {
   const router = useRouter();
   const { selectedCourses, setHighlightedCourseId } = useSelectedCourses();
   const { setPendingQuery } = useSearch();
+  const { user } = useAuth();
+
+  // Friend viewing state
+  const [selectedViewer, setSelectedViewer] = useState<string>('me');
+  const [friends, setFriends] = useState<Friend[]>([]);
+  const [friendCourses, setFriendCourses] = useState<SelectedCourse[]>([]);
+  const [isLoadingFriends, setIsLoadingFriends] = useState(false);
+  const [isLoadingCourses, setIsLoadingCourses] = useState(false);
+
+  // Fetch friends list on mount
+  const fetchFriends = useCallback(async () => {
+    if (!user) return;
+    setIsLoadingFriends(true);
+    try {
+      const friendsList = await getFriends(user.id);
+      setFriends(friendsList);
+    } catch (error) {
+      console.error('Failed to fetch friends:', error);
+    } finally {
+      setIsLoadingFriends(false);
+    }
+  }, [user]);
+
+  useEffect(() => {
+    fetchFriends();
+  }, [fetchFriends]);
+
+  // Fetch friend's courses when viewer changes
+  useEffect(() => {
+    const fetchViewerCourses = async () => {
+      if (!user || selectedViewer === 'me') {
+        setFriendCourses([]);
+        return;
+      }
+
+      setIsLoadingCourses(true);
+      try {
+        const courses = await getFriendCourses(user.id, selectedViewer);
+        setFriendCourses(courses);
+      } catch (error) {
+        console.error('Failed to fetch friend courses:', error);
+        setFriendCourses([]);
+      } finally {
+        setIsLoadingCourses(false);
+      }
+    };
+
+    fetchViewerCourses();
+  }, [user, selectedViewer]);
+
+  // Determine which courses to display
+  const displayCourses = selectedViewer === 'me' ? selectedCourses : friendCourses;
+  const isViewingFriend = selectedViewer !== 'me';
 
   // Convert selected courses to calendar events
   const events = useMemo(() => {
     const result: CalendarEvent[] = [];
     
-    for (const course of selectedCourses) {
+    for (const course of displayCourses) {
       const section = course.section_data;
       if (!section.time || !section.days) continue;
 
@@ -105,7 +160,7 @@ export default function CalendarPage() {
     }
     
     return result;
-  }, [selectedCourses]);
+  }, [displayCourses]);
 
   const handleEventClick = (course: SelectedCourse) => {
     setHighlightedCourseId(course.course_id);
@@ -117,6 +172,11 @@ export default function CalendarPage() {
     router.push('/search');
   };
 
+  // Get display name for a friend
+  const getFriendDisplayName = (friend: Friend) => {
+    return friend.email.split('@')[0] || friend.email;
+  };
+
   return (
     <>
       <Navbar onSearch={handleSearch} isLoading={false} />
@@ -126,6 +186,55 @@ export default function CalendarPage() {
       >
         {/* Calendar Grid */}
         <div className="flex-1 overflow-auto p-6">
+          {/* Viewer Dropdown */}
+          {user && (
+            <div className="mb-4 flex items-center gap-3">
+              <label
+                htmlFor="viewer-select"
+                className="text-sm font-medium"
+                style={{ color: 'var(--text-secondary)' }}
+              >
+                Viewing schedule for:
+              </label>
+              <select
+                id="viewer-select"
+                value={selectedViewer}
+                onChange={(e) => setSelectedViewer(e.target.value)}
+                className="px-3 py-2 rounded-lg border outline-none transition-colors text-sm"
+                style={{
+                  backgroundColor: 'var(--bg-card)',
+                  borderColor: 'var(--border-color)',
+                  color: 'var(--text-primary)',
+                  minWidth: '160px',
+                }}
+                disabled={isLoadingFriends}
+              >
+                <option value="me">Me</option>
+                {friends.map((friend) => (
+                  <option key={friend.id} value={friend.id}>
+                    {getFriendDisplayName(friend)}
+                  </option>
+                ))}
+              </select>
+              {isLoadingCourses && (
+                <span className="text-sm" style={{ color: 'var(--text-secondary)' }}>
+                  Loading...
+                </span>
+              )}
+              {isViewingFriend && !isLoadingCourses && (
+                <span
+                  className="text-xs px-2 py-1 rounded-full"
+                  style={{
+                    backgroundColor: 'var(--accent-purple)',
+                    color: '#fff',
+                  }}
+                >
+                  Friend&apos;s Schedule
+                </span>
+              )}
+            </div>
+          )}
+
           <div
             className="rounded-lg border overflow-hidden"
             style={{ backgroundColor: 'var(--bg-card)', borderColor: 'var(--border-color)' }}
@@ -201,12 +310,19 @@ export default function CalendarPage() {
                         width,
                         top,
                         height,
-                        backgroundColor: 'rgba(88, 166, 255, 0.3)',
-                        borderLeftColor: 'var(--text-course-code)',
+                        backgroundColor: isViewingFriend
+                          ? 'rgba(163, 113, 247, 0.3)'
+                          : 'rgba(88, 166, 255, 0.3)',
+                        borderLeftColor: isViewingFriend
+                          ? 'var(--accent-purple)'
+                          : 'var(--text-course-code)',
                       }}
                       onClick={() => handleEventClick(event.course)}
                     >
-                      <div className="text-xs font-medium truncate" style={{ color: 'var(--text-course-code)' }}>
+                      <div
+                        className="text-xs font-medium truncate"
+                        style={{ color: isViewingFriend ? 'var(--accent-purple)' : 'var(--text-course-code)' }}
+                      >
                         {event.course.course_id}
                       </div>
                       <div className="text-xs truncate" style={{ color: 'var(--text-course-name)' }}>

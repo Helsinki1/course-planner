@@ -1,19 +1,59 @@
 'use client';
 
-import { useSearchParams } from 'next/navigation';
-import { Suspense } from 'react';
+import { useSearchParams, useRouter } from 'next/navigation';
+import { Suspense, useState } from 'react';
 import { useAuth } from '@/contexts/AuthContext';
 
 function LoginContent() {
   const searchParams = useSearchParams();
-  const { signInWithGoogle, isLoading } = useAuth();
-  const error = searchParams.get('error');
+  const router = useRouter();
+  const { signInWithGoogle, signInWithEmail, signUpWithEmail, isLoading } = useAuth();
+  const urlError = searchParams.get('error');
+  const message = searchParams.get('message');
+
+  const [isSignUp, setIsSignUp] = useState(false);
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [formError, setFormError] = useState<string | null>(null);
+  const [formSuccess, setFormSuccess] = useState<string | null>(null);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleGoogleSignIn = async () => {
     await signInWithGoogle();
   };
 
-  const getErrorMessage = (errorCode: string | null) => {
+  const handleEmailSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setFormError(null);
+    setFormSuccess(null);
+    setIsSubmitting(true);
+
+    try {
+      if (isSignUp) {
+        const result = await signUpWithEmail(email, password);
+        if (result.error) {
+          setFormError(result.error);
+        } else {
+          setFormSuccess('Check your email for a confirmation link to complete sign up.');
+          setEmail('');
+          setPassword('');
+        }
+      } else {
+        const result = await signInWithEmail(email, password);
+        if (result.error) {
+          setFormError(result.error);
+        } else {
+          router.push('/search');
+        }
+      }
+    } catch {
+      setFormError('An unexpected error occurred. Please try again.');
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
+  const getUrlErrorMessage = (errorCode: string | null) => {
     switch (errorCode) {
       case 'invalid_email':
         return 'Only @columbia.edu and @barnard.edu email addresses are allowed.';
@@ -24,7 +64,7 @@ function LoginContent() {
     }
   };
 
-  const errorMessage = getErrorMessage(error);
+  const urlErrorMessage = getUrlErrorMessage(urlError);
 
   return (
     <main
@@ -53,8 +93,48 @@ function LoginContent() {
           </p>
         </div>
 
+        {/* Mode Toggle */}
+        <div
+          className="flex rounded-lg p-1 mb-6"
+          style={{ backgroundColor: 'var(--bg-primary)' }}
+        >
+          <button
+            type="button"
+            onClick={() => {
+              setIsSignUp(false);
+              setFormError(null);
+              setFormSuccess(null);
+            }}
+            className="flex-1 py-2 px-4 rounded-md text-sm font-medium transition-all duration-200"
+            style={{
+              backgroundColor: !isSignUp ? 'var(--bg-card)' : 'transparent',
+              color: !isSignUp ? 'var(--text-primary)' : 'var(--text-secondary)',
+              boxShadow: !isSignUp ? '0 1px 3px rgba(0,0,0,0.1)' : 'none',
+            }}
+          >
+            Sign In
+          </button>
+          <button
+            type="button"
+            onClick={() => {
+              setIsSignUp(true);
+              setFormError(null);
+              setFormSuccess(null);
+            }}
+            className="flex-1 py-2 px-4 rounded-md text-sm font-medium transition-all duration-200"
+            style={{
+              backgroundColor: isSignUp ? 'var(--bg-card)' : 'transparent',
+              color: isSignUp ? 'var(--text-primary)' : 'var(--text-secondary)',
+              boxShadow: isSignUp ? '0 1px 3px rgba(0,0,0,0.1)' : 'none',
+            }}
+          >
+            Sign Up
+          </button>
+        </div>
+
         <div className="space-y-4">
-          {errorMessage && (
+          {/* URL Error Message */}
+          {urlErrorMessage && (
             <div
               className="p-3 rounded-lg text-center text-sm"
               style={{
@@ -62,21 +142,129 @@ function LoginContent() {
                 color: '#f85149',
               }}
             >
-              {errorMessage}
+              {urlErrorMessage}
             </div>
           )}
 
-          <p
-            className="text-center text-sm"
-            style={{ color: 'var(--text-secondary)' }}
-          >
-            Sign in with your Columbia or Barnard email to get started.
-          </p>
+          {/* Form Error Message */}
+          {formError && (
+            <div
+              className="p-3 rounded-lg text-center text-sm"
+              style={{
+                backgroundColor: 'rgba(248, 81, 73, 0.1)',
+                color: '#f85149',
+              }}
+            >
+              {formError}
+            </div>
+          )}
 
+          {/* Success Message */}
+          {(formSuccess || message) && (
+            <div
+              className="p-3 rounded-lg text-center text-sm"
+              style={{
+                backgroundColor: 'rgba(63, 185, 80, 0.1)',
+                color: '#3fb950',
+              }}
+            >
+              {formSuccess || message}
+            </div>
+          )}
+
+          {/* Email/Password Form */}
+          <form onSubmit={handleEmailSubmit} className="space-y-4">
+            <div>
+              <label
+                htmlFor="email"
+                className="block text-sm font-medium mb-1.5"
+                style={{ color: 'var(--text-secondary)' }}
+              >
+                Email
+              </label>
+              <input
+                id="email"
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="uni@columbia.edu"
+                required
+                className="w-full px-4 py-2.5 rounded-lg border text-sm transition-colors duration-200 focus:outline-none focus:ring-2"
+                style={{
+                  backgroundColor: 'var(--bg-primary)',
+                  borderColor: 'var(--border-color)',
+                  color: 'var(--text-primary)',
+                }}
+              />
+            </div>
+
+            <div>
+              <label
+                htmlFor="password"
+                className="block text-sm font-medium mb-1.5"
+                style={{ color: 'var(--text-secondary)' }}
+              >
+                Password
+              </label>
+              <input
+                id="password"
+                type="password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                placeholder={isSignUp ? 'At least 6 characters' : 'Enter your password'}
+                required
+                minLength={6}
+                className="w-full px-4 py-2.5 rounded-lg border text-sm transition-colors duration-200 focus:outline-none focus:ring-2"
+                style={{
+                  backgroundColor: 'var(--bg-primary)',
+                  borderColor: 'var(--border-color)',
+                  color: 'var(--text-primary)',
+                }}
+              />
+            </div>
+
+            <button
+              type="submit"
+              disabled={isSubmitting || isLoading}
+              className="w-full py-2.5 px-4 rounded-lg font-medium text-sm transition-opacity duration-200 hover:opacity-90 disabled:opacity-50"
+              style={{
+                backgroundColor: '#e5a829',
+                color: '#000',
+              }}
+            >
+              {isSubmitting ? 'Please wait...' : isSignUp ? 'Create Account' : 'Sign In'}
+            </button>
+          </form>
+
+          {/* Divider */}
+          <div className="relative my-6">
+            <div
+              className="absolute inset-0 flex items-center"
+              aria-hidden="true"
+            >
+              <div
+                className="w-full border-t"
+                style={{ borderColor: 'var(--border-color)' }}
+              />
+            </div>
+            <div className="relative flex justify-center text-sm">
+              <span
+                className="px-3"
+                style={{
+                  backgroundColor: 'var(--bg-card)',
+                  color: 'var(--text-secondary)',
+                }}
+              >
+                or
+              </span>
+            </div>
+          </div>
+
+          {/* Google Sign In */}
           <button
             onClick={handleGoogleSignIn}
-            disabled={isLoading}
-            className="w-full flex items-center justify-center gap-3 px-6 py-3 rounded-lg border transition-colors duration-200 hover:opacity-90 disabled:opacity-50"
+            disabled={isLoading || isSubmitting}
+            className="w-full flex items-center justify-center gap-3 px-6 py-2.5 rounded-lg border transition-colors duration-200 hover:opacity-90 disabled:opacity-50"
             style={{
               backgroundColor: 'var(--bg-card-hover)',
               borderColor: 'var(--border-color)',
@@ -142,4 +330,3 @@ export default function LoginPage() {
     </Suspense>
   );
 }
-

@@ -439,7 +439,7 @@ def send_friend_invite():
                         <strong>{sender_full_name}</strong> shared their course schedule with you on Lion-Cal!
                     </p>
                     <p style="font-size: 16px; color: #666; line-height: 1.6;">
-                        Lion-Cal helps Columbia students search and plan their courses with professor ratings, an AI academic advisor trained on the Columbia Bulletin, and a 3D interactive map.
+                        Lion-Cal helps Columbia students semantically search for courses with professor ratings, an AI academic advisor trained on the Columbia Bulletin, and a 3D interactive map.
                     </p>
                     <p style="font-size: 16px; color: #666; line-height: 1.6;">
                         Create an account on Lion-Cal.com to accept this invitation, view {sender_full_name}'s schedule, and share your own!
@@ -603,6 +603,38 @@ def get_friends():
     
     except Exception as e:
         return jsonify({"error": f"Failed to get friends: {str(e)}"}), 500
+
+
+@app.route("/api/friends/<friend_id>/courses", methods=["GET"])
+def get_friend_courses(friend_id):
+    """
+    Get a friend's selected courses. Requires verified friendship.
+    """
+    try:
+        user_id = request.args.get("user_id")
+        if not user_id:
+            return jsonify({"error": "user_id is required"}), 400
+        
+        # Verify friendship exists
+        friendship = supabase.table("friendships") \
+            .select("id") \
+            .eq("user_id", user_id) \
+            .eq("friend_id", friend_id) \
+            .execute()
+        
+        if not friendship.data:
+            return jsonify({"error": "Not friends with this user"}), 403
+        
+        # Get friend's selected courses
+        result = supabase.table("courses_selected") \
+            .select("*") \
+            .eq("user_id", friend_id) \
+            .execute()
+        
+        return jsonify(result.data)
+    
+    except Exception as e:
+        return jsonify({"error": f"Failed to get friend's courses: {str(e)}"}), 500
 
 
 # ============================================================================

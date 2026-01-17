@@ -267,3 +267,22 @@ export async function getFriends(userId: string): Promise<Friend[]> {
 
   return response.json();
 }
+
+export async function getFriendCourses(userId: string, friendId: string): Promise<SelectedCourse[]> {
+  const response = await fetch(
+    `${API_BASE_URL}/api/friends/${friendId}/courses?user_id=${userId}`
+  );
+
+  if (!response.ok) {
+    throw new Error('Failed to get friend courses');
+  }
+
+  const data = await response.json();
+  // Parse section_data from JSON string (same as getSelectedCourses)
+  return data.map((course: { section_data: string } & Omit<SelectedCourse, 'section_data'>) => ({
+    ...course,
+    section_data: typeof course.section_data === 'string'
+      ? JSON.parse(course.section_data)
+      : course.section_data,
+  }));
+}

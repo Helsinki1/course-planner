@@ -5,17 +5,27 @@ import { User, Session } from '@supabase/supabase-js';
 import { createClient } from '@/lib/supabase/client';
 import { UserProfile } from '@/types/user';
 
+interface AuthResult {
+  error?: string;
+}
+
 interface AuthContextType {
   user: User | null;
   session: Session | null;
   profile: UserProfile | null;
   isLoading: boolean;
   signInWithGoogle: () => Promise<void>;
+  signUpWithEmail: (email: string, password: string) => Promise<AuthResult>;
+  signInWithEmail: (email: string, password: string) => Promise<AuthResult>;
   signOut: () => Promise<void>;
   refreshProfile: () => Promise<void>;
 }
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
+
+const isValidEmailDomain = (email: string): boolean => {
+  return email.endsWith('@columbia.edu') || email.endsWith('@barnard.edu');
+};
 
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [user, setUser] = useState<User | null>(null);
@@ -84,6 +94,53 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     });
   };
 
+  const signUpWithEmail = async (email: string, password: string): Promise<AuthResult> => {
+    if (!isValidEmailDomain(email)) {
+      return { error: 'Only @columbia.edu and @barnard.edu email addresses are allowed.' };
+    }
+
+    if (password.length < 6) {
+      return { error: 'Password must be at least 6 characters.' };
+    }
+
+    const { error } = await supabase.auth.signUp({
+      email,
+      password,
+      options: {
+        emailRedirectTo: `${window.location.origin}/auth/callback`,
+      },
+    });
+
+    if (error) {
+      if (error.message.includes('already registered')) {
+        return { error: 'An account with this email already exists.' };
+      }
+      return { error: error.message };
+    }
+
+    return {};
+  };
+
+  const signInWithEmail = async (email: string, password: string): Promise<AuthResult> => {
+    if (!isValidEmailDomain(email)) {
+      return { error: 'Only @columbia.edu and @barnard.edu email addresses are allowed.' };
+    }
+
+    const { error } = await supabase.auth.signInWithPassword({
+      email,
+      password,
+    });
+
+    if (error) {
+      if (error.message.includes('Invalid login credentials')) {
+        return { error: 'Invalid email or password.' };
+      }
+      return { error: error.message };
+    }
+
+    return {};
+  };
+
   const signOut = async () => {
     await supabase.auth.signOut();
     setUser(null);
@@ -99,6 +156,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         profile,
         isLoading,
         signInWithGoogle,
+        signUpWithEmail,
+        signInWithEmail,
         signOut,
         refreshProfile,
       }}

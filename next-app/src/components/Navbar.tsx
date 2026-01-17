@@ -64,8 +64,10 @@ export default function Navbar({ onSearch, isLoading }: NavbarProps) {
       }
     };
 
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
+    // Use 'click' instead of 'mousedown' - mousedown fires before click,
+    // which can close the dropdown before button clicks complete
+    document.addEventListener('click', handleClickOutside);
+    return () => document.removeEventListener('click', handleClickOutside);
   }, []);
 
   // Get user initials for avatar
@@ -197,13 +199,21 @@ export default function Navbar({ onSearch, isLoading }: NavbarProps) {
                   backgroundColor: 'var(--bg-card)',
                   borderColor: 'var(--border-color)',
                 }}
-                onMouseDown={(e) => e.stopPropagation()}
               >
                 <button
                   type="button"
-                  onClick={handleLogout}
-                  className="w-full px-4 py-2.5 text-left text-sm transition-colors duration-200 hover:bg-[var(--bg-card-hover)] cursor-pointer"
-                  style={{ color: 'var(--text-primary)' }}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    e.preventDefault();
+                    handleLogout();
+                  }}
+                  className="w-full px-4 py-2.5 text-left text-sm transition-colors duration-200 hover:bg-[var(--bg-card-hover)]"
+                  style={{
+                    color: 'var(--text-primary)',
+                    position: 'relative',
+                    zIndex: 10,
+                    cursor: 'pointer',
+                  }}
                 >
                   Log out
                 </button>
