@@ -19,7 +19,11 @@ export const metadata: Metadata = {
   title: "Lion-Cal",
   description: "Search and plan your Columbia University courses with professor ratings and schedule information",
   icons: {
-    icon: "/crown-image.png",
+    icon: [
+      { url: "/crown-image.png", type: "image/png" },
+    ],
+    shortcut: "/crown-image.png",
+    apple: "/crown-image.png",
   },
 };
 

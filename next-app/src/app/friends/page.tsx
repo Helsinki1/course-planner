@@ -175,37 +175,44 @@ export default function FriendsPage() {
               className="rounded-lg border p-6"
               style={{ backgroundColor: 'var(--bg-card)', borderColor: 'var(--border-color)' }}
             >
+              <div className="h-2" style={{ backgroundColor: 'var(--bg-card)' }}></div>
               <h1
-                className="text-2xl font-bold mb-4"
+                className="relative left-3 text-2xl font-bold"
                 style={{ color: 'var(--text-primary)' }}
               >
                 Invite a Friend
               </h1>
-              <p className="mb-4" style={{ color: 'var(--text-secondary)' }}>
+              <div className="h-3" style={{ backgroundColor: 'var(--bg-card)' }}></div>
+              <p className="relative left-3 text-sm" style={{ color: 'var(--text-secondary)' }}>
                 Share your course schedule with friends by sending them an invitation.
               </p>
+              <div className="h-6" style={{ backgroundColor: 'var(--bg-card)' }}></div>
 
-              <form onSubmit={handleInvite} className="flex gap-3">
+              <form onSubmit={handleInvite} className="flex gap-2 max-w-md">
                 <input
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="Enter friend's email address"
-                  className="flex-1 px-4 py-2 rounded-lg border outline-none transition-colors"
+                  className="flex-1 rounded-md border outline-none transition-colors text-sm focus:ring-1 focus:ring-[var(--text-course-code)]"
                   style={{
                     backgroundColor: 'var(--bg-primary)',
                     borderColor: 'var(--border-color)',
                     color: 'var(--text-primary)',
+                    height: '36px',
+                    padding: '0 12px',
                   }}
                   required
                 />
                 <button
                   type="submit"
                   disabled={isSubmitting || !email.trim()}
-                  className="px-6 py-2 rounded-lg font-medium transition-opacity disabled:opacity-50"
+                  className="rounded-md text-sm font-medium transition-opacity disabled:opacity-50 hover:opacity-90"
                   style={{
                     backgroundColor: 'var(--text-course-name)',
                     color: '#000',
+                    height: '36px',
+                    padding: '0 16px',
                   }}
                 >
                   {isSubmitting ? 'Sending...' : 'Send Invite'}
@@ -213,15 +220,22 @@ export default function FriendsPage() {
               </form>
 
               {submitError && (
-                <p className="mt-3 text-sm" style={{ color: '#f85149' }}>
-                  {submitError}
-                </p>
+                <>
+                  <div className="h-4" style={{ backgroundColor: 'var(--bg-card)' }}></div>
+                  <p className="relative left-3 text-sm" style={{ color: '#f85149' }}>
+                    {submitError}
+                  </p>
+                </>
               )}
               {submitSuccess && (
-                <p className="mt-3 text-sm" style={{ color: 'var(--accent-green)' }}>
-                  {submitSuccess}
-                </p>
+                <>
+                  <div className="h-4" style={{ backgroundColor: 'var(--bg-card)' }}></div>
+                  <p className="relative left-3 text-sm" style={{ color: 'var(--accent-green)' }}>
+                    {submitSuccess}
+                  </p>
+                </>
               )}
+              <div className="h-4" style={{ backgroundColor: 'var(--bg-card)' }}></div>
             </div>
 
             {/* Received Invitations */}
@@ -229,17 +243,19 @@ export default function FriendsPage() {
               className="rounded-lg border p-6"
               style={{ backgroundColor: 'var(--bg-card)', borderColor: 'var(--border-color)' }}
             >
+              <div className="h-2" style={{ backgroundColor: 'var(--bg-card)' }}></div>
               <h2
-                className="text-xl font-semibold mb-4"
+                className="relative left-3 text-xl font-semibold"
                 style={{ color: 'var(--text-primary)' }}
               >
                 Received Invitations
               </h2>
+              <div className="h-4" style={{ backgroundColor: 'var(--bg-card)' }}></div>
 
               {isLoadingData ? (
-                <p style={{ color: 'var(--text-secondary)' }}>Loading...</p>
+                <p className="relative left-3" style={{ color: 'var(--text-secondary)' }}>Loading...</p>
               ) : receivedInvites.length === 0 ? (
-                <p style={{ color: 'var(--text-secondary)' }}>
+                <p className="relative left-3 text-sm" style={{ color: 'var(--text-secondary)' }}>
                   No pending invitations from others.
                 </p>
               ) : (
@@ -250,10 +266,11 @@ export default function FriendsPage() {
                       className="flex items-center justify-between p-4 rounded-lg"
                       style={{ backgroundColor: 'var(--bg-primary)' }}
                     >
-                      <div>
+                      <div className="relative left-2">
                         <p className="font-medium" style={{ color: 'var(--text-primary)' }}>
                           {invite.sender_first_name} {invite.sender_last_name}
                         </p>
+                        <div className="h-1"></div>
                         <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>
                           Invited you on {formatDate(invite.created_at)}
                         </p>
@@ -284,6 +301,7 @@ export default function FriendsPage() {
                   ))}
                 </div>
               )}
+              <div className="h-4" style={{ backgroundColor: 'var(--bg-card)' }}></div>
             </div>
 
             {/* Pending Invites (Sent) */}
@@ -291,17 +309,19 @@ export default function FriendsPage() {
               className="rounded-lg border p-6"
               style={{ backgroundColor: 'var(--bg-card)', borderColor: 'var(--border-color)' }}
             >
+              <div className="h-2" style={{ backgroundColor: 'var(--bg-card)' }}></div>
               <h2
-                className="text-xl font-semibold mb-4"
+                className="relative left-3 text-xl font-semibold"
                 style={{ color: 'var(--text-primary)' }}
               >
                 Pending Invites
               </h2>
+              <div className="h-4" style={{ backgroundColor: 'var(--bg-card)' }}></div>
 
               {isLoadingData ? (
-                <p style={{ color: 'var(--text-secondary)' }}>Loading...</p>
+                <p className="relative left-3" style={{ color: 'var(--text-secondary)' }}>Loading...</p>
               ) : sentInvites.filter((i) => i.status === 'pending').length === 0 ? (
-                <p style={{ color: 'var(--text-secondary)' }}>
+                <p className="relative left-3 text-sm" style={{ color: 'var(--text-secondary)' }}>
                   No pending invites sent.
                 </p>
               ) : (
@@ -314,27 +334,34 @@ export default function FriendsPage() {
                         className="flex items-center justify-between p-4 rounded-lg"
                         style={{ backgroundColor: 'var(--bg-primary)' }}
                       >
-                        <div>
+                        <div className="relative left-2">
                           <p className="font-medium" style={{ color: 'var(--text-primary)' }}>
                             {invite.recipient_email}
                           </p>
+                          <div className="h-1"></div>
                           <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>
                             Sent on {formatDate(invite.created_at)}
                           </p>
                         </div>
                         <span
-                          className="px-3 py-1 rounded-full text-xs font-medium"
+                          className="px-3 py-1.5 rounded-md text-xs font-medium flex items-center gap-1.5"
                           style={{
-                            backgroundColor: 'var(--accent-yellow)',
-                            color: '#000',
+                            backgroundColor: 'rgba(210, 153, 34, 0.15)',
+                            color: 'var(--accent-yellow)',
+                            border: '1px solid rgba(210, 153, 34, 0.3)',
                           }}
                         >
+                          <span
+                            className="w-1.5 h-1.5 rounded-full"
+                            style={{ backgroundColor: 'var(--accent-yellow)' }}
+                          ></span>
                           Pending
                         </span>
                       </div>
                     ))}
                 </div>
               )}
+              <div className="h-4" style={{ backgroundColor: 'var(--bg-card)' }}></div>
             </div>
 
             {/* Friends List */}
@@ -342,15 +369,16 @@ export default function FriendsPage() {
               className="rounded-lg border p-6"
               style={{ backgroundColor: 'var(--bg-card)', borderColor: 'var(--border-color)' }}
             >
-              <div className="flex items-center justify-between mb-4">
+              <div className="h-2" style={{ backgroundColor: 'var(--bg-card)' }}></div>
+              <div className="flex items-center justify-between">
                 <h2
-                  className="text-xl font-semibold"
+                  className="relative left-3 text-xl font-semibold"
                   style={{ color: 'var(--text-primary)' }}
                 >
                   Friends
                 </h2>
                 <span
-                  className="px-3 py-1 rounded-full text-sm font-medium"
+                  className="px-3 py-1 rounded-full text-sm font-medium relative right-3"
                   style={{
                     backgroundColor: 'var(--bg-primary)',
                     color: 'var(--text-course-code)',
@@ -359,11 +387,12 @@ export default function FriendsPage() {
                   {friends.length} {friends.length === 1 ? 'Friend' : 'Friends'}
                 </span>
               </div>
+              <div className="h-4" style={{ backgroundColor: 'var(--bg-card)' }}></div>
 
               {isLoadingData ? (
-                <p style={{ color: 'var(--text-secondary)' }}>Loading...</p>
+                <p className="relative left-3" style={{ color: 'var(--text-secondary)' }}>Loading...</p>
               ) : friends.length === 0 ? (
-                <p style={{ color: 'var(--text-secondary)' }}>
+                <p className="relative left-3 text-sm" style={{ color: 'var(--text-secondary)' }}>
                   No friends yet. Send an invite to get started!
                 </p>
               ) : (
@@ -374,7 +403,7 @@ export default function FriendsPage() {
                       className="flex items-center justify-between p-4 rounded-lg"
                       style={{ backgroundColor: 'var(--bg-primary)' }}
                     >
-                      <div className="flex items-center gap-3">
+                      <div className="relative left-2 flex items-center gap-3">
                         <div
                           className="w-10 h-10 rounded-full flex items-center justify-center font-semibold"
                           style={{
@@ -389,18 +418,24 @@ export default function FriendsPage() {
                         </p>
                       </div>
                       <span
-                        className="px-3 py-1 rounded-full text-xs font-medium"
+                        className="px-3 py-1.5 rounded-md text-xs font-medium flex items-center gap-1.5"
                         style={{
-                          backgroundColor: 'var(--accent-green)',
-                          color: '#000',
+                          backgroundColor: 'rgba(63, 185, 80, 0.15)',
+                          color: 'var(--accent-green)',
+                          border: '1px solid rgba(63, 185, 80, 0.3)',
                         }}
                       >
+                        <span
+                          className="w-1.5 h-1.5 rounded-full"
+                          style={{ backgroundColor: 'var(--accent-green)' }}
+                        ></span>
                         Connected
                       </span>
                     </div>
                   ))}
                 </div>
               )}
+              <div className="h-4" style={{ backgroundColor: 'var(--bg-card)' }}></div>
             </div>
           </div>
         </div>
