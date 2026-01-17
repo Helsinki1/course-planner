@@ -169,7 +169,7 @@ export default function FriendsPage() {
       >
         {/* Main content */}
         <div className="flex-1 overflow-auto p-6 relative left-16 top-5">
-          <div className="max-w-3xl mx-auto space-y-6">
+          <div className="max-w-3xl mx-auto space-y-8">
             {/* Invite Form */}
             <div
               className="rounded-lg border p-6"
@@ -342,12 +342,23 @@ export default function FriendsPage() {
               className="rounded-lg border p-6"
               style={{ backgroundColor: 'var(--bg-card)', borderColor: 'var(--border-color)' }}
             >
-              <h2
-                className="text-xl font-semibold mb-4"
-                style={{ color: 'var(--text-primary)' }}
-              >
-                Friends
-              </h2>
+              <div className="flex items-center justify-between mb-4">
+                <h2
+                  className="text-xl font-semibold"
+                  style={{ color: 'var(--text-primary)' }}
+                >
+                  Friends
+                </h2>
+                <span
+                  className="px-3 py-1 rounded-full text-sm font-medium"
+                  style={{
+                    backgroundColor: 'var(--bg-primary)',
+                    color: 'var(--text-course-code)',
+                  }}
+                >
+                  {friends.length} {friends.length === 1 ? 'Friend' : 'Friends'}
+                </span>
+              </div>
 
               {isLoadingData ? (
                 <p style={{ color: 'var(--text-secondary)' }}>Loading...</p>

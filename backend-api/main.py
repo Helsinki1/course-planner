@@ -90,15 +90,18 @@ def analyze_query(query: str) -> tuple[bool, str]:
 
 
 def get_professor_ratings(names: list[str]) -> dict:
-    """Batch lookup: ["Erica Hunt", "Tony Dear"] -> {name: rating}"""
+    """Batch lookup: ["Erica Hunt", "Tony Dear"] -> {name: {rating, courses}}"""
     keys = [n.lower().replace(" ", "_") for n in names]
     result = supabase.table("professors") \
-        .select("id, first_name, last_name, rating") \
+        .select("id, first_name, last_name, rating, courses") \
         .in_("id", keys) \
         .execute()
     
     return {
-        f"{r['first_name']} {r['last_name']}".title(): r["rating"] 
+        f"{r['first_name']} {r['last_name']}".title(): {
+            "rating": r["rating"],
+            "courses": r.get("courses", {})
+        }
         for r in result.data
     }
 

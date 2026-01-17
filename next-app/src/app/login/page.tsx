@@ -78,12 +78,12 @@ function LoginContent() {
           borderColor: 'var(--border-color)',
         }}
       >
-        <div className="text-center mb-8">
+        <div className="text-center mb-10">
           <h1
-            className="text-3xl font-bold mb-2"
+            className="text-3xl font-bold mb-3"
             style={{ color: 'var(--text-primary)' }}
           >
-            Course Planner
+            Lion-Cal
           </h1>
           <p
             className="text-sm"
@@ -95,7 +95,7 @@ function LoginContent() {
 
         {/* Mode Toggle */}
         <div
-          className="flex rounded-lg p-1 mb-6"
+          className="flex rounded-lg p-1 mb-8"
           style={{ backgroundColor: 'var(--bg-primary)' }}
         >
           <button
@@ -132,7 +132,7 @@ function LoginContent() {
           </button>
         </div>
 
-        <div className="space-y-4">
+        <div className="space-y-5">
           {/* URL Error Message */}
           {urlErrorMessage && (
             <div
@@ -173,7 +173,7 @@ function LoginContent() {
           )}
 
           {/* Email/Password Form */}
-          <form onSubmit={handleEmailSubmit} className="space-y-4">
+          <form onSubmit={handleEmailSubmit} className="space-y-5">
             <div>
               <label
                 htmlFor="email"

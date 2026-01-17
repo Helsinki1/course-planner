@@ -94,9 +94,9 @@ export default function OnboardingPage() {
           borderColor: 'var(--border-color)',
         }}
       >
-        <div className="mb-8">
+        <div className="mb-10">
           <h1
-            className="text-2xl font-bold mb-2"
+            className="text-2xl font-bold mb-3"
             style={{ color: 'var(--text-primary)' }}
           >
             Complete Your Profile
@@ -109,7 +109,7 @@ export default function OnboardingPage() {
           </p>
         </div>
 
-        <form onSubmit={handleSubmit} className="space-y-6">
+        <form onSubmit={handleSubmit} className="space-y-8">
           {/* School Selection */}
           <div>
             <label
