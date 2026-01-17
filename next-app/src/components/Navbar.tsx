@@ -46,13 +46,14 @@ export default function Navbar({ onSearch, isLoading }: NavbarProps) {
   };
 
   const handleLogout = async () => {
-    console.log('Logout clicked');
     setIsDropdownOpen(false);
     try {
       await signOut();
-      router.push('/');
+      router.replace('/login');
+      router.refresh();
     } catch (error) {
       console.error('Logout failed:', error);
+      router.replace('/login');
     }
   };
 
