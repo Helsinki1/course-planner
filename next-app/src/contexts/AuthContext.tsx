@@ -53,6 +53,27 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     let isMounted = true;
 
+    const fetchProfileWithTimeout = async (userId: string) => {
+      try {
+        const timeoutPromise = new Promise<null>((_, reject) => 
+          setTimeout(() => reject(new Error('Profile fetch timeout')), 2000)
+        );
+        const profilePromise = supabase
+          .from('user_profiles')
+          .select('*')
+          .eq('id', userId)
+          .single();
+        
+        const result = await Promise.race([profilePromise, timeoutPromise]);
+        if (isMounted && result && 'data' in result) {
+          setProfile(result.data);
+        }
+      } catch {
+        // Profile fetch timed out or failed - continue without profile
+        console.warn('Profile fetch failed or timed out');
+      }
+    };
+
     const getSession = async () => {
       try {
         // Add timeout to prevent infinite loading on stale sessions
@@ -71,7 +92,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         setUser(session?.user ?? null);
         
         if (session?.user) {
-          await fetchProfile(session.user.id);
+          await fetchProfileWithTimeout(session.user.id);
         }
       } catch (error) {
         // Session expired or timed out - sign out to clear cookies and state
@@ -93,7 +114,17 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       }
     };
 
-    getSession();
+    // Global safety timeout - guarantee isLoading becomes false after 5 seconds max
+    const safetyTimeout = setTimeout(() => {
+      if (isMounted) {
+        console.warn('Auth initialization safety timeout triggered');
+        setIsLoading(false);
+      }
+    }, 5000);
+
+    getSession().finally(() => {
+      clearTimeout(safetyTimeout);
+    });
 
     const { data: { subscription } } = supabase.auth.onAuthStateChange(
       async (event, session) => {
@@ -103,7 +134,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         setUser(session?.user ?? null);
         
         if (session?.user) {
-          await fetchProfile(session.user.id);
+          await fetchProfileWithTimeout(session.user.id);
         } else {
           setProfile(null);
         }
